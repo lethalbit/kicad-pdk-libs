@@ -19,7 +19,7 @@
       "Value"
       "decap_12"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -29,7 +29,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.52, 2.72)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -53,7 +53,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "BLOCK"
       (id 10)
       (at 0 0 0)
       (effects
@@ -65,7 +65,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_sc_hd__decap_12"
       (id 11)
       (at 0 0 0)
       (effects
@@ -89,7 +89,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.52, 2.72)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -136,8 +136,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -148,9 +148,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "VGND"
         (effects
@@ -170,9 +170,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "VPWR"
         (effects
@@ -192,9 +192,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VPB"
         (effects
@@ -214,9 +214,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.27 180)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VNB"
         (effects
@@ -256,7 +256,7 @@
       "Value"
       "fakediode_2"
       (id 1)
-      (at -7.619999999999999 -5.08 0)
+      (at -10.16 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -266,7 +266,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(0.92, 2.72)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -290,7 +290,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "BLOCK"
       (id 10)
       (at 0 0 0)
       (effects
@@ -302,7 +302,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_sc_hd__fakediode_2"
       (id 11)
       (at 0 0 0)
       (effects
@@ -326,7 +326,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(0.92, 2.72)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -373,8 +373,8 @@
       )
     )
     (rectangle
-      (start -7.619999999999999 -5.08)
-      (end 7.619999999999999 5.08)
+      (start -10.16 -7.62)
+      (end 10.16 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -387,7 +387,7 @@
     (pin
       bidirectional
       line
-      (at -10.16 -2.54 0)
+      (at -12.7 -5.08 0)
       (length 2.54)
       (name "DIODE"
         (effects
@@ -407,9 +407,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 10.16 -2.54 180)
+      (at -1.2700000000000005 -10.16 90)
       (length 2.54)
       (name "VGND"
         (effects
@@ -429,9 +429,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -10.16 0.0 0)
+      (at -1.2700000000000005 10.16 270)
       (length 2.54)
       (name "VPWR"
         (effects
@@ -451,9 +451,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 10.16 0.0 180)
+      (at 1.2699999999999996 10.16 270)
       (length 2.54)
       (name "VPB"
         (effects
@@ -473,9 +473,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -10.16 2.54 0)
+      (at 1.2699999999999996 -10.16 90)
       (length 2.54)
       (name "VNB"
         (effects
@@ -515,7 +515,7 @@
       "Value"
       "fill_4"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -525,7 +525,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(1.84, 2.72)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -549,7 +549,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "BLOCK"
       (id 10)
       (at 0 0 0)
       (effects
@@ -561,7 +561,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_sc_hd__fill_4"
       (id 11)
       (at 0 0 0)
       (effects
@@ -585,7 +585,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(1.84, 2.72)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -632,8 +632,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -644,9 +644,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "VGND"
         (effects
@@ -666,9 +666,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "VPWR"
         (effects
@@ -688,9 +688,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VPB"
         (effects
@@ -710,9 +710,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.27 180)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VNB"
         (effects
@@ -752,7 +752,7 @@
       "Value"
       "fill_8"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -762,7 +762,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.68, 2.72)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -786,7 +786,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "BLOCK"
       (id 10)
       (at 0 0 0)
       (effects
@@ -798,7 +798,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_sc_hd__fill_8"
       (id 11)
       (at 0 0 0)
       (effects
@@ -822,7 +822,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.68, 2.72)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -869,8 +869,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -881,9 +881,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "VGND"
         (effects
@@ -903,9 +903,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "VPWR"
         (effects
@@ -925,9 +925,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VPB"
         (effects
@@ -947,9 +947,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.27 180)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VNB"
         (effects
@@ -989,7 +989,7 @@
       "Value"
       "fill_12"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -999,7 +999,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.52, 2.72)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1023,7 +1023,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "BLOCK"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1035,7 +1035,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_sc_hd__fill_12"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1059,7 +1059,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.52, 2.72)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1106,8 +1106,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -1118,9 +1118,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "VPWR"
         (effects
@@ -1140,9 +1140,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "VGND"
         (effects
@@ -1162,9 +1162,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VPB"
         (effects
@@ -1184,9 +1184,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.27 180)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VNB"
         (effects

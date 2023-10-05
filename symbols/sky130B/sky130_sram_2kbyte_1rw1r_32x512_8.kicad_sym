@@ -19,7 +19,7 @@
       "Value"
       "sky130_sram_2kbyte_1rw1r_32x512_8"
       (id 1)
-      (at -12.7 -81.28 0)
+      (at -13.969999999999999 -88.89999999999999 0)
       (effects
         (font
           (size 1 1)
@@ -29,7 +29,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(683.1, 416.54)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -53,7 +53,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "BLOCK"
       (id 10)
       (at 0 0 0)
       (effects
@@ -89,7 +89,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(683.1, 416.54)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -101,7 +101,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -136,8 +136,8 @@
       )
     )
     (rectangle
-      (start -12.7 -81.28)
-      (end 12.7 81.28)
+      (start -13.969999999999999 -88.89999999999999)
+      (end 13.969999999999999 88.89999999999999)
       (stroke
         (width 0.1)
         (type solid)
@@ -148,9 +148,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -78.74 0)
+      (at -16.509999999999998 80.00999999999999 0)
       (length 2.54)
       (name "din0[0]"
         (effects
@@ -170,9 +170,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -78.74 180)
+      (at -16.509999999999998 77.47 0)
       (length 2.54)
       (name "din0[1]"
         (effects
@@ -192,9 +192,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -76.19999999999999 0)
+      (at -16.509999999999998 74.92999999999999 0)
       (length 2.54)
       (name "din0[2]"
         (effects
@@ -214,9 +214,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -76.19999999999999 180)
+      (at -16.509999999999998 72.39 0)
       (length 2.54)
       (name "din0[3]"
         (effects
@@ -236,9 +236,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -73.65999999999998 0)
+      (at -16.509999999999998 69.85 0)
       (length 2.54)
       (name "din0[4]"
         (effects
@@ -258,9 +258,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -73.65999999999998 180)
+      (at -16.509999999999998 67.31 0)
       (length 2.54)
       (name "din0[5]"
         (effects
@@ -280,9 +280,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -71.11999999999998 0)
+      (at -16.509999999999998 64.77 0)
       (length 2.54)
       (name "din0[6]"
         (effects
@@ -302,9 +302,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -71.11999999999998 180)
+      (at -16.509999999999998 62.22999999999998 0)
       (length 2.54)
       (name "din0[7]"
         (effects
@@ -324,9 +324,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -68.57999999999997 0)
+      (at -16.509999999999998 59.68999999999999 0)
       (length 2.54)
       (name "din0[8]"
         (effects
@@ -346,9 +346,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -68.57999999999997 180)
+      (at -16.509999999999998 57.14999999999999 0)
       (length 2.54)
       (name "din0[9]"
         (effects
@@ -368,9 +368,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -66.03999999999996 0)
+      (at -16.509999999999998 54.60999999999999 0)
       (length 2.54)
       (name "din0[10]"
         (effects
@@ -390,9 +390,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -66.03999999999996 180)
+      (at -16.509999999999998 52.069999999999986 0)
       (length 2.54)
       (name "din0[11]"
         (effects
@@ -412,9 +412,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -63.499999999999964 0)
+      (at -16.509999999999998 49.52999999999999 0)
       (length 2.54)
       (name "din0[12]"
         (effects
@@ -434,9 +434,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -63.499999999999964 180)
+      (at -16.509999999999998 46.98999999999999 0)
       (length 2.54)
       (name "din0[13]"
         (effects
@@ -456,9 +456,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -60.959999999999965 0)
+      (at -16.509999999999998 44.44999999999999 0)
       (length 2.54)
       (name "din0[14]"
         (effects
@@ -478,9 +478,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -60.959999999999965 180)
+      (at -16.509999999999998 41.90999999999999 0)
       (length 2.54)
       (name "din0[15]"
         (effects
@@ -500,9 +500,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -58.419999999999966 0)
+      (at -16.509999999999998 39.36999999999999 0)
       (length 2.54)
       (name "din0[16]"
         (effects
@@ -522,9 +522,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -58.419999999999966 180)
+      (at -16.509999999999998 36.82999999999999 0)
       (length 2.54)
       (name "din0[17]"
         (effects
@@ -544,9 +544,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -55.87999999999997 0)
+      (at -16.509999999999998 34.28999999999999 0)
       (length 2.54)
       (name "din0[18]"
         (effects
@@ -566,9 +566,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -55.87999999999997 180)
+      (at -16.509999999999998 31.749999999999993 0)
       (length 2.54)
       (name "din0[19]"
         (effects
@@ -588,9 +588,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -53.33999999999997 0)
+      (at -16.509999999999998 29.209999999999987 0)
       (length 2.54)
       (name "din0[20]"
         (effects
@@ -610,9 +610,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -53.33999999999997 180)
+      (at -16.509999999999998 26.669999999999987 0)
       (length 2.54)
       (name "din0[21]"
         (effects
@@ -632,9 +632,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -50.79999999999997 0)
+      (at -16.509999999999998 24.12999999999999 0)
       (length 2.54)
       (name "din0[22]"
         (effects
@@ -654,9 +654,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -50.79999999999997 180)
+      (at -16.509999999999998 21.58999999999999 0)
       (length 2.54)
       (name "din0[23]"
         (effects
@@ -676,9 +676,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -48.25999999999997 0)
+      (at -16.509999999999998 19.04999999999999 0)
       (length 2.54)
       (name "din0[24]"
         (effects
@@ -698,9 +698,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -48.25999999999997 180)
+      (at -16.509999999999998 16.509999999999984 0)
       (length 2.54)
       (name "din0[25]"
         (effects
@@ -720,9 +720,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -45.71999999999997 0)
+      (at -16.509999999999998 13.969999999999994 0)
       (length 2.54)
       (name "din0[26]"
         (effects
@@ -742,9 +742,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -45.71999999999997 180)
+      (at -16.509999999999998 11.429999999999987 0)
       (length 2.54)
       (name "din0[27]"
         (effects
@@ -764,9 +764,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -43.17999999999997 0)
+      (at -16.509999999999998 8.889999999999995 0)
       (length 2.54)
       (name "din0[28]"
         (effects
@@ -786,9 +786,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -43.17999999999997 180)
+      (at -16.509999999999998 6.349999999999989 0)
       (length 2.54)
       (name "din0[29]"
         (effects
@@ -808,9 +808,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -40.63999999999997 0)
+      (at -16.509999999999998 3.809999999999997 0)
       (length 2.54)
       (name "din0[30]"
         (effects
@@ -830,9 +830,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -40.63999999999997 180)
+      (at -16.509999999999998 1.2699999999999907 0)
       (length 2.54)
       (name "din0[31]"
         (effects
@@ -852,9 +852,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -38.09999999999997 0)
+      (at -16.509999999999998 -1.2700000000000156 0)
       (length 2.54)
       (name "addr0[0]"
         (effects
@@ -874,9 +874,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -38.09999999999997 180)
+      (at -16.509999999999998 -3.8100000000000076 0)
       (length 2.54)
       (name "addr0[1]"
         (effects
@@ -896,9 +896,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -35.559999999999974 0)
+      (at -16.509999999999998 -6.350000000000014 0)
       (length 2.54)
       (name "addr0[2]"
         (effects
@@ -918,9 +918,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -35.559999999999974 180)
+      (at -16.509999999999998 -8.890000000000006 0)
       (length 2.54)
       (name "addr0[3]"
         (effects
@@ -940,9 +940,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -33.019999999999975 0)
+      (at -16.509999999999998 -11.430000000000012 0)
       (length 2.54)
       (name "addr0[4]"
         (effects
@@ -962,9 +962,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -33.019999999999975 180)
+      (at -16.509999999999998 -13.970000000000004 0)
       (length 2.54)
       (name "addr0[5]"
         (effects
@@ -984,9 +984,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -30.479999999999976 0)
+      (at -16.509999999999998 -16.510000000000012 0)
       (length 2.54)
       (name "addr0[6]"
         (effects
@@ -1006,9 +1006,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -30.479999999999976 180)
+      (at -16.509999999999998 -19.050000000000004 0)
       (length 2.54)
       (name "addr0[7]"
         (effects
@@ -1028,9 +1028,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -27.939999999999976 0)
+      (at -16.509999999999998 -21.59000000000001 0)
       (length 2.54)
       (name "addr0[8]"
         (effects
@@ -1050,9 +1050,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -27.939999999999976 180)
+      (at -16.509999999999998 -24.130000000000017 0)
       (length 2.54)
       (name "addr1[0]"
         (effects
@@ -1072,9 +1072,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -25.399999999999977 0)
+      (at -16.509999999999998 -26.67000000000001 0)
       (length 2.54)
       (name "addr1[1]"
         (effects
@@ -1094,9 +1094,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -25.399999999999977 180)
+      (at -16.509999999999998 -29.210000000000015 0)
       (length 2.54)
       (name "addr1[2]"
         (effects
@@ -1116,9 +1116,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -22.859999999999978 0)
+      (at -16.509999999999998 -31.750000000000007 0)
       (length 2.54)
       (name "addr1[3]"
         (effects
@@ -1138,9 +1138,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -22.859999999999978 180)
+      (at -16.509999999999998 -34.29000000000001 0)
       (length 2.54)
       (name "addr1[4]"
         (effects
@@ -1160,9 +1160,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -20.31999999999998 0)
+      (at -16.509999999999998 -36.830000000000005 0)
       (length 2.54)
       (name "addr1[5]"
         (effects
@@ -1182,9 +1182,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -20.31999999999998 180)
+      (at -16.509999999999998 -39.37000000000001 0)
       (length 2.54)
       (name "addr1[6]"
         (effects
@@ -1204,9 +1204,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -17.77999999999998 0)
+      (at -16.509999999999998 -41.91000000000002 0)
       (length 2.54)
       (name "addr1[7]"
         (effects
@@ -1226,9 +1226,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -17.77999999999998 180)
+      (at -16.509999999999998 -44.45000000000001 0)
       (length 2.54)
       (name "addr1[8]"
         (effects
@@ -1248,9 +1248,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -15.23999999999998 0)
+      (at -16.509999999999998 -46.99 0)
       (length 2.54)
       (name "csb0"
         (effects
@@ -1270,9 +1270,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -15.23999999999998 180)
+      (at -16.509999999999998 -49.53000000000002 0)
       (length 2.54)
       (name "csb1"
         (effects
@@ -1292,9 +1292,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -12.699999999999982 0)
+      (at -16.509999999999998 -52.070000000000014 0)
       (length 2.54)
       (name "web0"
         (effects
@@ -1314,9 +1314,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -12.699999999999982 180)
+      (at -16.509999999999998 -54.61000000000001 0)
       (length 2.54)
       (name "clk0"
         (effects
@@ -1336,9 +1336,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -10.159999999999982 0)
+      (at -16.509999999999998 -57.15 0)
       (length 2.54)
       (name "clk1"
         (effects
@@ -1358,9 +1358,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -10.159999999999982 180)
+      (at -16.509999999999998 -59.69000000000002 0)
       (length 2.54)
       (name "wmask0[0]"
         (effects
@@ -1380,9 +1380,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -7.619999999999982 0)
+      (at -16.509999999999998 -62.23000000000001 0)
       (length 2.54)
       (name "wmask0[1]"
         (effects
@@ -1402,9 +1402,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 15.239999999999998 -7.619999999999982 180)
+      (at -16.509999999999998 -64.77 0)
       (length 2.54)
       (name "wmask0[2]"
         (effects
@@ -1424,9 +1424,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -15.239999999999998 -5.079999999999982 0)
+      (at -16.509999999999998 -67.31000000000002 0)
       (length 2.54)
       (name "wmask0[3]"
         (effects
@@ -1446,9 +1446,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 -5.079999999999982 180)
+      (at 16.509999999999998 80.00999999999999 180)
       (length 2.54)
       (name "dout0[0]"
         (effects
@@ -1468,9 +1468,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 -2.5399999999999823 0)
+      (at 16.509999999999998 77.47 180)
       (length 2.54)
       (name "dout0[1]"
         (effects
@@ -1490,9 +1490,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 -2.5399999999999823 180)
+      (at 16.509999999999998 74.92999999999999 180)
       (length 2.54)
       (name "dout0[2]"
         (effects
@@ -1512,9 +1512,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 1.7763568394002505e-14 0)
+      (at 16.509999999999998 72.39 180)
       (length 2.54)
       (name "dout0[3]"
         (effects
@@ -1534,9 +1534,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 1.7763568394002505e-14 180)
+      (at 16.509999999999998 69.85 180)
       (length 2.54)
       (name "dout0[4]"
         (effects
@@ -1556,9 +1556,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 2.540000000000018 0)
+      (at 16.509999999999998 67.31 180)
       (length 2.54)
       (name "dout0[5]"
         (effects
@@ -1578,9 +1578,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 2.540000000000018 180)
+      (at 16.509999999999998 64.77 180)
       (length 2.54)
       (name "dout0[6]"
         (effects
@@ -1600,9 +1600,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 5.080000000000018 0)
+      (at 16.509999999999998 62.22999999999998 180)
       (length 2.54)
       (name "dout0[7]"
         (effects
@@ -1622,9 +1622,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 5.080000000000018 180)
+      (at 16.509999999999998 59.68999999999999 180)
       (length 2.54)
       (name "dout0[8]"
         (effects
@@ -1644,9 +1644,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 7.620000000000018 0)
+      (at 16.509999999999998 57.14999999999999 180)
       (length 2.54)
       (name "dout0[9]"
         (effects
@@ -1666,9 +1666,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 7.620000000000018 180)
+      (at 16.509999999999998 54.60999999999999 180)
       (length 2.54)
       (name "dout0[10]"
         (effects
@@ -1688,9 +1688,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 10.160000000000018 0)
+      (at 16.509999999999998 52.069999999999986 180)
       (length 2.54)
       (name "dout0[11]"
         (effects
@@ -1710,9 +1710,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 10.160000000000018 180)
+      (at 16.509999999999998 49.52999999999999 180)
       (length 2.54)
       (name "dout0[12]"
         (effects
@@ -1732,9 +1732,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 12.700000000000017 0)
+      (at 16.509999999999998 46.98999999999999 180)
       (length 2.54)
       (name "dout0[13]"
         (effects
@@ -1754,9 +1754,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 12.700000000000017 180)
+      (at 16.509999999999998 44.44999999999999 180)
       (length 2.54)
       (name "dout0[14]"
         (effects
@@ -1776,9 +1776,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 15.240000000000016 0)
+      (at 16.509999999999998 41.90999999999999 180)
       (length 2.54)
       (name "dout0[15]"
         (effects
@@ -1798,9 +1798,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 15.240000000000016 180)
+      (at 16.509999999999998 39.36999999999999 180)
       (length 2.54)
       (name "dout0[16]"
         (effects
@@ -1820,9 +1820,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 17.780000000000015 0)
+      (at 16.509999999999998 36.82999999999999 180)
       (length 2.54)
       (name "dout0[17]"
         (effects
@@ -1842,9 +1842,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 17.780000000000015 180)
+      (at 16.509999999999998 34.28999999999999 180)
       (length 2.54)
       (name "dout0[18]"
         (effects
@@ -1864,9 +1864,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 20.320000000000014 0)
+      (at 16.509999999999998 31.749999999999993 180)
       (length 2.54)
       (name "dout0[19]"
         (effects
@@ -1886,9 +1886,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 20.320000000000014 180)
+      (at 16.509999999999998 29.209999999999987 180)
       (length 2.54)
       (name "dout0[20]"
         (effects
@@ -1908,9 +1908,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 22.860000000000014 0)
+      (at 16.509999999999998 26.669999999999987 180)
       (length 2.54)
       (name "dout0[21]"
         (effects
@@ -1930,9 +1930,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 22.860000000000014 180)
+      (at 16.509999999999998 24.12999999999999 180)
       (length 2.54)
       (name "dout0[22]"
         (effects
@@ -1952,9 +1952,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 25.400000000000013 0)
+      (at 16.509999999999998 21.58999999999999 180)
       (length 2.54)
       (name "dout0[23]"
         (effects
@@ -1974,9 +1974,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 25.400000000000013 180)
+      (at 16.509999999999998 19.04999999999999 180)
       (length 2.54)
       (name "dout0[24]"
         (effects
@@ -1996,9 +1996,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 27.940000000000012 0)
+      (at 16.509999999999998 16.509999999999984 180)
       (length 2.54)
       (name "dout0[25]"
         (effects
@@ -2018,9 +2018,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 27.940000000000012 180)
+      (at 16.509999999999998 13.969999999999994 180)
       (length 2.54)
       (name "dout0[26]"
         (effects
@@ -2040,9 +2040,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 30.48000000000001 0)
+      (at 16.509999999999998 11.429999999999987 180)
       (length 2.54)
       (name "dout0[27]"
         (effects
@@ -2062,9 +2062,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 30.48000000000001 180)
+      (at 16.509999999999998 8.889999999999995 180)
       (length 2.54)
       (name "dout0[28]"
         (effects
@@ -2084,9 +2084,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 33.02000000000001 0)
+      (at 16.509999999999998 6.349999999999989 180)
       (length 2.54)
       (name "dout0[29]"
         (effects
@@ -2106,9 +2106,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 33.02000000000001 180)
+      (at 16.509999999999998 3.809999999999997 180)
       (length 2.54)
       (name "dout0[30]"
         (effects
@@ -2128,9 +2128,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 35.56000000000001 0)
+      (at 16.509999999999998 1.2699999999999907 180)
       (length 2.54)
       (name "dout0[31]"
         (effects
@@ -2150,9 +2150,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 35.56000000000001 180)
+      (at 16.509999999999998 -1.2700000000000156 180)
       (length 2.54)
       (name "dout1[0]"
         (effects
@@ -2172,9 +2172,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 38.10000000000001 0)
+      (at 16.509999999999998 -3.8100000000000076 180)
       (length 2.54)
       (name "dout1[1]"
         (effects
@@ -2194,9 +2194,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 38.10000000000001 180)
+      (at 16.509999999999998 -6.350000000000014 180)
       (length 2.54)
       (name "dout1[2]"
         (effects
@@ -2216,9 +2216,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 40.64000000000001 0)
+      (at 16.509999999999998 -8.890000000000006 180)
       (length 2.54)
       (name "dout1[3]"
         (effects
@@ -2238,9 +2238,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 40.64000000000001 180)
+      (at 16.509999999999998 -11.430000000000012 180)
       (length 2.54)
       (name "dout1[4]"
         (effects
@@ -2260,9 +2260,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 43.18000000000001 0)
+      (at 16.509999999999998 -13.970000000000004 180)
       (length 2.54)
       (name "dout1[5]"
         (effects
@@ -2282,9 +2282,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 43.18000000000001 180)
+      (at 16.509999999999998 -16.510000000000012 180)
       (length 2.54)
       (name "dout1[6]"
         (effects
@@ -2304,9 +2304,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 45.720000000000006 0)
+      (at 16.509999999999998 -19.050000000000004 180)
       (length 2.54)
       (name "dout1[7]"
         (effects
@@ -2326,9 +2326,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 45.720000000000006 180)
+      (at 16.509999999999998 -21.59000000000001 180)
       (length 2.54)
       (name "dout1[8]"
         (effects
@@ -2348,9 +2348,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 48.260000000000005 0)
+      (at 16.509999999999998 -24.130000000000017 180)
       (length 2.54)
       (name "dout1[9]"
         (effects
@@ -2370,9 +2370,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 48.260000000000005 180)
+      (at 16.509999999999998 -26.67000000000001 180)
       (length 2.54)
       (name "dout1[10]"
         (effects
@@ -2392,9 +2392,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 50.800000000000004 0)
+      (at 16.509999999999998 -29.210000000000015 180)
       (length 2.54)
       (name "dout1[11]"
         (effects
@@ -2414,9 +2414,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 50.800000000000004 180)
+      (at 16.509999999999998 -31.750000000000007 180)
       (length 2.54)
       (name "dout1[12]"
         (effects
@@ -2436,9 +2436,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 53.34 0)
+      (at 16.509999999999998 -34.29000000000001 180)
       (length 2.54)
       (name "dout1[13]"
         (effects
@@ -2458,9 +2458,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 53.34 180)
+      (at 16.509999999999998 -36.830000000000005 180)
       (length 2.54)
       (name "dout1[14]"
         (effects
@@ -2480,9 +2480,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 55.88 0)
+      (at 16.509999999999998 -39.37000000000001 180)
       (length 2.54)
       (name "dout1[15]"
         (effects
@@ -2502,9 +2502,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 55.88 180)
+      (at 16.509999999999998 -41.91000000000002 180)
       (length 2.54)
       (name "dout1[16]"
         (effects
@@ -2524,9 +2524,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 58.42 0)
+      (at 16.509999999999998 -44.45000000000001 180)
       (length 2.54)
       (name "dout1[17]"
         (effects
@@ -2546,9 +2546,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 58.42 180)
+      (at 16.509999999999998 -46.99 180)
       (length 2.54)
       (name "dout1[18]"
         (effects
@@ -2568,9 +2568,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 60.96 0)
+      (at 16.509999999999998 -49.53000000000002 180)
       (length 2.54)
       (name "dout1[19]"
         (effects
@@ -2590,9 +2590,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 60.96 180)
+      (at 16.509999999999998 -52.070000000000014 180)
       (length 2.54)
       (name "dout1[20]"
         (effects
@@ -2612,9 +2612,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 63.5 0)
+      (at 16.509999999999998 -54.61000000000001 180)
       (length 2.54)
       (name "dout1[21]"
         (effects
@@ -2634,9 +2634,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 63.5 180)
+      (at 16.509999999999998 -57.15 180)
       (length 2.54)
       (name "dout1[22]"
         (effects
@@ -2656,9 +2656,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 66.04 0)
+      (at 16.509999999999998 -59.69000000000002 180)
       (length 2.54)
       (name "dout1[23]"
         (effects
@@ -2678,9 +2678,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 66.04 180)
+      (at 16.509999999999998 -62.23000000000001 180)
       (length 2.54)
       (name "dout1[24]"
         (effects
@@ -2700,9 +2700,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 68.58000000000001 0)
+      (at 16.509999999999998 -64.77 180)
       (length 2.54)
       (name "dout1[25]"
         (effects
@@ -2722,9 +2722,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 68.58000000000001 180)
+      (at 16.509999999999998 -67.31000000000002 180)
       (length 2.54)
       (name "dout1[26]"
         (effects
@@ -2744,9 +2744,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 71.12000000000002 0)
+      (at 16.509999999999998 -69.85000000000001 180)
       (length 2.54)
       (name "dout1[27]"
         (effects
@@ -2766,9 +2766,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 71.12000000000002 180)
+      (at 16.509999999999998 -72.39 180)
       (length 2.54)
       (name "dout1[28]"
         (effects
@@ -2788,9 +2788,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 73.66000000000003 0)
+      (at 16.509999999999998 -74.92999999999999 180)
       (length 2.54)
       (name "dout1[29]"
         (effects
@@ -2810,9 +2810,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 15.239999999999998 73.66000000000003 180)
+      (at 16.509999999999998 -77.47000000000001 180)
       (length 2.54)
       (name "dout1[30]"
         (effects
@@ -2832,9 +2832,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -15.239999999999998 76.20000000000003 0)
+      (at 16.509999999999998 -80.01 180)
       (length 2.54)
       (name "dout1[31]"
         (effects
@@ -2854,9 +2854,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 76.20000000000003 180)
+      (at 0.0 91.44 270)
       (length 2.54)
       (name "vccd1"
         (effects
@@ -2876,9 +2876,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 78.74000000000004 0)
+      (at 0.0 -91.44 90)
       (length 2.54)
       (name "vssd1"
         (effects

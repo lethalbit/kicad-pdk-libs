@@ -19,7 +19,7 @@
       "Value"
       "gf180mcu_fd_ip_sram__sram512x8m8wm1"
       (id 1)
-      (at -8.89 -25.4 0)
+      (at -10.16 -40.64000000000001 0)
       (effects
         (font
           (size 1 1)
@@ -29,7 +29,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(431.86, 484.88)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -53,7 +53,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "BLOCK"
       (id 10)
       (at 0 0 0)
       (effects
@@ -65,7 +65,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_ip_sram__sram512x8m8wm1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -89,7 +89,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(431.86, 484.88)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -101,7 +101,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -136,8 +136,8 @@
       )
     )
     (rectangle
-      (start -8.89 -25.4)
-      (end 8.89 25.4)
+      (start -10.16 -40.64000000000001)
+      (end 10.16 40.64000000000001)
       (stroke
         (width 0.1)
         (type solid)
@@ -148,9 +148,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -22.86 0)
+      (at -12.7 34.290000000000006 0)
       (length 2.54)
       (name "A[0]"
         (effects
@@ -170,9 +170,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -22.86 180)
+      (at -12.7 31.75000000000001 0)
       (length 2.54)
       (name "A[1]"
         (effects
@@ -192,9 +192,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -20.32 0)
+      (at -12.7 29.21000000000001 0)
       (length 2.54)
       (name "A[2]"
         (effects
@@ -214,9 +214,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -20.32 180)
+      (at -12.7 26.67000000000001 0)
       (length 2.54)
       (name "A[3]"
         (effects
@@ -236,9 +236,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -17.78 0)
+      (at -12.7 24.13000000000001 0)
       (length 2.54)
       (name "A[4]"
         (effects
@@ -258,9 +258,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -17.78 180)
+      (at -12.7 21.590000000000007 0)
       (length 2.54)
       (name "A[5]"
         (effects
@@ -280,9 +280,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -15.240000000000002 0)
+      (at -12.7 19.050000000000008 0)
       (length 2.54)
       (name "A[6]"
         (effects
@@ -302,9 +302,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -15.240000000000002 180)
+      (at -12.7 16.51000000000001 0)
       (length 2.54)
       (name "A[7]"
         (effects
@@ -324,9 +324,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -12.700000000000003 0)
+      (at -12.7 13.970000000000008 0)
       (length 2.54)
       (name "A[8]"
         (effects
@@ -346,9 +346,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -12.700000000000003 180)
+      (at -12.7 11.430000000000009 0)
       (length 2.54)
       (name "CEN"
         (effects
@@ -368,9 +368,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -10.160000000000004 0)
+      (at -12.7 8.890000000000006 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -390,9 +390,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -10.160000000000004 180)
+      (at -12.7 6.350000000000007 0)
       (length 2.54)
       (name "D[0]"
         (effects
@@ -412,9 +412,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -7.620000000000004 0)
+      (at -12.7 3.8100000000000045 0)
       (length 2.54)
       (name "D[1]"
         (effects
@@ -434,9 +434,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -7.620000000000004 180)
+      (at -12.7 1.2700000000000053 0)
       (length 2.54)
       (name "D[2]"
         (effects
@@ -456,9 +456,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -5.080000000000004 0)
+      (at -12.7 -1.2699999999999938 0)
       (length 2.54)
       (name "D[3]"
         (effects
@@ -478,9 +478,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -5.080000000000004 180)
+      (at -12.7 -3.809999999999993 0)
       (length 2.54)
       (name "D[4]"
         (effects
@@ -500,9 +500,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -2.5400000000000036 0)
+      (at -12.7 -6.3499999999999925 0)
       (length 2.54)
       (name "D[5]"
         (effects
@@ -522,9 +522,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -2.5400000000000036 180)
+      (at -12.7 -8.889999999999992 0)
       (length 2.54)
       (name "D[6]"
         (effects
@@ -544,9 +544,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 -3.552713678800501e-15 0)
+      (at -12.7 -11.42999999999999 0)
       (length 2.54)
       (name "D[7]"
         (effects
@@ -566,9 +566,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 -3.552713678800501e-15 180)
+      (at -12.7 -13.96999999999999 0)
       (length 2.54)
       (name "GWEN"
         (effects
@@ -588,9 +588,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -11.43 2.5399999999999965 0)
+      (at 12.7 34.290000000000006 180)
       (length 2.54)
       (name "Q[0]"
         (effects
@@ -610,9 +610,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 11.43 2.5399999999999965 180)
+      (at 12.7 31.75000000000001 180)
       (length 2.54)
       (name "Q[1]"
         (effects
@@ -632,9 +632,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -11.43 5.0799999999999965 0)
+      (at 12.7 29.21000000000001 180)
       (length 2.54)
       (name "Q[2]"
         (effects
@@ -654,9 +654,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 11.43 5.0799999999999965 180)
+      (at 12.7 26.67000000000001 180)
       (length 2.54)
       (name "Q[3]"
         (effects
@@ -676,9 +676,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -11.43 7.6199999999999966 0)
+      (at 12.7 24.13000000000001 180)
       (length 2.54)
       (name "Q[4]"
         (effects
@@ -698,9 +698,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 11.43 7.6199999999999966 180)
+      (at 12.7 21.590000000000007 180)
       (length 2.54)
       (name "Q[5]"
         (effects
@@ -720,9 +720,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -11.43 10.159999999999997 0)
+      (at 12.7 19.050000000000008 180)
       (length 2.54)
       (name "Q[6]"
         (effects
@@ -742,9 +742,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 11.43 10.159999999999997 180)
+      (at 12.7 16.51000000000001 180)
       (length 2.54)
       (name "Q[7]"
         (effects
@@ -764,9 +764,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 12.699999999999996 0)
+      (at -12.7 -16.509999999999994 0)
       (length 2.54)
       (name "WEN[0]"
         (effects
@@ -786,9 +786,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 12.699999999999996 180)
+      (at -12.7 -19.049999999999994 0)
       (length 2.54)
       (name "WEN[1]"
         (effects
@@ -808,9 +808,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 15.239999999999995 0)
+      (at -12.7 -21.589999999999993 0)
       (length 2.54)
       (name "WEN[2]"
         (effects
@@ -830,9 +830,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 15.239999999999995 180)
+      (at -12.7 -24.129999999999992 0)
       (length 2.54)
       (name "WEN[3]"
         (effects
@@ -852,9 +852,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 17.779999999999994 0)
+      (at -12.7 -26.66999999999999 0)
       (length 2.54)
       (name "WEN[4]"
         (effects
@@ -874,9 +874,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 17.779999999999994 180)
+      (at -12.7 -29.209999999999997 0)
       (length 2.54)
       (name "WEN[5]"
         (effects
@@ -896,9 +896,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -11.43 20.319999999999993 0)
+      (at -12.7 -31.74999999999999 0)
       (length 2.54)
       (name "WEN[6]"
         (effects
@@ -918,9 +918,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 11.43 20.319999999999993 180)
+      (at -12.7 -34.29 0)
       (length 2.54)
       (name "WEN[7]"
         (effects
@@ -940,9 +940,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -11.43 22.859999999999992 0)
+      (at 0.0 43.18000000000001 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -962,9 +962,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 11.43 22.859999999999992 180)
+      (at 0.0 -43.18000000000001 90)
       (length 2.54)
       (name "VSS"
         (effects

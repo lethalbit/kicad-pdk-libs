@@ -19,7 +19,7 @@
       "Value"
       "analog_esd_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -19.049999999999997 -13.97 0)
       (effects
         (font
           (size 1 1)
@@ -29,7 +29,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 200.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -53,7 +53,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "PAD"
       (id 10)
       (at 0 0 0)
       (effects
@@ -65,7 +65,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__analog_esd_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -89,7 +89,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 200.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -136,8 +136,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -19.049999999999997 -13.97)
+      (end 19.049999999999997 13.97)
       (stroke
         (width 0.1)
         (type solid)
@@ -150,7 +150,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -21.589999999999996 -11.43 0)
       (length 2.54)
       (name "P_CORE"
         (effects
@@ -170,9 +170,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -7.62 180)
+      (at -5.079999999999998 -16.51 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -192,9 +192,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -2.5399999999999974 -16.51 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -216,7 +216,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -5.08 180)
+      (at 21.589999999999996 -11.43 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -238,7 +238,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -21.589999999999996 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -258,9 +258,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -5.079999999999998 16.51 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -280,9 +280,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at -2.5399999999999974 16.51 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -304,7 +304,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 0.0 180)
+      (at 21.589999999999996 -8.89 180)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -324,9 +324,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 3.552713678800501e-15 -16.51 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -346,9 +346,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 3.552713678800501e-15 16.51 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -368,9 +368,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at 2.5400000000000027 16.51 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -390,9 +390,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at 5.080000000000002 16.51 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -412,9 +412,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 2.5400000000000027 -16.51 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -436,7 +436,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 7.62 180)
+      (at -21.589999999999996 -6.3500000000000005 0)
       (length 2.54)
       (name "P_PAD"
         (effects
@@ -476,7 +476,7 @@
       "Value"
       "analog_noesd_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -19.049999999999997 -13.97 0)
       (effects
         (font
           (size 1 1)
@@ -486,7 +486,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 200.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -510,7 +510,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "PAD"
       (id 10)
       (at 0 0 0)
       (effects
@@ -522,7 +522,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__analog_noesd_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -546,7 +546,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 200.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -593,8 +593,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -19.049999999999997 -13.97)
+      (end 19.049999999999997 13.97)
       (stroke
         (width 0.1)
         (type solid)
@@ -607,7 +607,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -21.589999999999996 -11.43 0)
       (length 2.54)
       (name "P_CORE"
         (effects
@@ -627,9 +627,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -7.62 180)
+      (at -5.079999999999998 -16.51 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -649,9 +649,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -2.5399999999999974 -16.51 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -673,7 +673,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -5.08 180)
+      (at 21.589999999999996 -11.43 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -695,7 +695,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -21.589999999999996 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -715,9 +715,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -5.079999999999998 16.51 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -737,9 +737,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at -2.5399999999999974 16.51 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -761,7 +761,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 0.0 180)
+      (at 21.589999999999996 -8.89 180)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -781,9 +781,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 3.552713678800501e-15 -16.51 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -803,9 +803,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 3.552713678800501e-15 16.51 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -825,9 +825,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at 2.5400000000000027 16.51 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -847,9 +847,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at 5.080000000000002 16.51 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -869,9 +869,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 2.5400000000000027 -16.51 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -893,7 +893,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 7.62 180)
+      (at -21.589999999999996 -6.3500000000000005 0)
       (length 2.54)
       (name "P_PAD"
         (effects
@@ -933,7 +933,7 @@
       "Value"
       "analog_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -19.049999999999997 -13.97 0)
       (effects
         (font
           (size 1 1)
@@ -943,7 +943,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 200.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -967,7 +967,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "PAD"
       (id 10)
       (at 0 0 0)
       (effects
@@ -979,7 +979,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__analog_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1003,7 +1003,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 200.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1050,8 +1050,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -19.049999999999997 -13.97)
+      (end 19.049999999999997 13.97)
       (stroke
         (width 0.1)
         (type solid)
@@ -1064,7 +1064,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -21.589999999999996 -11.43 0)
       (length 2.54)
       (name "P_CORE"
         (effects
@@ -1084,9 +1084,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -7.62 180)
+      (at -5.079999999999998 -16.51 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -1106,9 +1106,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -2.5399999999999974 -16.51 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -1130,7 +1130,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -5.08 180)
+      (at 21.589999999999996 -11.43 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -1152,7 +1152,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -21.589999999999996 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -1172,9 +1172,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -5.079999999999998 16.51 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -1194,9 +1194,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at -2.5399999999999974 16.51 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -1218,7 +1218,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 0.0 180)
+      (at 21.589999999999996 -8.89 180)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -1238,9 +1238,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 3.552713678800501e-15 -16.51 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -1260,9 +1260,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 3.552713678800501e-15 16.51 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -1282,9 +1282,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at 2.5400000000000027 16.51 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -1304,9 +1304,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at 5.080000000000002 16.51 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -1326,9 +1326,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 2.5400000000000027 -16.51 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -1350,7 +1350,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 7.62 180)
+      (at -21.589999999999996 -6.3500000000000005 0)
       (length 2.54)
       (name "P_PAD"
         (effects
@@ -1400,7 +1400,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(65.4, 75.4)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1424,7 +1424,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "BLOCK"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1436,7 +1436,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__bare_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1448,7 +1448,7 @@
     )
     (property
       "Cell Origin"
-      "(0.0, 0.0)"
+      "(2.7, 2.7)"
       (id 12)
       (at 0 0 0)
       (effects
@@ -1460,7 +1460,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(65.4, 75.4)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1561,7 +1561,7 @@
       "Value"
       "com_bus_slice_1um"
       (id 1)
-      (at -12.7 -8.89 0)
+      (at -20.32 -11.43 0)
       (effects
         (font
           (size 1 1)
@@ -1571,7 +1571,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(1.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1595,7 +1595,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1607,7 +1607,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__com_bus_slice_1um"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1631,7 +1631,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(1.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1678,8 +1678,8 @@
       )
     )
     (rectangle
-      (start -12.7 -8.89)
-      (end 12.7 8.89)
+      (start -20.32 -11.43)
+      (end 20.32 11.43)
       (stroke
         (width 0.1)
         (type solid)
@@ -1692,7 +1692,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -6.3500000000000005 0)
+      (at -22.86 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -1714,7 +1714,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -6.3500000000000005 180)
+      (at 22.86 -8.89 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -1734,9 +1734,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -3.8100000000000005 0)
+      (at -6.350000000000001 -13.969999999999999 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -1756,9 +1756,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -3.8100000000000005 180)
+      (at -6.350000000000001 13.969999999999999 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -1778,9 +1778,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -1.2700000000000005 0)
+      (at -3.8100000000000005 13.969999999999999 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -1800,9 +1800,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -1.2700000000000005 180)
+      (at -1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -1822,9 +1822,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 1.2699999999999996 0)
+      (at 1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -1844,9 +1844,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 1.2699999999999996 180)
+      (at 3.8099999999999987 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -1866,9 +1866,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 3.8099999999999996 0)
+      (at 6.35 13.969999999999999 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -1888,9 +1888,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 3.8099999999999996 180)
+      (at -3.8100000000000005 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -1910,9 +1910,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 6.35 0)
+      (at -1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -1932,9 +1932,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 6.35 180)
+      (at 1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -1974,7 +1974,7 @@
       "Value"
       "com_bus_slice_5um"
       (id 1)
-      (at -12.7 -8.89 0)
+      (at -20.32 -11.43 0)
       (effects
         (font
           (size 1 1)
@@ -1984,7 +1984,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2008,7 +2008,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2020,7 +2020,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__com_bus_slice_5um"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2044,7 +2044,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2091,8 +2091,8 @@
       )
     )
     (rectangle
-      (start -12.7 -8.89)
-      (end 12.7 8.89)
+      (start -20.32 -11.43)
+      (end 20.32 11.43)
       (stroke
         (width 0.1)
         (type solid)
@@ -2105,7 +2105,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -6.3500000000000005 0)
+      (at -22.86 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -2127,7 +2127,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -6.3500000000000005 180)
+      (at 22.86 -8.89 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -2147,9 +2147,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -3.8100000000000005 0)
+      (at -6.350000000000001 -13.969999999999999 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -2169,9 +2169,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -3.8100000000000005 180)
+      (at -6.350000000000001 13.969999999999999 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -2191,9 +2191,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -1.2700000000000005 0)
+      (at -3.8100000000000005 13.969999999999999 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -2213,9 +2213,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -1.2700000000000005 180)
+      (at -1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -2235,9 +2235,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 1.2699999999999996 0)
+      (at 1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -2257,9 +2257,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 1.2699999999999996 180)
+      (at 3.8099999999999987 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -2279,9 +2279,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 3.8099999999999996 0)
+      (at 6.35 13.969999999999999 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -2301,9 +2301,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 3.8099999999999996 180)
+      (at -3.8100000000000005 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -2323,9 +2323,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 6.35 0)
+      (at -1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -2345,9 +2345,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 6.35 180)
+      (at 1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -2387,7 +2387,7 @@
       "Value"
       "com_bus_slice_10um"
       (id 1)
-      (at -12.7 -8.89 0)
+      (at -20.32 -11.43 0)
       (effects
         (font
           (size 1 1)
@@ -2397,7 +2397,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(10.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2421,7 +2421,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2433,7 +2433,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__com_bus_slice_10um"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2457,7 +2457,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(10.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2504,8 +2504,8 @@
       )
     )
     (rectangle
-      (start -12.7 -8.89)
-      (end 12.7 8.89)
+      (start -20.32 -11.43)
+      (end 20.32 11.43)
       (stroke
         (width 0.1)
         (type solid)
@@ -2518,7 +2518,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -6.3500000000000005 0)
+      (at -22.86 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -2540,7 +2540,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -6.3500000000000005 180)
+      (at 22.86 -8.89 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -2560,9 +2560,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -3.8100000000000005 0)
+      (at -6.350000000000001 -13.969999999999999 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -2582,9 +2582,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -3.8100000000000005 180)
+      (at -6.350000000000001 13.969999999999999 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -2604,9 +2604,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -1.2700000000000005 0)
+      (at -3.8100000000000005 13.969999999999999 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -2626,9 +2626,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -1.2700000000000005 180)
+      (at -1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -2648,9 +2648,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 1.2699999999999996 0)
+      (at 1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -2670,9 +2670,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 1.2699999999999996 180)
+      (at 3.8099999999999987 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -2692,9 +2692,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 3.8099999999999996 0)
+      (at 6.35 13.969999999999999 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -2714,9 +2714,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 3.8099999999999996 180)
+      (at -3.8100000000000005 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -2736,9 +2736,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 6.35 0)
+      (at -1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -2758,9 +2758,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 6.35 180)
+      (at 1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -2800,7 +2800,7 @@
       "Value"
       "com_bus_slice_20um"
       (id 1)
-      (at -12.7 -8.89 0)
+      (at -20.32 -11.43 0)
       (effects
         (font
           (size 1 1)
@@ -2810,7 +2810,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(20.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2834,7 +2834,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2846,7 +2846,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__com_bus_slice_20um"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2870,7 +2870,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(20.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2917,8 +2917,8 @@
       )
     )
     (rectangle
-      (start -12.7 -8.89)
-      (end 12.7 8.89)
+      (start -20.32 -11.43)
+      (end 20.32 11.43)
       (stroke
         (width 0.1)
         (type solid)
@@ -2931,7 +2931,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -6.3500000000000005 0)
+      (at -22.86 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -2953,7 +2953,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -6.3500000000000005 180)
+      (at 22.86 -8.89 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -2973,9 +2973,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -3.8100000000000005 0)
+      (at -6.350000000000001 -13.969999999999999 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -2995,9 +2995,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -3.8100000000000005 180)
+      (at -6.350000000000001 13.969999999999999 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -3017,9 +3017,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -1.2700000000000005 0)
+      (at -3.8100000000000005 13.969999999999999 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -3039,9 +3039,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -1.2700000000000005 180)
+      (at -1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -3061,9 +3061,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 1.2699999999999996 0)
+      (at 1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -3083,9 +3083,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 1.2699999999999996 180)
+      (at 3.8099999999999987 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -3105,9 +3105,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 3.8099999999999996 0)
+      (at 6.35 13.969999999999999 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -3127,9 +3127,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 3.8099999999999996 180)
+      (at -3.8100000000000005 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -3149,9 +3149,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 6.35 0)
+      (at -1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -3171,9 +3171,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 6.35 180)
+      (at 1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -3213,7 +3213,7 @@
       "Value"
       "connect_vcchib_vccd_and_vswitch_vddio_slice_20um"
       (id 1)
-      (at -12.7 -8.89 0)
+      (at -20.32 -11.43 0)
       (effects
         (font
           (size 1 1)
@@ -3223,7 +3223,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(20.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -3247,7 +3247,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'AREAIO')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -3259,7 +3259,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__connect_vcchib_vccd_and_vswitch_vddio_slice_20um"
       (id 11)
       (at 0 0 0)
       (effects
@@ -3283,7 +3283,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(20.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -3330,8 +3330,8 @@
       )
     )
     (rectangle
-      (start -12.7 -8.89)
-      (end 12.7 8.89)
+      (start -20.32 -11.43)
+      (end 20.32 11.43)
       (stroke
         (width 0.1)
         (type solid)
@@ -3344,7 +3344,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -6.3500000000000005 0)
+      (at -22.86 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -3366,7 +3366,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -6.3500000000000005 180)
+      (at 22.86 -8.89 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -3386,9 +3386,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -3.8100000000000005 0)
+      (at -6.350000000000001 -13.969999999999999 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -3408,9 +3408,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -3.8100000000000005 180)
+      (at -6.350000000000001 13.969999999999999 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -3430,9 +3430,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -1.2700000000000005 0)
+      (at -3.8100000000000005 13.969999999999999 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -3452,9 +3452,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -1.2700000000000005 180)
+      (at -1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -3474,9 +3474,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 1.2699999999999996 0)
+      (at 1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -3496,9 +3496,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 1.2699999999999996 180)
+      (at 3.8099999999999987 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -3518,9 +3518,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 3.8099999999999996 0)
+      (at 6.35 13.969999999999999 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -3540,9 +3540,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 3.8099999999999996 180)
+      (at -3.8100000000000005 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -3562,9 +3562,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 6.35 0)
+      (at -1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -3584,9 +3584,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 6.35 180)
+      (at 1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -3626,7 +3626,7 @@
       "Value"
       "corner_pad"
       (id 1)
-      (at -12.7 -8.89 0)
+      (at -20.32 -11.43 0)
       (effects
         (font
           (size 1 1)
@@ -3636,7 +3636,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(200.0, 204.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -3660,7 +3660,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('ENDCAP', 'TOPRIGHT')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -3672,7 +3672,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__corner_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -3696,7 +3696,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(200.0, 204.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -3743,8 +3743,8 @@
       )
     )
     (rectangle
-      (start -12.7 -8.89)
-      (end 12.7 8.89)
+      (start -20.32 -11.43)
+      (end 20.32 11.43)
       (stroke
         (width 0.1)
         (type solid)
@@ -3757,7 +3757,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -6.3500000000000005 0)
+      (at -22.86 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -3779,7 +3779,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -6.3500000000000005 180)
+      (at 22.86 -8.89 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -3799,9 +3799,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -3.8100000000000005 0)
+      (at -6.350000000000001 -13.969999999999999 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -3821,9 +3821,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -3.8100000000000005 180)
+      (at -6.350000000000001 13.969999999999999 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -3843,9 +3843,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -1.2700000000000005 0)
+      (at -3.8100000000000005 13.969999999999999 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -3865,9 +3865,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -1.2700000000000005 180)
+      (at -1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -3887,9 +3887,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 1.2699999999999996 0)
+      (at 1.2699999999999996 13.969999999999999 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -3909,9 +3909,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 1.2699999999999996 180)
+      (at 3.8099999999999987 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -3931,9 +3931,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 3.8099999999999996 0)
+      (at 6.35 13.969999999999999 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -3953,9 +3953,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 3.8099999999999996 180)
+      (at -3.8100000000000005 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -3975,9 +3975,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 6.35 0)
+      (at -1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -3997,9 +3997,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 6.35 180)
+      (at 1.2699999999999996 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -4039,7 +4039,7 @@
       "Value"
       "disconnect_vccd_slice_5um"
       (id 1)
-      (at -12.7 -7.619999999999999 0)
+      (at -19.049999999999997 -11.43 0)
       (effects
         (font
           (size 1 1)
@@ -4049,7 +4049,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -4073,7 +4073,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'AREAIO')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -4085,7 +4085,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__disconnect_vccd_slice_5um"
       (id 11)
       (at 0 0 0)
       (effects
@@ -4109,7 +4109,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -4156,8 +4156,8 @@
       )
     )
     (rectangle
-      (start -12.7 -7.619999999999999)
-      (end 12.7 7.619999999999999)
+      (start -19.049999999999997 -11.43)
+      (end 19.049999999999997 11.43)
       (stroke
         (width 0.1)
         (type solid)
@@ -4170,7 +4170,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -5.079999999999999 0)
+      (at -21.589999999999996 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -4192,7 +4192,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -5.079999999999999 180)
+      (at 21.589999999999996 -8.89 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -4212,9 +4212,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.539999999999999 0)
+      (at -5.079999999999998 -13.969999999999999 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -4234,9 +4234,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.539999999999999 180)
+      (at -5.079999999999998 13.969999999999999 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -4256,9 +4256,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 8.881784197001252e-16 0)
+      (at -2.5399999999999974 13.969999999999999 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -4278,9 +4278,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 8.881784197001252e-16 180)
+      (at 3.552713678800501e-15 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -4300,9 +4300,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.540000000000001 0)
+      (at 2.5400000000000027 13.969999999999999 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -4322,9 +4322,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.540000000000001 180)
+      (at 5.080000000000002 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -4344,9 +4344,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.080000000000001 0)
+      (at -2.5399999999999974 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -4366,9 +4366,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.080000000000001 180)
+      (at 3.552713678800501e-15 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -4408,7 +4408,7 @@
       "Value"
       "disconnect_vdda_slice_5um"
       (id 1)
-      (at -12.7 -7.619999999999999 0)
+      (at -19.049999999999997 -11.43 0)
       (effects
         (font
           (size 1 1)
@@ -4418,7 +4418,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -4442,7 +4442,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'AREAIO')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -4454,7 +4454,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__disconnect_vdda_slice_5um"
       (id 11)
       (at 0 0 0)
       (effects
@@ -4478,7 +4478,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -4525,8 +4525,8 @@
       )
     )
     (rectangle
-      (start -12.7 -7.619999999999999)
-      (end 12.7 7.619999999999999)
+      (start -19.049999999999997 -11.43)
+      (end 19.049999999999997 11.43)
       (stroke
         (width 0.1)
         (type solid)
@@ -4539,7 +4539,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -5.079999999999999 0)
+      (at -21.589999999999996 -8.89 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -4561,7 +4561,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -5.079999999999999 180)
+      (at 21.589999999999996 -8.89 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -4581,9 +4581,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.539999999999999 0)
+      (at -5.079999999999998 13.969999999999999 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -4603,9 +4603,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.539999999999999 180)
+      (at -2.5399999999999974 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -4625,9 +4625,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 8.881784197001252e-16 0)
+      (at 3.552713678800501e-15 13.969999999999999 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -4647,9 +4647,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 8.881784197001252e-16 180)
+      (at 2.5400000000000027 13.969999999999999 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -4669,9 +4669,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.540000000000001 0)
+      (at 5.080000000000002 13.969999999999999 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -4691,9 +4691,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.540000000000001 180)
+      (at -5.079999999999998 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -4713,9 +4713,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.080000000000001 0)
+      (at -2.5399999999999974 -13.969999999999999 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -4735,9 +4735,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.080000000000001 180)
+      (at 3.552713678800501e-15 -13.969999999999999 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -4777,7 +4777,7 @@
       "Value"
       "gpiov2_pad"
       (id 1)
-      (at -21.59 -26.669999999999998 0)
+      (at -29.21 -34.29 0)
       (effects
         (font
           (size 1 1)
@@ -4787,7 +4787,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(80.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -4811,7 +4811,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'INOUT')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -4823,7 +4823,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__gpiov2_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -4847,7 +4847,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(80.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -4894,8 +4894,8 @@
       )
     )
     (rectangle
-      (start -21.59 -26.669999999999998)
-      (end 21.59 26.669999999999998)
+      (start -29.21 -34.29)
+      (end 29.21 34.29)
       (stroke
         (width 0.1)
         (type solid)
@@ -4908,7 +4908,7 @@
     (pin
       bidirectional
       line
-      (at -24.13 -24.13 0)
+      (at 31.75 -20.32 180)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -4930,7 +4930,7 @@
     (pin
       bidirectional
       line
-      (at 24.13 -24.13 180)
+      (at 31.75 -17.78 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -4950,9 +4950,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -21.59 0)
+      (at -31.75 22.86 0)
       (length 2.54)
       (name "ANALOG_EN"
         (effects
@@ -4972,9 +4972,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -21.59 180)
+      (at -31.75 20.32 0)
       (length 2.54)
       (name "ANALOG_POL"
         (effects
@@ -4994,9 +4994,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -19.05 0)
+      (at -31.75 17.779999999999998 0)
       (length 2.54)
       (name "ANALOG_SEL"
         (effects
@@ -5016,9 +5016,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -19.05 180)
+      (at -31.75 15.239999999999998 0)
       (length 2.54)
       (name "DM[2]"
         (effects
@@ -5038,9 +5038,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -16.51 0)
+      (at -31.75 12.7 0)
       (length 2.54)
       (name "DM[1]"
         (effects
@@ -5060,9 +5060,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -16.51 180)
+      (at -31.75 10.159999999999997 0)
       (length 2.54)
       (name "DM[0]"
         (effects
@@ -5082,9 +5082,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -13.970000000000002 0)
+      (at -31.75 7.619999999999997 0)
       (length 2.54)
       (name "ENABLE_H"
         (effects
@@ -5104,9 +5104,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -13.970000000000002 180)
+      (at -31.75 5.079999999999998 0)
       (length 2.54)
       (name "ENABLE_INP_H"
         (effects
@@ -5126,9 +5126,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -11.430000000000003 0)
+      (at -31.75 2.539999999999999 0)
       (length 2.54)
       (name "ENABLE_VDDA_H"
         (effects
@@ -5148,9 +5148,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -11.430000000000003 180)
+      (at -31.75 0.0 0)
       (length 2.54)
       (name "ENABLE_VDDIO"
         (effects
@@ -5170,9 +5170,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -8.890000000000004 0)
+      (at -31.75 -2.5400000000000027 0)
       (length 2.54)
       (name "ENABLE_VSWITCH_H"
         (effects
@@ -5192,9 +5192,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       inverted
-      (at 24.13 -8.890000000000004 180)
+      (at -31.75 -5.080000000000002 0)
       (length 2.54)
       (name "HLD_H_N"
         (effects
@@ -5214,9 +5214,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -6.350000000000004 0)
+      (at -31.75 -7.6200000000000045 0)
       (length 2.54)
       (name "HLD_OVR"
         (effects
@@ -5236,9 +5236,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -6.350000000000004 180)
+      (at -31.75 -10.160000000000004 0)
       (length 2.54)
       (name "IB_MODE_SEL"
         (effects
@@ -5258,9 +5258,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -24.13 -3.810000000000004 0)
+      (at 31.75 22.86 180)
       (length 2.54)
       (name "IN"
         (effects
@@ -5280,9 +5280,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 24.13 -3.810000000000004 180)
+      (at 31.75 20.32 180)
       (length 2.54)
       (name "IN_H"
         (effects
@@ -5302,9 +5302,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -1.270000000000004 0)
+      (at -31.75 -12.700000000000003 0)
       (length 2.54)
       (name "INP_DIS"
         (effects
@@ -5324,9 +5324,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       inverted
-      (at 24.13 -1.270000000000004 180)
+      (at -31.75 -15.240000000000002 0)
       (length 2.54)
       (name "OE_N"
         (effects
@@ -5346,9 +5346,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 1.269999999999996 0)
+      (at -31.75 -17.78 0)
       (length 2.54)
       (name "OUT"
         (effects
@@ -5370,7 +5370,7 @@
     (pin
       bidirectional
       line
-      (at 24.13 1.269999999999996 180)
+      (at 31.75 -15.240000000000002 180)
       (length 2.54)
       (name "PAD"
         (effects
@@ -5392,7 +5392,7 @@
     (pin
       bidirectional
       line
-      (at -24.13 3.809999999999996 0)
+      (at 31.75 -12.700000000000003 180)
       (length 2.54)
       (name "PAD_A_ESD_0_H"
         (effects
@@ -5414,7 +5414,7 @@
     (pin
       bidirectional
       line
-      (at 24.13 3.809999999999996 180)
+      (at 31.75 -10.160000000000004 180)
       (length 2.54)
       (name "PAD_A_ESD_1_H"
         (effects
@@ -5436,7 +5436,7 @@
     (pin
       bidirectional
       line
-      (at -24.13 6.349999999999996 0)
+      (at 31.75 -7.620000000000004 180)
       (length 2.54)
       (name "PAD_A_NOESD_H"
         (effects
@@ -5456,9 +5456,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 6.349999999999996 180)
+      (at -31.75 -20.32 0)
       (length 2.54)
       (name "SLOW"
         (effects
@@ -5478,9 +5478,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -24.13 8.889999999999997 0)
+      (at 31.75 17.779999999999998 180)
       (length 2.54)
       (name "TIE_HI_ESD"
         (effects
@@ -5500,9 +5500,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 24.13 8.889999999999997 180)
+      (at 31.75 15.239999999999998 180)
       (length 2.54)
       (name "TIE_LO_ESD"
         (effects
@@ -5522,9 +5522,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 11.429999999999996 0)
+      (at -6.350000000000001 36.83 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -5544,9 +5544,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 11.429999999999996 180)
+      (at -3.8100000000000023 36.83 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -5566,9 +5566,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 13.969999999999995 0)
+      (at -1.2699999999999996 36.83 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -5588,9 +5588,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 13.969999999999995 180)
+      (at 1.2699999999999996 36.83 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -5610,9 +5610,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 16.509999999999994 0)
+      (at 3.8099999999999987 36.83 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -5632,9 +5632,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 16.509999999999994 180)
+      (at -6.350000000000001 -36.83 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -5654,9 +5654,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 19.049999999999994 0)
+      (at -3.8100000000000023 -36.83 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -5676,9 +5676,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 19.049999999999994 180)
+      (at -1.2699999999999996 -36.83 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -5698,9 +5698,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 21.589999999999993 0)
+      (at 1.2699999999999996 -36.83 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -5720,9 +5720,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 21.589999999999993 180)
+      (at 6.35 36.83 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -5742,9 +5742,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 24.129999999999992 0)
+      (at -31.75 -22.86 0)
       (length 2.54)
       (name "VTRIP_SEL"
         (effects
@@ -5784,7 +5784,7 @@
       "Value"
       "gpiov2_pad_wrapped"
       (id 1)
-      (at -21.59 -26.669999999999998 0)
+      (at -29.21 -34.29 0)
       (effects
         (font
           (size 1 1)
@@ -5794,7 +5794,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(80.0, 210.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -5818,7 +5818,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'INOUT')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -5830,7 +5830,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__gpiov2_pad_wrapped"
       (id 11)
       (at 0 0 0)
       (effects
@@ -5854,7 +5854,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(80.0, 210.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -5901,8 +5901,8 @@
       )
     )
     (rectangle
-      (start -21.59 -26.669999999999998)
-      (end 21.59 26.669999999999998)
+      (start -29.21 -34.29)
+      (end 29.21 34.29)
       (stroke
         (width 0.1)
         (type solid)
@@ -5915,7 +5915,7 @@
     (pin
       bidirectional
       line
-      (at -24.13 -24.13 0)
+      (at 31.75 -20.32 180)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -5937,7 +5937,7 @@
     (pin
       bidirectional
       line
-      (at 24.13 -24.13 180)
+      (at 31.75 -17.78 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -5957,9 +5957,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -21.59 0)
+      (at -31.75 22.86 0)
       (length 2.54)
       (name "ANALOG_EN"
         (effects
@@ -5979,9 +5979,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -21.59 180)
+      (at -31.75 20.32 0)
       (length 2.54)
       (name "ANALOG_POL"
         (effects
@@ -6001,9 +6001,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -19.05 0)
+      (at -31.75 17.779999999999998 0)
       (length 2.54)
       (name "ANALOG_SEL"
         (effects
@@ -6023,9 +6023,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -19.05 180)
+      (at -31.75 15.239999999999998 0)
       (length 2.54)
       (name "DM[2]"
         (effects
@@ -6045,9 +6045,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -16.51 0)
+      (at -31.75 12.7 0)
       (length 2.54)
       (name "DM[1]"
         (effects
@@ -6067,9 +6067,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -16.51 180)
+      (at -31.75 10.159999999999997 0)
       (length 2.54)
       (name "DM[0]"
         (effects
@@ -6089,9 +6089,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -13.970000000000002 0)
+      (at -31.75 7.619999999999997 0)
       (length 2.54)
       (name "ENABLE_H"
         (effects
@@ -6111,9 +6111,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -13.970000000000002 180)
+      (at -31.75 5.079999999999998 0)
       (length 2.54)
       (name "ENABLE_INP_H"
         (effects
@@ -6133,9 +6133,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -11.430000000000003 0)
+      (at -31.75 2.539999999999999 0)
       (length 2.54)
       (name "ENABLE_VDDA_H"
         (effects
@@ -6155,9 +6155,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -11.430000000000003 180)
+      (at -31.75 0.0 0)
       (length 2.54)
       (name "ENABLE_VDDIO"
         (effects
@@ -6177,9 +6177,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -8.890000000000004 0)
+      (at -31.75 -2.5400000000000027 0)
       (length 2.54)
       (name "ENABLE_VSWITCH_H"
         (effects
@@ -6199,9 +6199,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       inverted
-      (at 24.13 -8.890000000000004 180)
+      (at -31.75 -5.080000000000002 0)
       (length 2.54)
       (name "HLD_H_N"
         (effects
@@ -6221,9 +6221,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -6.350000000000004 0)
+      (at -31.75 -7.6200000000000045 0)
       (length 2.54)
       (name "HLD_OVR"
         (effects
@@ -6243,9 +6243,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 -6.350000000000004 180)
+      (at -31.75 -10.160000000000004 0)
       (length 2.54)
       (name "IB_MODE_SEL"
         (effects
@@ -6265,9 +6265,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -24.13 -3.810000000000004 0)
+      (at 31.75 22.86 180)
       (length 2.54)
       (name "IN"
         (effects
@@ -6287,9 +6287,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 24.13 -3.810000000000004 180)
+      (at 31.75 20.32 180)
       (length 2.54)
       (name "IN_H"
         (effects
@@ -6309,9 +6309,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 -1.270000000000004 0)
+      (at -31.75 -12.700000000000003 0)
       (length 2.54)
       (name "INP_DIS"
         (effects
@@ -6331,9 +6331,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       inverted
-      (at 24.13 -1.270000000000004 180)
+      (at -31.75 -15.240000000000002 0)
       (length 2.54)
       (name "OE_N"
         (effects
@@ -6353,9 +6353,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 1.269999999999996 0)
+      (at -31.75 -17.78 0)
       (length 2.54)
       (name "OUT"
         (effects
@@ -6377,7 +6377,7 @@
     (pin
       bidirectional
       line
-      (at 24.13 1.269999999999996 180)
+      (at 31.75 -15.240000000000002 180)
       (length 2.54)
       (name "PAD"
         (effects
@@ -6399,7 +6399,7 @@
     (pin
       bidirectional
       line
-      (at -24.13 3.809999999999996 0)
+      (at 31.75 -12.700000000000003 180)
       (length 2.54)
       (name "PAD_A_ESD_0_H"
         (effects
@@ -6421,7 +6421,7 @@
     (pin
       bidirectional
       line
-      (at 24.13 3.809999999999996 180)
+      (at 31.75 -10.160000000000004 180)
       (length 2.54)
       (name "PAD_A_ESD_1_H"
         (effects
@@ -6443,7 +6443,7 @@
     (pin
       bidirectional
       line
-      (at -24.13 6.349999999999996 0)
+      (at 31.75 -7.620000000000004 180)
       (length 2.54)
       (name "PAD_A_NOESD_H"
         (effects
@@ -6463,9 +6463,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 24.13 6.349999999999996 180)
+      (at -31.75 -20.32 0)
       (length 2.54)
       (name "SLOW"
         (effects
@@ -6485,9 +6485,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -24.13 8.889999999999997 0)
+      (at 31.75 17.779999999999998 180)
       (length 2.54)
       (name "TIE_HI_ESD"
         (effects
@@ -6507,9 +6507,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 24.13 8.889999999999997 180)
+      (at 31.75 15.239999999999998 180)
       (length 2.54)
       (name "TIE_LO_ESD"
         (effects
@@ -6529,9 +6529,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 11.429999999999996 0)
+      (at -6.350000000000001 36.83 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -6551,9 +6551,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 11.429999999999996 180)
+      (at -3.8100000000000023 36.83 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -6573,9 +6573,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 13.969999999999995 0)
+      (at -1.2699999999999996 36.83 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -6595,9 +6595,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 13.969999999999995 180)
+      (at 1.2699999999999996 36.83 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -6617,9 +6617,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 16.509999999999994 0)
+      (at 3.8099999999999987 36.83 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -6639,9 +6639,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 16.509999999999994 180)
+      (at -6.350000000000001 -36.83 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -6661,9 +6661,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 19.049999999999994 0)
+      (at -3.8100000000000023 -36.83 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -6683,9 +6683,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 19.049999999999994 180)
+      (at -1.2699999999999996 -36.83 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -6705,9 +6705,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -24.13 21.589999999999993 0)
+      (at 1.2699999999999996 -36.83 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -6727,9 +6727,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 24.13 21.589999999999993 180)
+      (at 6.35 36.83 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -6749,9 +6749,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -24.13 24.129999999999992 0)
+      (at -31.75 -22.86 0)
       (length 2.54)
       (name "VTRIP_SEL"
         (effects
@@ -6791,7 +6791,7 @@
       "Value"
       "top_power_hvc"
       (id 1)
-      (at -15.24 -11.43 0)
+      (at -24.13 -16.51 0)
       (effects
         (font
           (size 1 1)
@@ -6801,7 +6801,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(169.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -6825,7 +6825,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -6837,7 +6837,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__top_power_hvc"
       (id 11)
       (at 0 0 0)
       (effects
@@ -6861,7 +6861,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(169.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -6908,8 +6908,8 @@
       )
     )
     (rectangle
-      (start -15.24 -11.43)
-      (end 15.24 11.43)
+      (start -24.13 -16.51)
+      (end 24.13 16.51)
       (stroke
         (width 0.1)
         (type solid)
@@ -6922,7 +6922,7 @@
     (pin
       bidirectional
       line
-      (at -17.78 -8.89 0)
+      (at -26.669999999999998 -13.970000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -6944,7 +6944,7 @@
     (pin
       bidirectional
       line
-      (at 17.78 -8.89 180)
+      (at 26.669999999999998 -13.970000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -6964,9 +6964,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -6.3500000000000005 0)
+      (at -10.16 19.05 270)
       (length 2.54)
       (name "DRN_HVC"
         (effects
@@ -6986,9 +6986,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -6.3500000000000005 180)
+      (at -7.619999999999997 19.05 270)
       (length 2.54)
       (name "P_CORE"
         (effects
@@ -7008,9 +7008,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -3.8100000000000005 0)
+      (at -5.079999999999998 19.05 270)
       (length 2.54)
       (name "P_PAD"
         (effects
@@ -7030,9 +7030,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -3.8100000000000005 180)
+      (at -10.16 -19.05 90)
       (length 2.54)
       (name "SRC_BDY_HVC"
         (effects
@@ -7052,9 +7052,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -1.2700000000000005 0)
+      (at -7.619999999999997 -19.05 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -7074,9 +7074,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -1.2700000000000005 180)
+      (at -2.539999999999999 19.05 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -7096,9 +7096,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 1.2699999999999996 0)
+      (at 0.0 19.05 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -7118,9 +7118,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 1.2699999999999996 180)
+      (at 2.540000000000001 19.05 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -7140,9 +7140,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 3.8099999999999996 0)
+      (at 5.080000000000002 19.05 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -7162,9 +7162,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 3.8099999999999996 180)
+      (at 7.620000000000001 19.05 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -7184,9 +7184,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 6.35 0)
+      (at 10.16 19.05 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -7206,9 +7206,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 6.35 180)
+      (at -5.079999999999998 -19.05 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -7228,9 +7228,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 8.89 0)
+      (at -2.539999999999999 -19.05 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -7250,9 +7250,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 8.89 180)
+      (at 0.0 -19.05 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -7292,7 +7292,7 @@
       "Value"
       "vccd_hvc_pad"
       (id 1)
-      (at -15.24 -11.43 0)
+      (at -22.86 -16.51 0)
       (effects
         (font
           (size 1 1)
@@ -7302,7 +7302,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -7326,7 +7326,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -7338,7 +7338,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vccd_hvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -7362,7 +7362,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -7409,8 +7409,8 @@
       )
     )
     (rectangle
-      (start -15.24 -11.43)
-      (end 15.24 11.43)
+      (start -22.86 -16.51)
+      (end 22.86 16.51)
       (stroke
         (width 0.1)
         (type solid)
@@ -7423,7 +7423,7 @@
     (pin
       bidirectional
       line
-      (at -17.78 -8.89 0)
+      (at -25.4 -13.970000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -7445,7 +7445,7 @@
     (pin
       bidirectional
       line
-      (at 17.78 -8.89 180)
+      (at 25.4 -13.970000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -7465,9 +7465,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -6.3500000000000005 0)
+      (at -8.89 19.05 270)
       (length 2.54)
       (name "DRN_HVC"
         (effects
@@ -7487,9 +7487,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -6.3500000000000005 180)
+      (at -8.89 -19.05 90)
       (length 2.54)
       (name "SRC_BDY_HVC"
         (effects
@@ -7509,9 +7509,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -3.8100000000000005 0)
+      (at -6.350000000000001 19.05 270)
       (length 2.54)
       (name "VCCD_PAD"
         (effects
@@ -7531,9 +7531,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -3.8100000000000005 180)
+      (at -6.350000000000001 -19.05 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -7553,9 +7553,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -1.2700000000000005 0)
+      (at -3.8099999999999987 19.05 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -7575,9 +7575,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -1.2700000000000005 180)
+      (at -1.2699999999999996 19.05 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -7597,9 +7597,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 1.2699999999999996 0)
+      (at 1.2699999999999996 19.05 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -7619,9 +7619,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 1.2699999999999996 180)
+      (at 3.8100000000000005 19.05 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -7641,9 +7641,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 3.8099999999999996 0)
+      (at 6.350000000000001 19.05 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -7663,9 +7663,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 3.8099999999999996 180)
+      (at 8.89 19.05 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -7685,9 +7685,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 6.35 0)
+      (at -3.8099999999999987 -19.05 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -7707,9 +7707,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 6.35 180)
+      (at -1.2699999999999996 -19.05 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -7729,9 +7729,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 8.89 0)
+      (at 1.2699999999999996 -19.05 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -7771,7 +7771,7 @@
       "Value"
       "vccd_lvc_clamped2_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -21.59 -12.7 0)
       (effects
         (font
           (size 1 1)
@@ -7781,7 +7781,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -7805,7 +7805,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -7817,7 +7817,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vccd_lvc_clamped2_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -7841,7 +7841,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -7888,8 +7888,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -21.59 -12.7)
+      (end 21.59 12.7)
       (stroke
         (width 0.1)
         (type solid)
@@ -7902,7 +7902,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -24.13 -10.16 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -7924,7 +7924,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -7.62 180)
+      (at 24.13 -10.16 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -7944,9 +7944,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -7.620000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VCCD_PAD"
         (effects
@@ -7966,9 +7966,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -5.08 180)
+      (at -7.620000000000001 -15.239999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -7988,9 +7988,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -5.079999999999998 15.239999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -8010,9 +8010,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -2.539999999999999 15.239999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -8032,9 +8032,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at 0.0 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -8054,9 +8054,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 0.0 180)
+      (at 2.539999999999999 15.239999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -8076,9 +8076,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 5.08 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -8098,9 +8098,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 7.620000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -8120,9 +8120,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at -5.079999999999998 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -8142,9 +8142,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at -2.539999999999999 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -8164,9 +8164,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 0.0 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -8206,7 +8206,7 @@
       "Value"
       "vccd_lvc_clamped3_pad"
       (id 1)
-      (at -12.7 -11.43 0)
+      (at -22.86 -12.7 0)
       (effects
         (font
           (size 1 1)
@@ -8216,7 +8216,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -8240,7 +8240,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -8252,7 +8252,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vccd_lvc_clamped3_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -8276,7 +8276,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -8323,8 +8323,8 @@
       )
     )
     (rectangle
-      (start -12.7 -11.43)
-      (end 12.7 11.43)
+      (start -22.86 -12.7)
+      (end 22.86 12.7)
       (stroke
         (width 0.1)
         (type solid)
@@ -8337,7 +8337,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -8.89 0)
+      (at -25.4 -10.16 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -8359,7 +8359,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -8.89 180)
+      (at 25.4 -10.16 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -8379,9 +8379,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -6.3500000000000005 0)
+      (at -8.89 15.239999999999998 270)
       (length 2.54)
       (name "VCCD_PAD"
         (effects
@@ -8401,9 +8401,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -6.3500000000000005 180)
+      (at -8.89 -15.239999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -8423,9 +8423,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -3.8100000000000005 0)
+      (at -6.350000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -8445,9 +8445,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -3.8100000000000005 180)
+      (at -3.8099999999999987 15.239999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -8467,9 +8467,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -1.2700000000000005 0)
+      (at -1.2699999999999996 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -8489,9 +8489,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -1.2700000000000005 180)
+      (at 1.2699999999999996 15.239999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -8511,9 +8511,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 1.2699999999999996 0)
+      (at 3.8100000000000005 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -8533,9 +8533,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 1.2699999999999996 180)
+      (at 6.350000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -8555,9 +8555,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 3.8099999999999996 0)
+      (at -6.350000000000001 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -8577,9 +8577,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 3.8099999999999996 180)
+      (at -3.8099999999999987 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -8599,9 +8599,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 6.35 0)
+      (at -1.2699999999999996 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -8621,9 +8621,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 6.35 180)
+      (at 8.89 15.239999999999998 270)
       (length 2.54)
       (name "VCCD1"
         (effects
@@ -8643,9 +8643,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 8.89 0)
+      (at 1.2699999999999996 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD1"
         (effects
@@ -8685,7 +8685,7 @@
       "Value"
       "vccd_lvc_clamped_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -21.59 -12.7 0)
       (effects
         (font
           (size 1 1)
@@ -8695,7 +8695,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -8719,7 +8719,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -8731,7 +8731,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vccd_lvc_clamped_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -8755,7 +8755,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -8802,8 +8802,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -21.59 -12.7)
+      (end 21.59 12.7)
       (stroke
         (width 0.1)
         (type solid)
@@ -8816,7 +8816,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -24.13 -10.16 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -8838,7 +8838,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -7.62 180)
+      (at 24.13 -10.16 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -8858,9 +8858,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -7.620000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VCCD_PAD"
         (effects
@@ -8880,9 +8880,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -5.08 180)
+      (at -7.620000000000001 -15.239999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -8902,9 +8902,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -5.079999999999998 15.239999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -8924,9 +8924,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -2.539999999999999 15.239999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -8946,9 +8946,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at 0.0 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -8968,9 +8968,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 0.0 180)
+      (at 2.539999999999999 15.239999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -8990,9 +8990,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 5.08 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -9012,9 +9012,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 7.620000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -9034,9 +9034,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at -5.079999999999998 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -9056,9 +9056,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at -2.539999999999999 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -9078,9 +9078,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 0.0 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -9120,7 +9120,7 @@
       "Value"
       "vccd_lvc_pad"
       (id 1)
-      (at -16.51 -12.7 0)
+      (at -24.13 -17.78 0)
       (effects
         (font
           (size 1 1)
@@ -9130,7 +9130,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -9154,7 +9154,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -9166,7 +9166,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vccd_lvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -9190,7 +9190,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -9237,8 +9237,8 @@
       )
     )
     (rectangle
-      (start -16.51 -12.7)
-      (end 16.51 12.7)
+      (start -24.13 -17.78)
+      (end 24.13 17.78)
       (stroke
         (width 0.1)
         (type solid)
@@ -9251,7 +9251,7 @@
     (pin
       bidirectional
       line
-      (at -19.05 -10.16 0)
+      (at -26.669999999999998 -15.240000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -9273,7 +9273,7 @@
     (pin
       bidirectional
       line
-      (at 19.05 -10.16 180)
+      (at 26.669999999999998 -15.240000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -9293,9 +9293,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -7.62 0)
+      (at -10.16 20.32 270)
       (length 2.54)
       (name "DRN_LVC1"
         (effects
@@ -9315,9 +9315,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -7.62 180)
+      (at -7.619999999999997 20.32 270)
       (length 2.54)
       (name "DRN_LVC2"
         (effects
@@ -9337,9 +9337,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -5.08 0)
+      (at -10.16 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC1"
         (effects
@@ -9359,9 +9359,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -5.08 180)
+      (at -7.619999999999997 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC2"
         (effects
@@ -9381,9 +9381,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -2.54 0)
+      (at -5.079999999999998 -20.32 90)
       (length 2.54)
       (name "BDY2_B2B"
         (effects
@@ -9403,9 +9403,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -2.54 180)
+      (at -5.079999999999998 20.32 270)
       (length 2.54)
       (name "VCCD_PAD"
         (effects
@@ -9425,9 +9425,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 0.0 0)
+      (at -2.539999999999999 -20.32 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -9447,9 +9447,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 0.0 180)
+      (at -2.539999999999999 20.32 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -9469,9 +9469,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 2.54 0)
+      (at 0.0 20.32 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -9491,9 +9491,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 2.54 180)
+      (at 2.540000000000001 20.32 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -9513,9 +9513,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 5.08 0)
+      (at 5.080000000000002 20.32 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -9535,9 +9535,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 5.08 180)
+      (at 7.620000000000001 20.32 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -9557,9 +9557,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 7.62 0)
+      (at 10.16 20.32 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -9579,9 +9579,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 7.62 180)
+      (at 0.0 -20.32 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -9601,9 +9601,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 10.16 0)
+      (at 2.540000000000001 -20.32 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -9623,9 +9623,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 10.16 180)
+      (at 5.080000000000002 -20.32 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -9665,7 +9665,7 @@
       "Value"
       "vdda_hvc_clamped_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -21.59 -12.7 0)
       (effects
         (font
           (size 1 1)
@@ -9675,7 +9675,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -9699,7 +9699,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -9711,7 +9711,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vdda_hvc_clamped_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -9735,7 +9735,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -9782,8 +9782,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -21.59 -12.7)
+      (end 21.59 12.7)
       (stroke
         (width 0.1)
         (type solid)
@@ -9796,7 +9796,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -24.13 -10.16 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -9818,7 +9818,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -7.62 180)
+      (at 24.13 -10.16 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -9838,9 +9838,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -7.620000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VDDA_PAD"
         (effects
@@ -9860,9 +9860,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -5.08 180)
+      (at -7.620000000000001 -15.239999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -9882,9 +9882,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -5.079999999999998 15.239999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -9904,9 +9904,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -2.539999999999999 15.239999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -9926,9 +9926,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at 0.0 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -9948,9 +9948,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 0.0 180)
+      (at 2.539999999999999 15.239999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -9970,9 +9970,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 5.08 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -9992,9 +9992,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 7.620000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -10014,9 +10014,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at -5.079999999999998 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -10036,9 +10036,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at -2.539999999999999 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -10058,9 +10058,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 0.0 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -10100,7 +10100,7 @@
       "Value"
       "vdda_hvc_pad"
       (id 1)
-      (at -15.24 -11.43 0)
+      (at -22.86 -16.51 0)
       (effects
         (font
           (size 1 1)
@@ -10110,7 +10110,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -10134,7 +10134,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -10146,7 +10146,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vdda_hvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -10170,7 +10170,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -10217,8 +10217,8 @@
       )
     )
     (rectangle
-      (start -15.24 -11.43)
-      (end 15.24 11.43)
+      (start -22.86 -16.51)
+      (end 22.86 16.51)
       (stroke
         (width 0.1)
         (type solid)
@@ -10231,7 +10231,7 @@
     (pin
       bidirectional
       line
-      (at -17.78 -8.89 0)
+      (at -25.4 -13.970000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -10253,7 +10253,7 @@
     (pin
       bidirectional
       line
-      (at 17.78 -8.89 180)
+      (at 25.4 -13.970000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -10273,9 +10273,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -6.3500000000000005 0)
+      (at -8.89 19.05 270)
       (length 2.54)
       (name "DRN_HVC"
         (effects
@@ -10295,9 +10295,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -6.3500000000000005 180)
+      (at -8.89 -19.05 90)
       (length 2.54)
       (name "SRC_BDY_HVC"
         (effects
@@ -10317,9 +10317,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -3.8100000000000005 0)
+      (at -6.350000000000001 19.05 270)
       (length 2.54)
       (name "VDDA_PAD"
         (effects
@@ -10339,9 +10339,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -3.8100000000000005 180)
+      (at -6.350000000000001 -19.05 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -10361,9 +10361,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -1.2700000000000005 0)
+      (at -3.8099999999999987 19.05 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -10383,9 +10383,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -1.2700000000000005 180)
+      (at -1.2699999999999996 19.05 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -10405,9 +10405,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 1.2699999999999996 0)
+      (at 1.2699999999999996 19.05 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -10427,9 +10427,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 1.2699999999999996 180)
+      (at 3.8100000000000005 19.05 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -10449,9 +10449,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 3.8099999999999996 0)
+      (at 6.350000000000001 19.05 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -10471,9 +10471,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 3.8099999999999996 180)
+      (at 8.89 19.05 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -10493,9 +10493,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 6.35 0)
+      (at -3.8099999999999987 -19.05 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -10515,9 +10515,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 6.35 180)
+      (at -1.2699999999999996 -19.05 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -10537,9 +10537,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 8.89 0)
+      (at 1.2699999999999996 -19.05 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -10579,7 +10579,7 @@
       "Value"
       "vdda_lvc_pad"
       (id 1)
-      (at -16.51 -12.7 0)
+      (at -24.13 -17.78 0)
       (effects
         (font
           (size 1 1)
@@ -10589,7 +10589,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -10613,7 +10613,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -10625,7 +10625,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vdda_lvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -10649,7 +10649,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -10696,8 +10696,8 @@
       )
     )
     (rectangle
-      (start -16.51 -12.7)
-      (end 16.51 12.7)
+      (start -24.13 -17.78)
+      (end 24.13 17.78)
       (stroke
         (width 0.1)
         (type solid)
@@ -10710,7 +10710,7 @@
     (pin
       bidirectional
       line
-      (at -19.05 -10.16 0)
+      (at -26.669999999999998 -15.240000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -10732,7 +10732,7 @@
     (pin
       bidirectional
       line
-      (at 19.05 -10.16 180)
+      (at 26.669999999999998 -15.240000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -10752,9 +10752,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -7.62 0)
+      (at -10.16 20.32 270)
       (length 2.54)
       (name "DRN_LVC1"
         (effects
@@ -10774,9 +10774,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -7.62 180)
+      (at -7.619999999999997 20.32 270)
       (length 2.54)
       (name "DRN_LVC2"
         (effects
@@ -10796,9 +10796,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -5.08 0)
+      (at -10.16 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC1"
         (effects
@@ -10818,9 +10818,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -5.08 180)
+      (at -7.619999999999997 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC2"
         (effects
@@ -10840,9 +10840,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -2.54 0)
+      (at -5.079999999999998 -20.32 90)
       (length 2.54)
       (name "BDY2_B2B"
         (effects
@@ -10862,9 +10862,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -2.54 180)
+      (at -5.079999999999998 20.32 270)
       (length 2.54)
       (name "VDDA_PAD"
         (effects
@@ -10884,9 +10884,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 0.0 0)
+      (at -2.539999999999999 -20.32 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -10906,9 +10906,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 0.0 180)
+      (at -2.539999999999999 20.32 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -10928,9 +10928,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 2.54 0)
+      (at 0.0 20.32 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -10950,9 +10950,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 2.54 180)
+      (at 2.540000000000001 20.32 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -10972,9 +10972,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 5.08 0)
+      (at 5.080000000000002 20.32 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -10994,9 +10994,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 5.08 180)
+      (at 7.620000000000001 20.32 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -11016,9 +11016,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 7.62 0)
+      (at 10.16 20.32 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -11038,9 +11038,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 7.62 180)
+      (at 0.0 -20.32 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -11060,9 +11060,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 10.16 0)
+      (at 2.540000000000001 -20.32 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -11082,9 +11082,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 10.16 180)
+      (at 5.080000000000002 -20.32 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -11124,7 +11124,7 @@
       "Value"
       "vddio_hvc_clamped_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -21.59 -13.969999999999999 0)
       (effects
         (font
           (size 1 1)
@@ -11134,7 +11134,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -11158,7 +11158,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -11170,7 +11170,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vddio_hvc_clamped_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -11194,7 +11194,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -11241,8 +11241,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -21.59 -13.969999999999999)
+      (end 21.59 13.969999999999999)
       (stroke
         (width 0.1)
         (type solid)
@@ -11255,7 +11255,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -24.13 -11.43 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -11277,7 +11277,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -7.62 180)
+      (at 24.13 -11.43 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -11297,9 +11297,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -7.620000000000001 16.509999999999998 270)
       (length 2.54)
       (name "VDDIO_PAD"
         (effects
@@ -11319,9 +11319,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -5.08 180)
+      (at -7.620000000000001 -16.509999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -11341,9 +11341,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -5.079999999999998 16.509999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -11363,9 +11363,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -2.539999999999999 16.509999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -11385,9 +11385,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at 0.0 16.509999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -11407,9 +11407,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 0.0 180)
+      (at 2.539999999999999 16.509999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -11429,9 +11429,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 5.08 16.509999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -11451,9 +11451,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 7.620000000000001 16.509999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -11473,9 +11473,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at -5.079999999999998 -16.509999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -11495,9 +11495,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at -2.539999999999999 -16.509999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -11517,9 +11517,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 0.0 -16.509999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -11559,7 +11559,7 @@
       "Value"
       "vddio_hvc_pad"
       (id 1)
-      (at -15.24 -11.43 0)
+      (at -22.86 -16.51 0)
       (effects
         (font
           (size 1 1)
@@ -11569,7 +11569,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -11593,7 +11593,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -11605,7 +11605,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vddio_hvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -11629,7 +11629,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -11676,8 +11676,8 @@
       )
     )
     (rectangle
-      (start -15.24 -11.43)
-      (end 15.24 11.43)
+      (start -22.86 -16.51)
+      (end 22.86 16.51)
       (stroke
         (width 0.1)
         (type solid)
@@ -11690,7 +11690,7 @@
     (pin
       bidirectional
       line
-      (at -17.78 -8.89 0)
+      (at -25.4 -13.970000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -11712,7 +11712,7 @@
     (pin
       bidirectional
       line
-      (at 17.78 -8.89 180)
+      (at 25.4 -13.970000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -11732,9 +11732,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -6.3500000000000005 0)
+      (at -8.89 19.05 270)
       (length 2.54)
       (name "DRN_HVC"
         (effects
@@ -11754,9 +11754,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -6.3500000000000005 180)
+      (at -8.89 -19.05 90)
       (length 2.54)
       (name "SRC_BDY_HVC"
         (effects
@@ -11776,9 +11776,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -3.8100000000000005 0)
+      (at -6.350000000000001 19.05 270)
       (length 2.54)
       (name "VDDIO_PAD"
         (effects
@@ -11798,9 +11798,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -3.8100000000000005 180)
+      (at -6.350000000000001 -19.05 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -11820,9 +11820,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -1.2700000000000005 0)
+      (at -3.8099999999999987 19.05 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -11842,9 +11842,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -1.2700000000000005 180)
+      (at -1.2699999999999996 19.05 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -11864,9 +11864,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 1.2699999999999996 0)
+      (at 1.2699999999999996 19.05 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -11886,9 +11886,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 1.2699999999999996 180)
+      (at 3.8100000000000005 19.05 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -11908,9 +11908,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 3.8099999999999996 0)
+      (at 6.350000000000001 19.05 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -11930,9 +11930,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 3.8099999999999996 180)
+      (at 8.89 19.05 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -11952,9 +11952,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 6.35 0)
+      (at -3.8099999999999987 -19.05 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -11974,9 +11974,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 6.35 180)
+      (at -1.2699999999999996 -19.05 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -11996,9 +11996,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 8.89 0)
+      (at 1.2699999999999996 -19.05 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -12038,7 +12038,7 @@
       "Value"
       "vddio_lvc_pad"
       (id 1)
-      (at -16.51 -12.7 0)
+      (at -24.13 -17.78 0)
       (effects
         (font
           (size 1 1)
@@ -12048,7 +12048,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -12072,7 +12072,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -12084,7 +12084,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vddio_lvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -12108,7 +12108,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -12155,8 +12155,8 @@
       )
     )
     (rectangle
-      (start -16.51 -12.7)
-      (end 16.51 12.7)
+      (start -24.13 -17.78)
+      (end 24.13 17.78)
       (stroke
         (width 0.1)
         (type solid)
@@ -12169,7 +12169,7 @@
     (pin
       bidirectional
       line
-      (at -19.05 -10.16 0)
+      (at -26.669999999999998 -15.240000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -12191,7 +12191,7 @@
     (pin
       bidirectional
       line
-      (at 19.05 -10.16 180)
+      (at 26.669999999999998 -15.240000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -12211,9 +12211,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -7.62 0)
+      (at -10.16 20.32 270)
       (length 2.54)
       (name "DRN_LVC1"
         (effects
@@ -12233,9 +12233,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -7.62 180)
+      (at -7.619999999999997 20.32 270)
       (length 2.54)
       (name "DRN_LVC2"
         (effects
@@ -12255,9 +12255,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -5.08 0)
+      (at -10.16 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC1"
         (effects
@@ -12277,9 +12277,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -5.08 180)
+      (at -7.619999999999997 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC2"
         (effects
@@ -12299,9 +12299,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -2.54 0)
+      (at -5.079999999999998 -20.32 90)
       (length 2.54)
       (name "BDY2_B2B"
         (effects
@@ -12321,9 +12321,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -2.54 180)
+      (at -5.079999999999998 20.32 270)
       (length 2.54)
       (name "VDDIO_PAD"
         (effects
@@ -12343,9 +12343,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 0.0 0)
+      (at -2.539999999999999 -20.32 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -12365,9 +12365,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 0.0 180)
+      (at -2.539999999999999 20.32 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -12387,9 +12387,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 2.54 0)
+      (at 0.0 20.32 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -12409,9 +12409,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 2.54 180)
+      (at 2.540000000000001 20.32 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -12431,9 +12431,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 5.08 0)
+      (at 5.080000000000002 20.32 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -12453,9 +12453,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 5.08 180)
+      (at 7.620000000000001 20.32 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -12475,9 +12475,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 7.62 0)
+      (at 10.16 20.32 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -12497,9 +12497,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 7.62 180)
+      (at 0.0 -20.32 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -12519,9 +12519,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 10.16 0)
+      (at 2.540000000000001 -20.32 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -12541,9 +12541,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 10.16 180)
+      (at 5.080000000000002 -20.32 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -12583,7 +12583,7 @@
       "Value"
       "vssa_hvc_clamped_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -20.32 -12.7 0)
       (effects
         (font
           (size 1 1)
@@ -12593,7 +12593,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -12617,7 +12617,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -12629,7 +12629,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssa_hvc_clamped_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -12653,7 +12653,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -12700,8 +12700,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -20.32 -12.7)
+      (end 20.32 12.7)
       (stroke
         (width 0.1)
         (type solid)
@@ -12714,7 +12714,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -22.86 -10.16 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -12736,7 +12736,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -7.62 180)
+      (at 22.86 -10.16 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -12756,9 +12756,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -6.350000000000001 -15.239999999999998 90)
       (length 2.54)
       (name "VSSA_PAD"
         (effects
@@ -12778,9 +12778,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -5.08 180)
+      (at -3.8100000000000005 -15.239999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -12800,9 +12800,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -6.350000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -12822,9 +12822,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -3.8100000000000005 15.239999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -12844,9 +12844,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at -1.2699999999999996 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -12866,9 +12866,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 0.0 180)
+      (at 1.2699999999999996 15.239999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -12888,9 +12888,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 3.8099999999999987 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -12910,9 +12910,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 6.35 15.239999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -12932,9 +12932,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at -1.2699999999999996 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -12954,9 +12954,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at 1.2699999999999996 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -12976,9 +12976,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 3.8099999999999987 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -12998,9 +12998,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 7.62 180)
+      (at 6.35 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -13040,7 +13040,7 @@
       "Value"
       "vssa_hvc_pad"
       (id 1)
-      (at -15.24 -11.43 0)
+      (at -21.59 -16.51 0)
       (effects
         (font
           (size 1 1)
@@ -13050,7 +13050,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -13074,7 +13074,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -13086,7 +13086,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssa_hvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -13110,7 +13110,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -13157,8 +13157,8 @@
       )
     )
     (rectangle
-      (start -15.24 -11.43)
-      (end 15.24 11.43)
+      (start -21.59 -16.51)
+      (end 21.59 16.51)
       (stroke
         (width 0.1)
         (type solid)
@@ -13171,7 +13171,7 @@
     (pin
       bidirectional
       line
-      (at -17.78 -8.89 0)
+      (at -24.13 -13.970000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -13193,7 +13193,7 @@
     (pin
       bidirectional
       line
-      (at 17.78 -8.89 180)
+      (at 24.13 -13.970000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -13213,9 +13213,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -6.3500000000000005 0)
+      (at -7.620000000000001 19.05 270)
       (length 2.54)
       (name "DRN_HVC"
         (effects
@@ -13235,9 +13235,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -6.3500000000000005 180)
+      (at -7.620000000000001 -19.05 90)
       (length 2.54)
       (name "SRC_BDY_HVC"
         (effects
@@ -13257,9 +13257,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -3.8100000000000005 0)
+      (at -5.079999999999998 -19.05 90)
       (length 2.54)
       (name "VSSA_PAD"
         (effects
@@ -13279,9 +13279,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -3.8100000000000005 180)
+      (at -2.539999999999999 -19.05 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -13301,9 +13301,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -1.2700000000000005 0)
+      (at -5.079999999999998 19.05 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -13323,9 +13323,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -1.2700000000000005 180)
+      (at -2.539999999999999 19.05 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -13345,9 +13345,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 1.2699999999999996 0)
+      (at 0.0 19.05 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -13367,9 +13367,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 1.2699999999999996 180)
+      (at 2.539999999999999 19.05 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -13389,9 +13389,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 3.8099999999999996 0)
+      (at 5.08 19.05 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -13411,9 +13411,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 3.8099999999999996 180)
+      (at 7.620000000000001 19.05 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -13433,9 +13433,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 6.35 0)
+      (at 0.0 -19.05 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -13455,9 +13455,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 6.35 180)
+      (at 2.539999999999999 -19.05 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -13477,9 +13477,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 8.89 0)
+      (at 5.08 -19.05 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -13499,9 +13499,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 8.89 180)
+      (at 7.620000000000001 -19.05 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -13541,7 +13541,7 @@
       "Value"
       "vssa_lvc_pad"
       (id 1)
-      (at -16.51 -12.7 0)
+      (at -22.86 -17.78 0)
       (effects
         (font
           (size 1 1)
@@ -13551,7 +13551,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -13575,7 +13575,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -13587,7 +13587,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssa_lvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -13611,7 +13611,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -13658,8 +13658,8 @@
       )
     )
     (rectangle
-      (start -16.51 -12.7)
-      (end 16.51 12.7)
+      (start -22.86 -17.78)
+      (end 22.86 17.78)
       (stroke
         (width 0.1)
         (type solid)
@@ -13672,7 +13672,7 @@
     (pin
       bidirectional
       line
-      (at -19.05 -10.16 0)
+      (at -25.4 -15.240000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -13694,7 +13694,7 @@
     (pin
       bidirectional
       line
-      (at 19.05 -10.16 180)
+      (at 25.4 -15.240000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -13714,9 +13714,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -7.62 0)
+      (at -8.89 20.32 270)
       (length 2.54)
       (name "DRN_LVC1"
         (effects
@@ -13736,9 +13736,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -7.62 180)
+      (at -6.350000000000001 20.32 270)
       (length 2.54)
       (name "DRN_LVC2"
         (effects
@@ -13758,9 +13758,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -5.08 0)
+      (at -8.89 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC1"
         (effects
@@ -13780,9 +13780,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -5.08 180)
+      (at -6.350000000000001 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC2"
         (effects
@@ -13802,9 +13802,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -2.54 0)
+      (at -3.8099999999999987 -20.32 90)
       (length 2.54)
       (name "BDY2_B2B"
         (effects
@@ -13824,9 +13824,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -2.54 180)
+      (at -1.2699999999999996 -20.32 90)
       (length 2.54)
       (name "VSSA_PAD"
         (effects
@@ -13846,9 +13846,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 0.0 0)
+      (at 1.2699999999999996 -20.32 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -13868,9 +13868,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 0.0 180)
+      (at -3.8099999999999987 20.32 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -13890,9 +13890,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 2.54 0)
+      (at -1.2699999999999996 20.32 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -13912,9 +13912,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 2.54 180)
+      (at 1.2699999999999996 20.32 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -13934,9 +13934,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 5.08 0)
+      (at 3.8100000000000005 20.32 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -13956,9 +13956,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 5.08 180)
+      (at 6.350000000000001 20.32 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -13978,9 +13978,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 7.62 0)
+      (at 8.89 20.32 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -14000,9 +14000,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 7.62 180)
+      (at 3.8100000000000005 -20.32 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -14022,9 +14022,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 10.16 0)
+      (at 6.350000000000001 -20.32 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -14044,9 +14044,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 10.16 180)
+      (at 8.89 -20.32 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -14086,7 +14086,7 @@
       "Value"
       "vssd_hvc_pad"
       (id 1)
-      (at -15.24 -11.43 0)
+      (at -21.59 -16.51 0)
       (effects
         (font
           (size 1 1)
@@ -14096,7 +14096,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -14120,7 +14120,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -14132,7 +14132,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssd_hvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -14156,7 +14156,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -14203,8 +14203,8 @@
       )
     )
     (rectangle
-      (start -15.24 -11.43)
-      (end 15.24 11.43)
+      (start -21.59 -16.51)
+      (end 21.59 16.51)
       (stroke
         (width 0.1)
         (type solid)
@@ -14217,7 +14217,7 @@
     (pin
       bidirectional
       line
-      (at -17.78 -8.89 0)
+      (at -24.13 -13.970000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -14239,7 +14239,7 @@
     (pin
       bidirectional
       line
-      (at 17.78 -8.89 180)
+      (at 24.13 -13.970000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -14259,9 +14259,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -6.3500000000000005 0)
+      (at -7.620000000000001 19.05 270)
       (length 2.54)
       (name "DRN_HVC"
         (effects
@@ -14281,9 +14281,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -6.3500000000000005 180)
+      (at -7.620000000000001 -19.05 90)
       (length 2.54)
       (name "SRC_BDY_HVC"
         (effects
@@ -14303,9 +14303,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -3.8100000000000005 0)
+      (at -5.079999999999998 -19.05 90)
       (length 2.54)
       (name "VSSD_PAD"
         (effects
@@ -14325,9 +14325,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -3.8100000000000005 180)
+      (at -2.539999999999999 -19.05 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -14347,9 +14347,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -1.2700000000000005 0)
+      (at -5.079999999999998 19.05 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -14369,9 +14369,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -1.2700000000000005 180)
+      (at -2.539999999999999 19.05 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -14391,9 +14391,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 1.2699999999999996 0)
+      (at 0.0 19.05 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -14413,9 +14413,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 1.2699999999999996 180)
+      (at 2.539999999999999 19.05 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -14435,9 +14435,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 3.8099999999999996 0)
+      (at 5.08 19.05 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -14457,9 +14457,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 3.8099999999999996 180)
+      (at 7.620000000000001 19.05 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -14479,9 +14479,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 6.35 0)
+      (at 0.0 -19.05 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -14501,9 +14501,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 6.35 180)
+      (at 2.539999999999999 -19.05 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -14523,9 +14523,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 8.89 0)
+      (at 5.08 -19.05 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -14565,7 +14565,7 @@
       "Value"
       "vssd_lvc_clamped2_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -20.32 -12.7 0)
       (effects
         (font
           (size 1 1)
@@ -14575,7 +14575,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -14599,7 +14599,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -14611,7 +14611,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssd_lvc_clamped2_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -14635,7 +14635,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -14682,8 +14682,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -20.32 -12.7)
+      (end 20.32 12.7)
       (stroke
         (width 0.1)
         (type solid)
@@ -14696,7 +14696,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -22.86 -10.16 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -14718,7 +14718,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -7.62 180)
+      (at 22.86 -10.16 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -14738,9 +14738,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -6.350000000000001 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD_PAD"
         (effects
@@ -14760,9 +14760,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -5.08 180)
+      (at -3.8100000000000005 -15.239999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -14782,9 +14782,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -6.350000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -14804,9 +14804,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -3.8100000000000005 15.239999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -14826,9 +14826,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at -1.2699999999999996 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -14848,9 +14848,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 0.0 180)
+      (at 1.2699999999999996 15.239999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -14870,9 +14870,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 3.8099999999999987 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -14892,9 +14892,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 6.35 15.239999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -14914,9 +14914,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at -1.2699999999999996 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -14936,9 +14936,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at 1.2699999999999996 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -14958,9 +14958,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 3.8099999999999987 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -15000,7 +15000,7 @@
       "Value"
       "vssd_lvc_clamped3_pad"
       (id 1)
-      (at -12.7 -11.43 0)
+      (at -21.59 -12.7 0)
       (effects
         (font
           (size 1 1)
@@ -15010,7 +15010,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -15034,7 +15034,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -15046,7 +15046,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssd_lvc_clamped3_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -15070,7 +15070,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -15117,8 +15117,8 @@
       )
     )
     (rectangle
-      (start -12.7 -11.43)
-      (end 12.7 11.43)
+      (start -21.59 -12.7)
+      (end 21.59 12.7)
       (stroke
         (width 0.1)
         (type solid)
@@ -15131,7 +15131,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -8.89 0)
+      (at -24.13 -10.16 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -15153,7 +15153,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -8.89 180)
+      (at 24.13 -10.16 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -15173,9 +15173,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -6.3500000000000005 0)
+      (at -7.620000000000001 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD_PAD"
         (effects
@@ -15195,9 +15195,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -6.3500000000000005 180)
+      (at -5.079999999999998 -15.239999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -15217,9 +15217,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -3.8100000000000005 0)
+      (at -7.620000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -15239,9 +15239,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -3.8100000000000005 180)
+      (at -5.079999999999998 15.239999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -15261,9 +15261,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -1.2700000000000005 0)
+      (at -2.539999999999999 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -15283,9 +15283,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -1.2700000000000005 180)
+      (at 0.0 15.239999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -15305,9 +15305,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 1.2699999999999996 0)
+      (at 2.539999999999999 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -15327,9 +15327,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 1.2699999999999996 180)
+      (at 5.08 15.239999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -15349,9 +15349,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 3.8099999999999996 0)
+      (at -2.539999999999999 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -15371,9 +15371,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 3.8099999999999996 180)
+      (at 0.0 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -15393,9 +15393,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 6.35 0)
+      (at 2.539999999999999 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -15415,9 +15415,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 6.35 180)
+      (at 5.08 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD1"
         (effects
@@ -15437,9 +15437,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 8.89 0)
+      (at 7.620000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VCCD1"
         (effects
@@ -15479,7 +15479,7 @@
       "Value"
       "vssd_lvc_clamped_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -20.32 -12.7 0)
       (effects
         (font
           (size 1 1)
@@ -15489,7 +15489,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -15513,7 +15513,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -15525,7 +15525,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssd_lvc_clamped_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -15549,7 +15549,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -15596,8 +15596,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -20.32 -12.7)
+      (end 20.32 12.7)
       (stroke
         (width 0.1)
         (type solid)
@@ -15610,7 +15610,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -22.86 -10.16 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -15632,7 +15632,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -7.62 180)
+      (at 22.86 -10.16 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -15652,9 +15652,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -6.350000000000001 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD_PAD"
         (effects
@@ -15674,9 +15674,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -5.08 180)
+      (at -3.8100000000000005 -15.239999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -15696,9 +15696,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -6.350000000000001 15.239999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -15718,9 +15718,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -3.8100000000000005 15.239999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -15740,9 +15740,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at -1.2699999999999996 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -15762,9 +15762,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 0.0 180)
+      (at 1.2699999999999996 15.239999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -15784,9 +15784,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 3.8099999999999987 15.239999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -15806,9 +15806,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 6.35 15.239999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -15828,9 +15828,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at -1.2699999999999996 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -15850,9 +15850,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at 1.2699999999999996 -15.239999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -15872,9 +15872,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 3.8099999999999987 -15.239999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -15914,7 +15914,7 @@
       "Value"
       "vssd_lvc_pad"
       (id 1)
-      (at -16.51 -12.7 0)
+      (at -22.86 -17.78 0)
       (effects
         (font
           (size 1 1)
@@ -15924,7 +15924,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -15948,7 +15948,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -15960,7 +15960,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssd_lvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -15984,7 +15984,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -16031,8 +16031,8 @@
       )
     )
     (rectangle
-      (start -16.51 -12.7)
-      (end 16.51 12.7)
+      (start -22.86 -17.78)
+      (end 22.86 17.78)
       (stroke
         (width 0.1)
         (type solid)
@@ -16045,7 +16045,7 @@
     (pin
       bidirectional
       line
-      (at -19.05 -10.16 0)
+      (at -25.4 -15.240000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -16067,7 +16067,7 @@
     (pin
       bidirectional
       line
-      (at 19.05 -10.16 180)
+      (at 25.4 -15.240000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -16087,9 +16087,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -7.62 0)
+      (at -8.89 20.32 270)
       (length 2.54)
       (name "DRN_LVC1"
         (effects
@@ -16109,9 +16109,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -7.62 180)
+      (at -6.350000000000001 20.32 270)
       (length 2.54)
       (name "DRN_LVC2"
         (effects
@@ -16131,9 +16131,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -5.08 0)
+      (at -8.89 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC1"
         (effects
@@ -16153,9 +16153,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -5.08 180)
+      (at -6.350000000000001 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC2"
         (effects
@@ -16175,9 +16175,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -2.54 0)
+      (at -3.8099999999999987 -20.32 90)
       (length 2.54)
       (name "BDY2_B2B"
         (effects
@@ -16197,9 +16197,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -2.54 180)
+      (at -1.2699999999999996 -20.32 90)
       (length 2.54)
       (name "VSSD_PAD"
         (effects
@@ -16219,9 +16219,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 0.0 0)
+      (at 1.2699999999999996 -20.32 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -16241,9 +16241,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 0.0 180)
+      (at -3.8099999999999987 20.32 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -16263,9 +16263,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 2.54 0)
+      (at -1.2699999999999996 20.32 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -16285,9 +16285,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 2.54 180)
+      (at 1.2699999999999996 20.32 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -16307,9 +16307,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 5.08 0)
+      (at 3.8100000000000005 20.32 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -16329,9 +16329,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 5.08 180)
+      (at 6.350000000000001 20.32 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -16351,9 +16351,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 7.62 0)
+      (at 8.89 20.32 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -16373,9 +16373,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 7.62 180)
+      (at 3.8100000000000005 -20.32 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -16395,9 +16395,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 10.16 0)
+      (at 6.350000000000001 -20.32 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -16417,9 +16417,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 10.16 180)
+      (at 8.89 -20.32 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -16459,7 +16459,7 @@
       "Value"
       "vssio_hvc_clamped_pad"
       (id 1)
-      (at -12.7 -10.16 0)
+      (at -20.32 -13.969999999999999 0)
       (effects
         (font
           (size 1 1)
@@ -16469,7 +16469,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -16493,7 +16493,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -16505,7 +16505,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssio_hvc_clamped_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -16529,7 +16529,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -16576,8 +16576,8 @@
       )
     )
     (rectangle
-      (start -12.7 -10.16)
-      (end 12.7 10.16)
+      (start -20.32 -13.969999999999999)
+      (end 20.32 13.969999999999999)
       (stroke
         (width 0.1)
         (type solid)
@@ -16590,7 +16590,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -7.62 0)
+      (at -22.86 -11.43 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -16612,7 +16612,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -7.62 180)
+      (at 22.86 -11.43 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -16632,9 +16632,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -5.08 0)
+      (at -6.350000000000001 -16.509999999999998 90)
       (length 2.54)
       (name "VSSIO_PAD"
         (effects
@@ -16654,9 +16654,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -5.08 180)
+      (at -3.8100000000000005 -16.509999999999998 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -16676,9 +16676,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -6.350000000000001 16.509999999999998 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -16698,9 +16698,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 -2.54 180)
+      (at -3.8100000000000005 16.509999999999998 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -16720,9 +16720,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at -1.2699999999999996 16.509999999999998 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -16742,9 +16742,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 0.0 180)
+      (at 1.2699999999999996 16.509999999999998 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -16764,9 +16764,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 2.54 0)
+      (at 3.8099999999999987 16.509999999999998 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -16786,9 +16786,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 2.54 180)
+      (at 6.35 16.509999999999998 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -16808,9 +16808,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 5.08 0)
+      (at -1.2699999999999996 -16.509999999999998 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -16830,9 +16830,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 15.239999999999998 5.08 180)
+      (at 1.2699999999999996 -16.509999999999998 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -16852,9 +16852,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 7.62 0)
+      (at 3.8099999999999987 -16.509999999999998 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -16894,7 +16894,7 @@
       "Value"
       "vssio_hvc_pad"
       (id 1)
-      (at -15.24 -11.43 0)
+      (at -21.59 -16.51 0)
       (effects
         (font
           (size 1 1)
@@ -16904,7 +16904,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -16928,7 +16928,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -16940,7 +16940,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssio_hvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -16964,7 +16964,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -17011,8 +17011,8 @@
       )
     )
     (rectangle
-      (start -15.24 -11.43)
-      (end 15.24 11.43)
+      (start -21.59 -16.51)
+      (end 21.59 16.51)
       (stroke
         (width 0.1)
         (type solid)
@@ -17025,7 +17025,7 @@
     (pin
       bidirectional
       line
-      (at -17.78 -8.89 0)
+      (at -24.13 -13.970000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -17047,7 +17047,7 @@
     (pin
       bidirectional
       line
-      (at 17.78 -8.89 180)
+      (at 24.13 -13.970000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -17067,9 +17067,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -6.3500000000000005 0)
+      (at -7.620000000000001 19.05 270)
       (length 2.54)
       (name "DRN_HVC"
         (effects
@@ -17089,9 +17089,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -6.3500000000000005 180)
+      (at -7.620000000000001 -19.05 90)
       (length 2.54)
       (name "SRC_BDY_HVC"
         (effects
@@ -17111,9 +17111,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -3.8100000000000005 0)
+      (at -5.079999999999998 -19.05 90)
       (length 2.54)
       (name "VSSIO_PAD"
         (effects
@@ -17133,9 +17133,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -3.8100000000000005 180)
+      (at -2.539999999999999 -19.05 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -17155,9 +17155,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 -1.2700000000000005 0)
+      (at -5.079999999999998 19.05 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -17177,9 +17177,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 -1.2700000000000005 180)
+      (at -2.539999999999999 19.05 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -17199,9 +17199,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 1.2699999999999996 0)
+      (at 0.0 19.05 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -17221,9 +17221,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 1.2699999999999996 180)
+      (at 2.539999999999999 19.05 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -17243,9 +17243,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 3.8099999999999996 0)
+      (at 5.08 19.05 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -17265,9 +17265,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 3.8099999999999996 180)
+      (at 7.620000000000001 19.05 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -17287,9 +17287,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 6.35 0)
+      (at 0.0 -19.05 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -17309,9 +17309,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 17.78 6.35 180)
+      (at 2.539999999999999 -19.05 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -17331,9 +17331,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -17.78 8.89 0)
+      (at 5.08 -19.05 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -17373,7 +17373,7 @@
       "Value"
       "vssio_lvc_pad"
       (id 1)
-      (at -16.51 -12.7 0)
+      (at -22.86 -17.78 0)
       (effects
         (font
           (size 1 1)
@@ -17383,7 +17383,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -17407,7 +17407,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -17419,7 +17419,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_ef_io__vssio_lvc_pad"
       (id 11)
       (at 0 0 0)
       (effects
@@ -17443,7 +17443,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 197.965)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -17490,8 +17490,8 @@
       )
     )
     (rectangle
-      (start -16.51 -12.7)
-      (end 16.51 12.7)
+      (start -22.86 -17.78)
+      (end 22.86 17.78)
       (stroke
         (width 0.1)
         (type solid)
@@ -17504,7 +17504,7 @@
     (pin
       bidirectional
       line
-      (at -19.05 -10.16 0)
+      (at -25.4 -15.240000000000002 0)
       (length 2.54)
       (name "AMUXBUS_A"
         (effects
@@ -17526,7 +17526,7 @@
     (pin
       bidirectional
       line
-      (at 19.05 -10.16 180)
+      (at 25.4 -15.240000000000002 180)
       (length 2.54)
       (name "AMUXBUS_B"
         (effects
@@ -17546,9 +17546,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -7.62 0)
+      (at -8.89 20.32 270)
       (length 2.54)
       (name "DRN_LVC1"
         (effects
@@ -17568,9 +17568,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -7.62 180)
+      (at -6.350000000000001 20.32 270)
       (length 2.54)
       (name "DRN_LVC2"
         (effects
@@ -17590,9 +17590,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -5.08 0)
+      (at -8.89 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC1"
         (effects
@@ -17612,9 +17612,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -5.08 180)
+      (at -6.350000000000001 -20.32 90)
       (length 2.54)
       (name "SRC_BDY_LVC2"
         (effects
@@ -17634,9 +17634,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 -2.54 0)
+      (at -3.8099999999999987 -20.32 90)
       (length 2.54)
       (name "BDY2_B2B"
         (effects
@@ -17656,9 +17656,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 -2.54 180)
+      (at -1.2699999999999996 -20.32 90)
       (length 2.54)
       (name "VSSIO_PAD"
         (effects
@@ -17678,9 +17678,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 0.0 0)
+      (at 1.2699999999999996 -20.32 90)
       (length 2.54)
       (name "VSSA"
         (effects
@@ -17700,9 +17700,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 0.0 180)
+      (at -3.8099999999999987 20.32 270)
       (length 2.54)
       (name "VDDA"
         (effects
@@ -17722,9 +17722,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 2.54 0)
+      (at -1.2699999999999996 20.32 270)
       (length 2.54)
       (name "VSWITCH"
         (effects
@@ -17744,9 +17744,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 2.54 180)
+      (at 1.2699999999999996 20.32 270)
       (length 2.54)
       (name "VDDIO_Q"
         (effects
@@ -17766,9 +17766,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 5.08 0)
+      (at 3.8100000000000005 20.32 270)
       (length 2.54)
       (name "VCCHIB"
         (effects
@@ -17788,9 +17788,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 5.08 180)
+      (at 6.350000000000001 20.32 270)
       (length 2.54)
       (name "VDDIO"
         (effects
@@ -17810,9 +17810,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 7.62 0)
+      (at 8.89 20.32 270)
       (length 2.54)
       (name "VCCD"
         (effects
@@ -17832,9 +17832,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 7.62 180)
+      (at 3.8100000000000005 -20.32 90)
       (length 2.54)
       (name "VSSIO"
         (effects
@@ -17854,9 +17854,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -19.05 10.16 0)
+      (at 6.350000000000001 -20.32 90)
       (length 2.54)
       (name "VSSD"
         (effects
@@ -17876,9 +17876,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 19.05 10.16 180)
+      (at 8.89 -20.32 90)
       (length 2.54)
       (name "VSSIO_Q"
         (effects
@@ -17918,7 +17918,7 @@
       "Value"
       "sky130_fd_io__signal_5_sym_hv_local_5term"
       (id 1)
-      (at -12.7 -5.08 0)
+      (at -13.969999999999999 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -17928,7 +17928,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(7.955, 12.12)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -17952,7 +17952,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "BLOCK"
       (id 10)
       (at 0 0 0)
       (effects
@@ -17964,7 +17964,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "sky130_fd_io__signal_5_sym_hv_local_5term"
       (id 11)
       (at 0 0 0)
       (effects
@@ -17988,7 +17988,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(7.955, 12.12)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -18035,8 +18035,8 @@
       )
     )
     (rectangle
-      (start -12.7 -5.08)
-      (end 12.7 5.08)
+      (start -13.969999999999999 -8.89)
+      (end 13.969999999999999 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -18049,7 +18049,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 -2.54 0)
+      (at -16.509999999999998 -6.3500000000000005 0)
       (length 2.54)
       (name "GATE"
         (effects
@@ -18071,7 +18071,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 -2.54 180)
+      (at 16.509999999999998 -6.3500000000000005 180)
       (length 2.54)
       (name "NWELLRING"
         (effects
@@ -18091,9 +18091,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -15.239999999999998 0.0 0)
+      (at 0.0 -11.43 90)
       (length 2.54)
       (name "VGND"
         (effects
@@ -18115,7 +18115,7 @@
     (pin
       bidirectional
       line
-      (at 15.239999999999998 0.0 180)
+      (at -16.509999999999998 -3.8100000000000005 0)
       (length 2.54)
       (name "NBODY"
         (effects
@@ -18137,7 +18137,7 @@
     (pin
       bidirectional
       line
-      (at -15.239999999999998 2.54 0)
+      (at 16.509999999999998 -3.8100000000000005 180)
       (length 2.54)
       (name "IN"
         (effects

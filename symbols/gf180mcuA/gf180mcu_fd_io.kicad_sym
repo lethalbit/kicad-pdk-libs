@@ -19,7 +19,7 @@
       "Value"
       "asig_5p0"
       (id 1)
-      (at -8.89 -5.08 0)
+      (at -11.43 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -29,7 +29,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -53,7 +53,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'INOUT')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -65,7 +65,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__asig_5p0"
       (id 11)
       (at 0 0 0)
       (effects
@@ -89,7 +89,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -101,7 +101,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -136,8 +136,8 @@
       )
     )
     (rectangle
-      (start -8.89 -5.08)
-      (end 8.89 5.08)
+      (start -11.43 -7.62)
+      (end 11.43 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -150,7 +150,7 @@
     (pin
       bidirectional
       line
-      (at -11.43 -2.54 0)
+      (at -13.969999999999999 -5.08 0)
       (length 2.54)
       (name "ASIG5V"
         (effects
@@ -170,9 +170,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 11.43 -2.54 180)
+      (at -1.2700000000000005 10.16 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -192,9 +192,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -11.43 0.0 0)
+      (at -1.2700000000000005 -10.16 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -214,9 +214,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 11.43 0.0 180)
+      (at 1.2700000000000005 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -236,9 +236,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -11.43 2.54 0)
+      (at 1.2700000000000005 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -278,7 +278,7 @@
       "Value"
       "bi_24t"
       (id 1)
-      (at -6.35 -10.16 0)
+      (at -7.62 -15.24 0)
       (effects
         (font
           (size 1 1)
@@ -288,7 +288,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -312,7 +312,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'INOUT')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -324,7 +324,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__bi_24t"
       (id 11)
       (at 0 0 0)
       (effects
@@ -348,7 +348,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -360,7 +360,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -395,8 +395,8 @@
       )
     )
     (rectangle
-      (start -6.35 -10.16)
-      (end 6.35 10.16)
+      (start -7.62 -15.24)
+      (end 7.62 15.24)
       (stroke
         (width 0.1)
         (type solid)
@@ -407,9 +407,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -8.89 -7.62 0)
+      (at -10.16 7.619999999999999 0)
       (length 2.54)
       (name "A"
         (effects
@@ -429,9 +429,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 8.89 -7.62 180)
+      (at -10.16 5.08 0)
       (length 2.54)
       (name "CS"
         (effects
@@ -451,9 +451,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -5.08 0)
+      (at -1.27 17.78 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -473,9 +473,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -5.08 180)
+      (at -1.27 -17.78 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -495,9 +495,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -8.89 -2.54 0)
+      (at -10.16 2.54 0)
       (length 2.54)
       (name "IE"
         (effects
@@ -517,9 +517,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 8.89 -2.54 180)
+      (at -10.16 0.0 0)
       (length 2.54)
       (name "OE"
         (effects
@@ -541,7 +541,7 @@
     (pin
       bidirectional
       line
-      (at -8.89 0.0 0)
+      (at 10.16 -5.080000000000001 180)
       (length 2.54)
       (name "PAD"
         (effects
@@ -561,9 +561,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 8.89 0.0 180)
+      (at -10.16 -2.539999999999999 0)
       (length 2.54)
       (name "PD"
         (effects
@@ -583,9 +583,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -8.89 2.54 0)
+      (at -10.16 -5.08 0)
       (length 2.54)
       (name "PU"
         (effects
@@ -605,9 +605,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 8.89 2.54 180)
+      (at -10.16 -7.620000000000001 0)
       (length 2.54)
       (name "SL"
         (effects
@@ -627,9 +627,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 5.08 0)
+      (at 1.27 17.78 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -649,9 +649,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 5.08 180)
+      (at 1.27 -17.78 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -671,9 +671,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -8.89 7.62 0)
+      (at 10.16 7.619999999999999 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -713,7 +713,7 @@
       "Value"
       "bi_t"
       (id 1)
-      (at -7.619999999999999 -11.43 0)
+      (at -10.16 -17.78 0)
       (effects
         (font
           (size 1 1)
@@ -723,7 +723,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -747,7 +747,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'INOUT')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -759,7 +759,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__bi_t"
       (id 11)
       (at 0 0 0)
       (effects
@@ -783,7 +783,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -795,7 +795,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -830,8 +830,8 @@
       )
     )
     (rectangle
-      (start -7.619999999999999 -11.43)
-      (end 7.619999999999999 11.43)
+      (start -10.16 -17.78)
+      (end 10.16 17.78)
       (stroke
         (width 0.1)
         (type solid)
@@ -842,9 +842,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -10.16 -8.89 0)
+      (at -12.7 10.160000000000002 0)
       (length 2.54)
       (name "A"
         (effects
@@ -864,9 +864,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 10.16 -8.89 180)
+      (at -12.7 7.620000000000001 0)
       (length 2.54)
       (name "CS"
         (effects
@@ -886,9 +886,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -10.16 -6.3500000000000005 0)
+      (at -1.2700000000000005 20.32 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -908,9 +908,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 10.16 -6.3500000000000005 180)
+      (at -1.2700000000000005 -20.32 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -930,9 +930,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -10.16 -3.8100000000000005 0)
+      (at -12.7 5.08 0)
       (length 2.54)
       (name "IE"
         (effects
@@ -952,9 +952,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 10.16 -3.8100000000000005 180)
+      (at -12.7 2.540000000000001 0)
       (length 2.54)
       (name "OE"
         (effects
@@ -976,7 +976,7 @@
     (pin
       bidirectional
       line
-      (at -10.16 -1.2700000000000005 0)
+      (at 12.7 -7.619999999999998 180)
       (length 2.54)
       (name "PAD"
         (effects
@@ -996,9 +996,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 10.16 -1.2700000000000005 180)
+      (at -12.7 1.7763568394002505e-15 0)
       (length 2.54)
       (name "PD"
         (effects
@@ -1018,9 +1018,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -10.16 1.2699999999999996 0)
+      (at -12.7 -2.539999999999999 0)
       (length 2.54)
       (name "PDRV0"
         (effects
@@ -1040,9 +1040,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 10.16 1.2699999999999996 180)
+      (at -12.7 -5.08 0)
       (length 2.54)
       (name "PDRV1"
         (effects
@@ -1062,9 +1062,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -10.16 3.8099999999999996 0)
+      (at -12.7 -7.619999999999999 0)
       (length 2.54)
       (name "PU"
         (effects
@@ -1084,9 +1084,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 10.16 3.8099999999999996 180)
+      (at -12.7 -10.159999999999998 0)
       (length 2.54)
       (name "SL"
         (effects
@@ -1106,9 +1106,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -10.16 6.35 0)
+      (at 1.2699999999999996 20.32 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -1128,9 +1128,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 10.16 6.35 180)
+      (at 1.2699999999999996 -20.32 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -1150,9 +1150,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -10.16 8.89 0)
+      (at 12.7 10.160000000000002 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -1192,7 +1192,7 @@
       "Value"
       "brk2"
       (id 1)
-      (at -5.08 -2.54 0)
+      (at -2.54 -5.08 0)
       (effects
         (font
           (size 1 1)
@@ -1202,7 +1202,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(2.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1226,7 +1226,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "PAD"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1238,7 +1238,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__brk2"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1262,7 +1262,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(2.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1274,7 +1274,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -1309,8 +1309,8 @@
       )
     )
     (rectangle
-      (start -5.08 -2.54)
-      (end 5.08 2.54)
+      (start -2.54 -5.08)
+      (end 2.54 5.08)
       (stroke
         (width 0.1)
         (type solid)
@@ -1321,9 +1321,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 0.0 0)
+      (at 0.0 -7.62 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -1363,7 +1363,7 @@
       "Value"
       "brk5"
       (id 1)
-      (at -5.08 -2.54 0)
+      (at -2.54 -5.08 0)
       (effects
         (font
           (size 1 1)
@@ -1373,7 +1373,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1397,7 +1397,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "PAD"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1409,7 +1409,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__brk5"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1433,7 +1433,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1445,7 +1445,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -1480,8 +1480,8 @@
       )
     )
     (rectangle
-      (start -5.08 -2.54)
-      (end 5.08 2.54)
+      (start -2.54 -5.08)
+      (end 2.54 5.08)
       (stroke
         (width 0.1)
         (type solid)
@@ -1492,9 +1492,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 0.0 0)
+      (at 0.0 -7.62 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -1534,7 +1534,7 @@
       "Value"
       "cor"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -1544,7 +1544,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(355.0, 355.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1568,7 +1568,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('ENDCAP', 'BOTTOMLEFT')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1580,7 +1580,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__cor"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1604,7 +1604,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(355.0, 355.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1616,7 +1616,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -1651,8 +1651,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -1663,9 +1663,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -1685,9 +1685,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -1707,9 +1707,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -1729,9 +1729,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.27 180)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -1771,7 +1771,7 @@
       "Value"
       "dvdd"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -1781,7 +1781,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1805,7 +1805,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1817,7 +1817,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__dvdd"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1841,7 +1841,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1853,7 +1853,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -1888,8 +1888,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -1900,9 +1900,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -1922,9 +1922,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -1944,9 +1944,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -1986,7 +1986,7 @@
       "Value"
       "dvss"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -1996,7 +1996,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2020,7 +2020,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'POWER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2032,7 +2032,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__dvss"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2056,7 +2056,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2068,7 +2068,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -2103,8 +2103,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -2115,9 +2115,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -2137,9 +2137,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -2159,9 +2159,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -2201,7 +2201,7 @@
       "Value"
       "fill1"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -2211,7 +2211,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(1.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2235,7 +2235,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2247,7 +2247,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__fill1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2271,7 +2271,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(1.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2283,7 +2283,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -2318,8 +2318,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -2330,9 +2330,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -2352,9 +2352,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -2374,9 +2374,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -2396,9 +2396,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.27 180)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -2438,7 +2438,7 @@
       "Value"
       "fill5"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -2448,7 +2448,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2472,7 +2472,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2484,7 +2484,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__fill5"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2508,7 +2508,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2520,7 +2520,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -2555,8 +2555,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -2567,9 +2567,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -2589,9 +2589,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -2611,9 +2611,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -2633,9 +2633,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.27 180)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -2675,7 +2675,7 @@
       "Value"
       "fill10"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -2685,7 +2685,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(10.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2709,7 +2709,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2721,7 +2721,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__fill10"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2745,7 +2745,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(10.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2757,7 +2757,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -2792,8 +2792,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -2804,9 +2804,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -2826,9 +2826,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -2848,9 +2848,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -2870,9 +2870,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.27 180)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -2912,7 +2912,7 @@
       "Value"
       "fillnc"
       (id 1)
-      (at -6.35 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -2922,7 +2922,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(0.1, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2946,7 +2946,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2958,7 +2958,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__fillnc"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2982,7 +2982,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(0.1, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2994,7 +2994,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -3029,8 +3029,8 @@
       )
     )
     (rectangle
-      (start -6.35 -3.81)
-      (end 6.35 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -3041,9 +3041,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -1.27 0)
+      (at -1.27 8.89 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -3063,9 +3063,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -1.27 180)
+      (at -1.27 -8.89 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -3085,9 +3085,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 1.27 0)
+      (at 1.27 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -3107,9 +3107,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.27 180)
+      (at 1.27 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -3149,7 +3149,7 @@
       "Value"
       "in_c"
       (id 1)
-      (at -6.35 -6.35 0)
+      (at -7.62 -10.16 0)
       (effects
         (font
           (size 1 1)
@@ -3159,7 +3159,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -3183,7 +3183,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'INPUT')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -3195,7 +3195,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__in_c"
       (id 11)
       (at 0 0 0)
       (effects
@@ -3219,7 +3219,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -3231,7 +3231,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -3266,8 +3266,8 @@
       )
     )
     (rectangle
-      (start -6.35 -6.35)
-      (end 6.35 6.35)
+      (start -7.62 -10.16)
+      (end 7.62 10.16)
       (stroke
         (width 0.1)
         (type solid)
@@ -3278,9 +3278,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -3.8099999999999996 0)
+      (at -1.27 12.7 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -3300,9 +3300,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -3.8099999999999996 180)
+      (at -1.27 -12.7 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -3322,9 +3322,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -8.89 -1.2699999999999996 0)
+      (at -10.16 2.54 0)
       (length 2.54)
       (name "PAD"
         (effects
@@ -3344,9 +3344,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 8.89 -1.2699999999999996 180)
+      (at -10.16 0.0 0)
       (length 2.54)
       (name "PD"
         (effects
@@ -3366,9 +3366,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -8.89 1.2700000000000005 0)
+      (at -10.16 -2.54 0)
       (length 2.54)
       (name "PU"
         (effects
@@ -3388,9 +3388,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.2700000000000005 180)
+      (at 1.27 12.7 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -3410,9 +3410,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 3.8100000000000005 0)
+      (at 1.27 -12.7 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -3432,9 +3432,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 8.89 3.8100000000000005 180)
+      (at 10.16 2.54 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -3474,7 +3474,7 @@
       "Value"
       "in_s"
       (id 1)
-      (at -6.35 -6.35 0)
+      (at -7.62 -10.16 0)
       (effects
         (font
           (size 1 1)
@@ -3484,7 +3484,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -3508,7 +3508,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "('PAD', 'INPUT')"
       (id 10)
       (at 0 0 0)
       (effects
@@ -3520,7 +3520,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_fd_io__in_s"
       (id 11)
       (at 0 0 0)
       (effects
@@ -3544,7 +3544,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(75.0, 350.0)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -3556,7 +3556,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
@@ -3591,8 +3591,8 @@
       )
     )
     (rectangle
-      (start -6.35 -6.35)
-      (end 6.35 6.35)
+      (start -7.62 -10.16)
+      (end 7.62 10.16)
       (stroke
         (width 0.1)
         (type solid)
@@ -3603,9 +3603,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -3.8099999999999996 0)
+      (at -1.27 12.7 270)
       (length 2.54)
       (name "DVDD"
         (effects
@@ -3625,9 +3625,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -3.8099999999999996 180)
+      (at -1.27 -12.7 90)
       (length 2.54)
       (name "DVSS"
         (effects
@@ -3647,9 +3647,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -8.89 -1.2699999999999996 0)
+      (at -10.16 2.54 0)
       (length 2.54)
       (name "PAD"
         (effects
@@ -3669,9 +3669,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 8.89 -1.2699999999999996 180)
+      (at -10.16 0.0 0)
       (length 2.54)
       (name "PD"
         (effects
@@ -3691,9 +3691,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -8.89 1.2700000000000005 0)
+      (at -10.16 -2.54 0)
       (length 2.54)
       (name "PU"
         (effects
@@ -3713,9 +3713,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 1.2700000000000005 180)
+      (at 1.27 12.7 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -3735,9 +3735,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 3.8100000000000005 0)
+      (at 1.27 -12.7 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -3757,9 +3757,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 8.89 3.8100000000000005 180)
+      (at 10.16 2.54 180)
       (length 2.54)
       (name "Y"
         (effects

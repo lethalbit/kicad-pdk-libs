@@ -19,7 +19,7 @@
       "Value"
       "addf_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -5.08 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -29,7 +29,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(14.0, 8.35)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -53,7 +53,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -65,7 +65,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__addf_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -89,7 +89,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(14.0, 8.35)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -101,7 +101,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -136,8 +136,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -5.08 -8.89)
+      (end 5.08 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -148,9 +148,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 0.0 11.43 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -170,9 +170,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 0.0 -11.43 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -192,9 +192,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 -1.2699999999999996 0)
+      (at -7.62 2.5400000000000005 0)
       (length 2.54)
       (name "A"
         (effects
@@ -214,9 +214,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -7.62 4.440892098500626e-16 0)
       (length 2.54)
       (name "B"
         (effects
@@ -236,9 +236,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.2700000000000005 0)
+      (at -7.62 -2.5399999999999996 0)
       (length 2.54)
       (name "CI"
         (effects
@@ -258,9 +258,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.2700000000000005 180)
+      (at 7.62 2.5400000000000005 180)
       (length 2.54)
       (name "CO"
         (effects
@@ -280,9 +280,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 3.8100000000000005 0)
+      (at 7.62 4.440892098500626e-16 180)
       (length 2.54)
       (name "S"
         (effects
@@ -322,7 +322,7 @@
       "Value"
       "addh_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -5.08 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -332,7 +332,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(8.1, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -356,7 +356,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -368,7 +368,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__addh_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -392,7 +392,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(8.1, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -404,7 +404,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -439,8 +439,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -5.08 -7.62)
+      (end 5.08 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -451,9 +451,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -473,9 +473,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -495,9 +495,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -7.62 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -517,9 +517,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -7.62 -1.27 0)
       (length 2.54)
       (name "B"
         (effects
@@ -539,9 +539,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 7.62 1.27 180)
       (length 2.54)
       (name "CO"
         (effects
@@ -561,9 +561,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 2.54 180)
+      (at 7.62 -1.27 180)
       (length 2.54)
       (name "S"
         (effects
@@ -603,7 +603,7 @@
       "Value"
       "and2_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -3.81 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -613,7 +613,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -637,7 +637,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -649,7 +649,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__and2_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -673,7 +673,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -685,7 +685,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -720,8 +720,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -3.81 -7.62)
+      (end 3.81 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -732,9 +732,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -754,9 +754,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -776,9 +776,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -6.35 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -798,9 +798,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -6.35 -1.27 0)
       (length 2.54)
       (name "B"
         (effects
@@ -820,9 +820,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 6.35 1.27 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -862,7 +862,7 @@
       "Value"
       "aoi21_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -5.08 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -872,7 +872,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -896,7 +896,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -908,7 +908,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__aoi21_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -932,7 +932,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -944,7 +944,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -979,8 +979,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -5.08 -8.89)
+      (end 5.08 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -991,9 +991,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 11.43 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -1013,9 +1013,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -11.43 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -1035,9 +1035,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -7.62 2.5400000000000005 0)
       (length 2.54)
       (name "A0"
         (effects
@@ -1057,9 +1057,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -7.62 4.440892098500626e-16 0)
       (length 2.54)
       (name "A1"
         (effects
@@ -1079,9 +1079,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 2.54 0)
+      (at -7.62 -2.5399999999999996 0)
       (length 2.54)
       (name "B"
         (effects
@@ -1101,9 +1101,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 2.54 180)
+      (at 7.62 2.5400000000000005 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -1143,7 +1143,7 @@
       "Value"
       "aoi22_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -5.08 -10.16 0)
       (effects
         (font
           (size 1 1)
@@ -1153,7 +1153,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.35, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1177,7 +1177,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1189,7 +1189,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__aoi22_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1213,7 +1213,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.35, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1225,7 +1225,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -1260,8 +1260,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -5.08 -10.16)
+      (end 5.08 10.16)
       (stroke
         (width 0.1)
         (type solid)
@@ -1272,9 +1272,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 0.0 12.7 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -1294,9 +1294,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 0.0 -12.7 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -1316,9 +1316,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 -1.2699999999999996 0)
+      (at -7.62 3.81 0)
       (length 2.54)
       (name "A0"
         (effects
@@ -1338,9 +1338,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -7.62 1.27 0)
       (length 2.54)
       (name "A1"
         (effects
@@ -1360,9 +1360,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.2700000000000005 0)
+      (at -7.62 -1.27 0)
       (length 2.54)
       (name "B0"
         (effects
@@ -1382,9 +1382,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 1.2700000000000005 180)
+      (at -7.62 -3.81 0)
       (length 2.54)
       (name "B1"
         (effects
@@ -1404,9 +1404,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 3.8100000000000005 0)
+      (at 7.62 3.81 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -1446,7 +1446,7 @@
       "Value"
       "buf_1"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -1456,7 +1456,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.1, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1480,7 +1480,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1492,7 +1492,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__buf_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1516,7 +1516,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.1, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1528,7 +1528,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -1563,8 +1563,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -1575,9 +1575,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -1597,9 +1597,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -1619,9 +1619,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -1641,9 +1641,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -1683,7 +1683,7 @@
       "Value"
       "buf_2"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -1693,7 +1693,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1717,7 +1717,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1729,7 +1729,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__buf_2"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1753,7 +1753,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -1765,7 +1765,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -1800,8 +1800,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -1812,9 +1812,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -1834,9 +1834,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -1856,9 +1856,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -1878,9 +1878,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -1920,7 +1920,7 @@
       "Value"
       "buf_4"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -1930,7 +1930,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.6, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -1954,7 +1954,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -1966,7 +1966,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__buf_4"
       (id 11)
       (at 0 0 0)
       (effects
@@ -1990,7 +1990,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.6, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2002,7 +2002,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -2037,8 +2037,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -2049,9 +2049,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -2071,9 +2071,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -2093,9 +2093,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -2115,9 +2115,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -2157,7 +2157,7 @@
       "Value"
       "buf_8"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -2167,7 +2167,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(9.0, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2191,7 +2191,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2203,7 +2203,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__buf_8"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2227,7 +2227,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(9.0, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2239,7 +2239,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -2274,8 +2274,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -2286,9 +2286,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -2308,9 +2308,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -2330,9 +2330,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -2352,9 +2352,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -2394,7 +2394,7 @@
       "Value"
       "buf_16"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -2404,7 +2404,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(15.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2428,7 +2428,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2440,7 +2440,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__buf_16"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2464,7 +2464,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(15.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2476,7 +2476,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -2511,8 +2511,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -2523,9 +2523,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -2545,9 +2545,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -2567,9 +2567,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -2589,9 +2589,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -2631,7 +2631,7 @@
       "Value"
       "clkbuf_1"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -2641,7 +2641,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.1, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2665,7 +2665,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2677,7 +2677,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkbuf_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2701,7 +2701,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.1, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2713,7 +2713,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -2748,8 +2748,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -2760,9 +2760,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -2782,9 +2782,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -2804,9 +2804,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -2826,9 +2826,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -2868,7 +2868,7 @@
       "Value"
       "clkbuf_2"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -2878,7 +2878,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -2902,7 +2902,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -2914,7 +2914,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkbuf_2"
       (id 11)
       (at 0 0 0)
       (effects
@@ -2938,7 +2938,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -2950,7 +2950,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -2985,8 +2985,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -2997,9 +2997,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -3019,9 +3019,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -3041,9 +3041,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -3063,9 +3063,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -3105,7 +3105,7 @@
       "Value"
       "clkbuf_4"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -3115,7 +3115,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.6, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -3139,7 +3139,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -3151,7 +3151,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkbuf_4"
       (id 11)
       (at 0 0 0)
       (effects
@@ -3175,7 +3175,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.6, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -3187,7 +3187,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -3222,8 +3222,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -3234,9 +3234,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -3256,9 +3256,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -3278,9 +3278,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -3300,9 +3300,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -3342,7 +3342,7 @@
       "Value"
       "clkbuf_8"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -3352,7 +3352,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(9.0, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -3376,7 +3376,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -3388,7 +3388,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkbuf_8"
       (id 11)
       (at 0 0 0)
       (effects
@@ -3412,7 +3412,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(9.0, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -3424,7 +3424,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -3459,8 +3459,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -3471,9 +3471,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -3493,9 +3493,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -3515,9 +3515,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -3537,9 +3537,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -3579,7 +3579,7 @@
       "Value"
       "clkbuf_16"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -3589,7 +3589,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(15.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -3613,7 +3613,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -3625,7 +3625,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkbuf_16"
       (id 11)
       (at 0 0 0)
       (effects
@@ -3649,7 +3649,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(15.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -3661,7 +3661,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -3696,8 +3696,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -3708,9 +3708,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -3730,9 +3730,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -3752,9 +3752,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -3774,9 +3774,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -3816,7 +3816,7 @@
       "Value"
       "clkinv_1"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -3826,7 +3826,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(2.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -3850,7 +3850,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -3862,7 +3862,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkinv_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -3886,7 +3886,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(2.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -3898,7 +3898,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -3933,8 +3933,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -3945,9 +3945,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -3967,9 +3967,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -3989,9 +3989,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -4011,9 +4011,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -4053,7 +4053,7 @@
       "Value"
       "clkinv_2"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -4063,7 +4063,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -4087,7 +4087,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -4099,7 +4099,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkinv_2"
       (id 11)
       (at 0 0 0)
       (effects
@@ -4123,7 +4123,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -4135,7 +4135,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -4170,8 +4170,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -4182,9 +4182,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -4204,9 +4204,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -4226,9 +4226,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -4248,9 +4248,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -4290,7 +4290,7 @@
       "Value"
       "clkinv_4"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -4300,7 +4300,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(4.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -4324,7 +4324,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -4336,7 +4336,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkinv_4"
       (id 11)
       (at 0 0 0)
       (effects
@@ -4360,7 +4360,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(4.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -4372,7 +4372,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -4407,8 +4407,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -4419,9 +4419,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -4441,9 +4441,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -4463,9 +4463,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -4485,9 +4485,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -4527,7 +4527,7 @@
       "Value"
       "clkinv_8"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -4537,7 +4537,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(8.15, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -4561,7 +4561,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -4573,7 +4573,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkinv_8"
       (id 11)
       (at 0 0 0)
       (effects
@@ -4597,7 +4597,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(8.15, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -4609,7 +4609,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -4644,8 +4644,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -4656,9 +4656,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -4678,9 +4678,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -4700,9 +4700,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -4722,9 +4722,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -4764,7 +4764,7 @@
       "Value"
       "clkinv_16"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -4774,7 +4774,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(15.0, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -4798,7 +4798,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -4810,7 +4810,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__clkinv_16"
       (id 11)
       (at 0 0 0)
       (effects
@@ -4834,7 +4834,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(15.0, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -4846,7 +4846,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -4881,8 +4881,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -4893,9 +4893,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -4915,9 +4915,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -4937,9 +4937,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -4959,9 +4959,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -5001,7 +5001,7 @@
       "Value"
       "dff_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -6.35 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -5011,7 +5011,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(13.0, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -5035,7 +5035,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -5047,7 +5047,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dff_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -5071,7 +5071,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(13.0, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -5083,7 +5083,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -5118,8 +5118,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -6.35 -7.62)
+      (end 6.35 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -5130,9 +5130,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 4.440892098500626e-16 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -5152,9 +5152,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 4.440892098500626e-16 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -5174,9 +5174,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 0.0 0)
+      input
+      clock
+      (at -8.89 1.27 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -5196,9 +5196,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -8.89 -1.27 0)
       (length 2.54)
       (name "D"
         (effects
@@ -5218,9 +5218,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 8.89 1.27 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -5240,9 +5240,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 2.54 180)
+      (at 8.89 -1.27 180)
       (length 2.54)
       (name "QN"
         (effects
@@ -5282,7 +5282,7 @@
       "Value"
       "dffn_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -6.35 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -5292,7 +5292,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(14.25, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -5316,7 +5316,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -5328,7 +5328,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dffn_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -5352,7 +5352,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(14.25, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -5364,7 +5364,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -5399,8 +5399,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -6.35 -7.62)
+      (end 6.35 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -5411,9 +5411,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 4.440892098500626e-16 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -5433,9 +5433,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 4.440892098500626e-16 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -5455,9 +5455,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 0.0 0)
+      input
+      clock
+      (at -8.89 1.27 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -5477,9 +5477,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -8.89 -1.27 0)
       (length 2.54)
       (name "D"
         (effects
@@ -5499,9 +5499,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 8.89 1.27 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -5521,9 +5521,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 2.54 180)
+      (at 8.89 -1.27 180)
       (length 2.54)
       (name "QN"
         (effects
@@ -5563,7 +5563,7 @@
       "Value"
       "dffr_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -6.35 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -5573,7 +5573,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(17.6, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -5597,7 +5597,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -5609,7 +5609,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dffr_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -5633,7 +5633,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(17.6, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -5645,7 +5645,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -5680,8 +5680,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -6.35 -8.89)
+      (end 6.35 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -5692,9 +5692,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 4.440892098500626e-16 11.43 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -5714,9 +5714,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 4.440892098500626e-16 -11.43 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -5736,9 +5736,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 -1.2699999999999996 0)
+      input
+      clock
+      (at -8.89 2.5400000000000005 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -5758,9 +5758,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -8.89 4.440892098500626e-16 0)
       (length 2.54)
       (name "D"
         (effects
@@ -5780,9 +5780,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 1.2700000000000005 0)
+      (at 8.89 2.5400000000000005 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -5802,9 +5802,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.2700000000000005 180)
+      (at 8.89 4.440892098500626e-16 180)
       (length 2.54)
       (name "QN"
         (effects
@@ -5824,9 +5824,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 3.8100000000000005 0)
+      (at -8.89 -2.5399999999999996 0)
       (length 2.54)
       (name "RN"
         (effects
@@ -5866,7 +5866,7 @@
       "Value"
       "dffrn_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -6.35 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -5876,7 +5876,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(19.25, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -5900,7 +5900,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -5912,7 +5912,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dffrn_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -5936,7 +5936,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(19.25, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -5948,7 +5948,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -5983,8 +5983,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -6.35 -8.89)
+      (end 6.35 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -5995,9 +5995,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 4.440892098500626e-16 11.43 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -6017,9 +6017,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 4.440892098500626e-16 -11.43 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -6039,9 +6039,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 -1.2699999999999996 0)
+      input
+      clock
+      (at -8.89 2.5400000000000005 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -6061,9 +6061,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -8.89 4.440892098500626e-16 0)
       (length 2.54)
       (name "D"
         (effects
@@ -6083,9 +6083,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 1.2700000000000005 0)
+      (at 8.89 2.5400000000000005 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -6105,9 +6105,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.2700000000000005 180)
+      (at 8.89 4.440892098500626e-16 180)
       (length 2.54)
       (name "QN"
         (effects
@@ -6127,9 +6127,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 3.8100000000000005 0)
+      (at -8.89 -2.5399999999999996 0)
       (length 2.54)
       (name "RN"
         (effects
@@ -6169,7 +6169,7 @@
       "Value"
       "dffs_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -6.35 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -6179,7 +6179,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(15.45, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -6203,7 +6203,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -6215,7 +6215,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dffs_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -6239,7 +6239,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(15.45, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -6251,7 +6251,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -6286,8 +6286,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -6.35 -8.89)
+      (end 6.35 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -6298,9 +6298,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 4.440892098500626e-16 11.43 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -6320,9 +6320,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 4.440892098500626e-16 -11.43 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -6342,9 +6342,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 -1.2699999999999996 0)
+      input
+      clock
+      (at -8.89 2.5400000000000005 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -6364,9 +6364,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -8.89 4.440892098500626e-16 0)
       (length 2.54)
       (name "D"
         (effects
@@ -6386,9 +6386,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 1.2700000000000005 0)
+      (at 8.89 2.5400000000000005 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -6408,9 +6408,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.2700000000000005 180)
+      (at 8.89 4.440892098500626e-16 180)
       (length 2.54)
       (name "QN"
         (effects
@@ -6430,9 +6430,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 3.8100000000000005 0)
+      (at 8.89 -2.5399999999999996 180)
       (length 2.54)
       (name "SN"
         (effects
@@ -6472,7 +6472,7 @@
       "Value"
       "dffsn_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -6.35 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -6482,7 +6482,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(17.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -6506,7 +6506,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -6518,7 +6518,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dffsn_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -6542,7 +6542,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(17.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -6554,7 +6554,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -6589,8 +6589,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -6.35 -8.89)
+      (end 6.35 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -6601,9 +6601,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 4.440892098500626e-16 11.43 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -6623,9 +6623,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 4.440892098500626e-16 -11.43 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -6645,9 +6645,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 -1.2699999999999996 0)
+      input
+      clock
+      (at -8.89 2.5400000000000005 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -6667,9 +6667,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -8.89 4.440892098500626e-16 0)
       (length 2.54)
       (name "D"
         (effects
@@ -6689,9 +6689,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 1.2700000000000005 0)
+      (at 8.89 2.5400000000000005 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -6711,9 +6711,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.2700000000000005 180)
+      (at 8.89 4.440892098500626e-16 180)
       (length 2.54)
       (name "QN"
         (effects
@@ -6733,9 +6733,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 3.8100000000000005 0)
+      (at 8.89 -2.5399999999999996 180)
       (length 2.54)
       (name "SN"
         (effects
@@ -6775,7 +6775,7 @@
       "Value"
       "dffsr_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -6.35 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -6785,7 +6785,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(18.7, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -6809,7 +6809,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -6821,7 +6821,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dffsr_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -6845,7 +6845,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(18.7, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -6857,7 +6857,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -6892,8 +6892,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -6.35 -8.89)
+      (end 6.35 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -6904,9 +6904,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 4.440892098500626e-16 11.43 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -6926,9 +6926,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 4.440892098500626e-16 -11.43 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -6948,9 +6948,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 -1.2699999999999996 0)
+      input
+      clock
+      (at -8.89 2.5400000000000005 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -6970,9 +6970,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -8.89 4.440892098500626e-16 0)
       (length 2.54)
       (name "D"
         (effects
@@ -6992,9 +6992,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 1.2700000000000005 0)
+      (at 8.89 2.5400000000000005 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -7014,9 +7014,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.2700000000000005 180)
+      (at 8.89 4.440892098500626e-16 180)
       (length 2.54)
       (name "QN"
         (effects
@@ -7036,9 +7036,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 3.8100000000000005 0)
+      (at -8.89 -2.5399999999999996 0)
       (length 2.54)
       (name "RN"
         (effects
@@ -7058,9 +7058,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 3.8100000000000005 180)
+      (at 8.89 -2.5399999999999996 180)
       (length 2.54)
       (name "SN"
         (effects
@@ -7100,7 +7100,7 @@
       "Value"
       "dffsrn_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -6.35 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -7110,7 +7110,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(20.45, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -7134,7 +7134,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -7146,7 +7146,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dffsrn_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -7170,7 +7170,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(20.45, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -7182,7 +7182,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -7217,8 +7217,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -6.35 -8.89)
+      (end 6.35 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -7229,9 +7229,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 4.440892098500626e-16 11.43 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -7251,9 +7251,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 4.440892098500626e-16 -11.43 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -7273,9 +7273,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 -1.2699999999999996 0)
+      input
+      clock
+      (at -8.89 2.5400000000000005 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -7295,9 +7295,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -8.89 4.440892098500626e-16 0)
       (length 2.54)
       (name "D"
         (effects
@@ -7317,9 +7317,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 1.2700000000000005 0)
+      (at 8.89 2.5400000000000005 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -7339,9 +7339,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.2700000000000005 180)
+      (at 8.89 4.440892098500626e-16 180)
       (length 2.54)
       (name "QN"
         (effects
@@ -7361,9 +7361,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 3.8100000000000005 0)
+      (at -8.89 -2.5399999999999996 0)
       (length 2.54)
       (name "RN"
         (effects
@@ -7383,9 +7383,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 3.8100000000000005 180)
+      (at 8.89 -2.5399999999999996 180)
       (length 2.54)
       (name "SN"
         (effects
@@ -7425,7 +7425,7 @@
       "Value"
       "dlat_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -6.35 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -7435,7 +7435,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(9.0, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -7459,7 +7459,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -7471,7 +7471,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dlat_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -7495,7 +7495,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(9.0, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -7507,7 +7507,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -7542,8 +7542,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -6.35 -7.62)
+      (end 6.35 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -7554,9 +7554,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 -2.54 0)
+      input
+      clock
+      (at -8.89 1.27 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -7576,9 +7576,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 4.440892098500626e-16 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -7598,9 +7598,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 0.0 0)
+      (at 4.440892098500626e-16 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -7620,9 +7620,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -8.89 -1.27 0)
       (length 2.54)
       (name "D"
         (effects
@@ -7642,9 +7642,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 8.89 1.27 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -7684,7 +7684,7 @@
       "Value"
       "dlatn_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -6.35 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -7694,7 +7694,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(10.7, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -7718,7 +7718,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -7730,7 +7730,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__dlatn_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -7754,7 +7754,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(10.7, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -7766,7 +7766,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -7801,8 +7801,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -6.35 -7.62)
+      (end 6.35 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -7813,9 +7813,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 4.440892098500626e-16 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -7835,9 +7835,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 4.440892098500626e-16 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -7857,9 +7857,9 @@
       )
     )
     (pin
-      bidirectional
-      line
-      (at -7.62 0.0 0)
+      input
+      clock
+      (at -8.89 1.27 0)
       (length 2.54)
       (name "CLK"
         (effects
@@ -7879,9 +7879,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -8.89 -1.27 0)
       (length 2.54)
       (name "D"
         (effects
@@ -7901,9 +7901,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 8.89 1.27 180)
       (length 2.54)
       (name "Q"
         (effects
@@ -7943,7 +7943,7 @@
       "Value"
       "fill_1"
       (id 1)
-      (at -5.08 -2.54 0)
+      (at -2.54 -5.08 0)
       (effects
         (font
           (size 1 1)
@@ -7953,7 +7953,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(0.1, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -7977,7 +7977,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -7989,7 +7989,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__fill_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -8013,7 +8013,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(0.1, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -8025,7 +8025,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -8060,8 +8060,8 @@
       )
     )
     (rectangle
-      (start -5.08 -2.54)
-      (end 5.08 2.54)
+      (start -2.54 -5.08)
+      (end 2.54 5.08)
       (stroke
         (width 0.1)
         (type solid)
@@ -8072,9 +8072,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 0.0 0)
+      (at 0.0 7.62 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -8094,9 +8094,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 0.0 180)
+      (at 0.0 -7.62 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -8136,7 +8136,7 @@
       "Value"
       "fill_2"
       (id 1)
-      (at -5.08 -2.54 0)
+      (at -2.54 -5.08 0)
       (effects
         (font
           (size 1 1)
@@ -8146,7 +8146,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(0.2, 8.2)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -8170,7 +8170,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -8182,7 +8182,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__fill_2"
       (id 11)
       (at 0 0 0)
       (effects
@@ -8206,7 +8206,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(0.2, 8.2)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -8218,7 +8218,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -8253,8 +8253,8 @@
       )
     )
     (rectangle
-      (start -5.08 -2.54)
-      (end 5.08 2.54)
+      (start -2.54 -5.08)
+      (end 2.54 5.08)
       (stroke
         (width 0.1)
         (type solid)
@@ -8265,9 +8265,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 0.0 0)
+      (at 0.0 7.62 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -8287,9 +8287,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 0.0 180)
+      (at 0.0 -7.62 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -8329,7 +8329,7 @@
       "Value"
       "fill_4"
       (id 1)
-      (at -5.08 -2.54 0)
+      (at -2.54 -5.08 0)
       (effects
         (font
           (size 1 1)
@@ -8339,7 +8339,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(0.4, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -8363,7 +8363,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -8375,7 +8375,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__fill_4"
       (id 11)
       (at 0 0 0)
       (effects
@@ -8399,7 +8399,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(0.4, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -8411,7 +8411,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -8446,8 +8446,8 @@
       )
     )
     (rectangle
-      (start -5.08 -2.54)
-      (end 5.08 2.54)
+      (start -2.54 -5.08)
+      (end 2.54 5.08)
       (stroke
         (width 0.1)
         (type solid)
@@ -8458,9 +8458,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 0.0 0)
+      (at 0.0 7.62 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -8480,9 +8480,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 0.0 180)
+      (at 0.0 -7.62 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -8522,7 +8522,7 @@
       "Value"
       "fill_8"
       (id 1)
-      (at -5.08 -2.54 0)
+      (at -2.54 -5.08 0)
       (effects
         (font
           (size 1 1)
@@ -8532,7 +8532,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(0.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -8556,7 +8556,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -8568,7 +8568,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__fill_8"
       (id 11)
       (at 0 0 0)
       (effects
@@ -8592,7 +8592,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(0.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -8604,7 +8604,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -8639,8 +8639,8 @@
       )
     )
     (rectangle
-      (start -5.08 -2.54)
-      (end 5.08 2.54)
+      (start -2.54 -5.08)
+      (end 2.54 5.08)
       (stroke
         (width 0.1)
         (type solid)
@@ -8651,9 +8651,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 0.0 0)
+      (at 0.0 7.62 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -8673,9 +8673,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 0.0 180)
+      (at 0.0 -7.62 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -8715,7 +8715,7 @@
       "Value"
       "fill_16"
       (id 1)
-      (at -5.08 -2.54 0)
+      (at -2.54 -5.08 0)
       (effects
         (font
           (size 1 1)
@@ -8725,7 +8725,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(1.6, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -8749,7 +8749,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -8761,7 +8761,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__fill_16"
       (id 11)
       (at 0 0 0)
       (effects
@@ -8785,7 +8785,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(1.6, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -8797,7 +8797,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -8832,8 +8832,8 @@
       )
     )
     (rectangle
-      (start -5.08 -2.54)
-      (end 5.08 2.54)
+      (start -2.54 -5.08)
+      (end 2.54 5.08)
       (stroke
         (width 0.1)
         (type solid)
@@ -8844,9 +8844,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 0.0 0)
+      (at 0.0 7.62 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -8866,9 +8866,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 0.0 180)
+      (at 0.0 -7.62 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -8908,7 +8908,7 @@
       "Value"
       "inv_1"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -8918,7 +8918,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(2.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -8942,7 +8942,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -8954,7 +8954,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__inv_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -8978,7 +8978,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(2.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -8990,7 +8990,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -9025,8 +9025,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -9037,9 +9037,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -9059,9 +9059,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -9081,9 +9081,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -9103,9 +9103,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -9145,7 +9145,7 @@
       "Value"
       "inv_2"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -9155,7 +9155,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -9179,7 +9179,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -9191,7 +9191,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__inv_2"
       (id 11)
       (at 0 0 0)
       (effects
@@ -9215,7 +9215,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -9227,7 +9227,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -9262,8 +9262,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -9274,9 +9274,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -9296,9 +9296,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -9318,9 +9318,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -9340,9 +9340,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -9382,7 +9382,7 @@
       "Value"
       "inv_4"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -9392,7 +9392,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(4.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -9416,7 +9416,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -9428,7 +9428,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__inv_4"
       (id 11)
       (at 0 0 0)
       (effects
@@ -9452,7 +9452,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(4.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -9464,7 +9464,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -9499,8 +9499,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -9511,9 +9511,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -9533,9 +9533,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -9555,9 +9555,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -9577,9 +9577,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -9619,7 +9619,7 @@
       "Value"
       "inv_8"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -9629,7 +9629,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(8.15, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -9653,7 +9653,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -9665,7 +9665,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__inv_8"
       (id 11)
       (at 0 0 0)
       (effects
@@ -9689,7 +9689,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(8.15, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -9701,7 +9701,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -9736,8 +9736,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -9748,9 +9748,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -9770,9 +9770,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -9792,9 +9792,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -9814,9 +9814,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -9856,7 +9856,7 @@
       "Value"
       "inv_16"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -9866,7 +9866,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(15.0, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -9890,7 +9890,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -9902,7 +9902,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__inv_16"
       (id 11)
       (at 0 0 0)
       (effects
@@ -9926,7 +9926,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(15.0, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -9938,7 +9938,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -9973,8 +9973,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -9985,9 +9985,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -10007,9 +10007,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -10029,9 +10029,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.27 0)
+      (at -6.35 -4.440892098500626e-16 0)
       (length 2.54)
       (name "A"
         (effects
@@ -10051,9 +10051,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 1.27 180)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -10093,7 +10093,7 @@
       "Value"
       "lshifdown"
       (id 1)
-      (at -6.35 -5.08 0)
+      (at -5.08 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -10103,7 +10103,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -10127,7 +10127,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -10139,7 +10139,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__lshifdown"
       (id 11)
       (at 0 0 0)
       (effects
@@ -10163,7 +10163,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -10175,7 +10175,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -10210,8 +10210,8 @@
       )
     )
     (rectangle
-      (start -6.35 -5.08)
-      (end 6.35 5.08)
+      (start -5.08 -7.62)
+      (end 5.08 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -10222,9 +10222,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -2.54 0)
+      (at -1.27 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -10244,9 +10244,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -2.54 180)
+      (at 1.27 10.16 270)
       (length 2.54)
       (name "VDDH"
         (effects
@@ -10266,9 +10266,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 0.0 0)
+      (at -1.27 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -10288,9 +10288,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 8.89 0.0 180)
+      (at -7.62 0.0 0)
       (length 2.54)
       (name "A"
         (effects
@@ -10310,9 +10310,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -8.89 2.54 0)
+      (at 7.62 0.0 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -10352,7 +10352,7 @@
       "Value"
       "lshifup"
       (id 1)
-      (at -6.35 -5.08 0)
+      (at -5.08 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -10362,7 +10362,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(7.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -10386,7 +10386,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -10398,7 +10398,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__lshifup"
       (id 11)
       (at 0 0 0)
       (effects
@@ -10422,7 +10422,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(7.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -10434,7 +10434,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -10469,8 +10469,8 @@
       )
     )
     (rectangle
-      (start -6.35 -5.08)
-      (end 6.35 5.08)
+      (start -5.08 -7.62)
+      (end 5.08 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -10481,9 +10481,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 -2.54 0)
+      (at -1.27 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -10503,9 +10503,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 8.89 -2.54 180)
+      (at 1.27 10.16 270)
       (length 2.54)
       (name "VDDH"
         (effects
@@ -10525,9 +10525,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -8.89 0.0 0)
+      (at -1.27 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -10547,9 +10547,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 8.89 0.0 180)
+      (at -7.62 0.0 0)
       (length 2.54)
       (name "A"
         (effects
@@ -10569,9 +10569,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -8.89 2.54 0)
+      (at 7.62 0.0 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -10611,7 +10611,7 @@
       "Value"
       "mux2_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -6.35 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -10621,7 +10621,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(4.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -10645,7 +10645,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -10657,7 +10657,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__mux2_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -10681,7 +10681,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(4.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -10693,7 +10693,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -10728,8 +10728,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -6.35 -7.62)
+      (end 6.35 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -10740,9 +10740,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 4.440892098500626e-16 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -10762,9 +10762,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 4.440892098500626e-16 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -10784,9 +10784,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -8.89 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -10806,9 +10806,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -8.89 -1.27 0)
       (length 2.54)
       (name "B"
         (effects
@@ -10828,9 +10828,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 8.89 1.27 180)
       (length 2.54)
       (name "Sel"
         (effects
@@ -10850,9 +10850,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 2.54 180)
+      (at 8.89 -1.27 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -10892,7 +10892,7 @@
       "Value"
       "nand2_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -3.81 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -10902,7 +10902,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.1, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -10926,7 +10926,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -10938,7 +10938,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__nand2_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -10962,7 +10962,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.1, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -10974,7 +10974,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -11009,8 +11009,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -3.81 -7.62)
+      (end 3.81 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -11021,9 +11021,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -11043,9 +11043,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -11065,9 +11065,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -6.35 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -11087,9 +11087,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -6.35 -1.27 0)
       (length 2.54)
       (name "B"
         (effects
@@ -11109,9 +11109,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 6.35 1.27 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -11151,7 +11151,7 @@
       "Value"
       "nor2_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -3.81 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -11161,7 +11161,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(2.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -11185,7 +11185,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -11197,7 +11197,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__nor2_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -11221,7 +11221,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(2.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -11233,7 +11233,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -11268,8 +11268,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -3.81 -7.62)
+      (end 3.81 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -11280,9 +11280,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -11302,9 +11302,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -11324,9 +11324,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -6.35 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -11346,9 +11346,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -6.35 -1.27 0)
       (length 2.54)
       (name "B"
         (effects
@@ -11368,9 +11368,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 6.35 1.27 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -11410,7 +11410,7 @@
       "Value"
       "oai21_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -5.08 -8.89 0)
       (effects
         (font
           (size 1 1)
@@ -11420,7 +11420,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -11444,7 +11444,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -11456,7 +11456,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__oai21_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -11480,7 +11480,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.9, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -11492,7 +11492,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -11527,8 +11527,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -5.08 -8.89)
+      (end 5.08 8.89)
       (stroke
         (width 0.1)
         (type solid)
@@ -11539,9 +11539,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 11.43 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -11561,9 +11561,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -11.43 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -11583,9 +11583,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -7.62 2.5400000000000005 0)
       (length 2.54)
       (name "A0"
         (effects
@@ -11605,9 +11605,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -7.62 4.440892098500626e-16 0)
       (length 2.54)
       (name "A1"
         (effects
@@ -11627,9 +11627,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 2.54 0)
+      (at -7.62 -2.5399999999999996 0)
       (length 2.54)
       (name "B"
         (effects
@@ -11649,9 +11649,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at 7.62 2.54 180)
+      (at 7.62 2.5400000000000005 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -11691,7 +11691,7 @@
       "Value"
       "oai22_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -5.08 -10.16 0)
       (effects
         (font
           (size 1 1)
@@ -11701,7 +11701,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.3, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -11725,7 +11725,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -11737,7 +11737,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__oai22_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -11761,7 +11761,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.3, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -11773,7 +11773,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -11808,8 +11808,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -5.08 -10.16)
+      (end 5.08 10.16)
       (stroke
         (width 0.1)
         (type solid)
@@ -11820,9 +11820,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 0.0 12.7 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -11842,9 +11842,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 0.0 -12.7 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -11864,9 +11864,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 -1.2699999999999996 0)
+      (at -7.62 3.81 0)
       (length 2.54)
       (name "A0"
         (effects
@@ -11886,9 +11886,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -7.62 1.27 0)
       (length 2.54)
       (name "A1"
         (effects
@@ -11908,9 +11908,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.2700000000000005 0)
+      (at -7.62 -1.27 0)
       (length 2.54)
       (name "B0"
         (effects
@@ -11930,9 +11930,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 1.2700000000000005 180)
+      (at -7.62 -3.81 0)
       (length 2.54)
       (name "B1"
         (effects
@@ -11952,9 +11952,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 3.8100000000000005 0)
+      (at 7.62 3.81 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -11994,7 +11994,7 @@
       "Value"
       "oai31_1"
       (id 1)
-      (at -5.08 -6.35 0)
+      (at -5.08 -10.16 0)
       (effects
         (font
           (size 1 1)
@@ -12004,7 +12004,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(4.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -12028,7 +12028,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -12040,7 +12040,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__oai31_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -12064,7 +12064,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(4.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -12076,7 +12076,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -12111,8 +12111,8 @@
       )
     )
     (rectangle
-      (start -5.08 -6.35)
-      (end 5.08 6.35)
+      (start -5.08 -10.16)
+      (end 5.08 10.16)
       (stroke
         (width 0.1)
         (type solid)
@@ -12123,9 +12123,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -3.8099999999999996 0)
+      (at 0.0 12.7 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -12145,9 +12145,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -3.8099999999999996 180)
+      (at 0.0 -12.7 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -12167,9 +12167,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 -1.2699999999999996 0)
+      (at -7.62 3.81 0)
       (length 2.54)
       (name "A0"
         (effects
@@ -12189,9 +12189,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 -1.2699999999999996 180)
+      (at -7.62 1.27 0)
       (length 2.54)
       (name "A1"
         (effects
@@ -12211,9 +12211,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 1.2700000000000005 0)
+      (at -7.62 -1.27 0)
       (length 2.54)
       (name "A2"
         (effects
@@ -12233,9 +12233,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 1.2700000000000005 180)
+      (at -7.62 -3.81 0)
       (length 2.54)
       (name "B"
         (effects
@@ -12255,9 +12255,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 3.8100000000000005 0)
+      (at 7.62 3.81 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -12297,7 +12297,7 @@
       "Value"
       "or2_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -3.81 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -12307,7 +12307,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.8, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -12331,7 +12331,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -12343,7 +12343,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__or2_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -12367,7 +12367,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.8, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -12379,7 +12379,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -12414,8 +12414,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -3.81 -7.62)
+      (end 3.81 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -12426,9 +12426,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -12448,9 +12448,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -12470,9 +12470,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -6.35 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -12492,9 +12492,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -6.35 -1.27 0)
       (length 2.54)
       (name "B"
         (effects
@@ -12514,9 +12514,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 6.35 1.27 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -12556,7 +12556,7 @@
       "Value"
       "tbuf_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -5.08 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -12566,7 +12566,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(5.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -12590,7 +12590,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -12602,7 +12602,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__tbuf_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -12626,7 +12626,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(5.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -12638,7 +12638,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -12673,8 +12673,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -5.08 -7.62)
+      (end 5.08 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -12685,9 +12685,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -12707,9 +12707,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -12729,9 +12729,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -7.62 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -12751,9 +12751,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -7.62 -1.27 0)
       (length 2.54)
       (name "EN"
         (effects
@@ -12773,9 +12773,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 7.62 1.27 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -12815,7 +12815,7 @@
       "Value"
       "tieh"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -12825,7 +12825,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(2.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -12849,7 +12849,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -12861,7 +12861,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__tieh"
       (id 11)
       (at 0 0 0)
       (effects
@@ -12885,7 +12885,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(2.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -12897,7 +12897,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -12932,8 +12932,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -12944,9 +12944,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -12966,9 +12966,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -12988,9 +12988,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 1.27 0)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -13030,7 +13030,7 @@
       "Value"
       "tiel"
       (id 1)
-      (at -5.08 -3.81 0)
+      (at -3.81 -6.35 0)
       (effects
         (font
           (size 1 1)
@@ -13040,7 +13040,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(2.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -13064,7 +13064,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -13076,7 +13076,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__tiel"
       (id 11)
       (at 0 0 0)
       (effects
@@ -13100,7 +13100,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(2.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -13112,7 +13112,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -13147,8 +13147,8 @@
       )
     )
     (rectangle
-      (start -5.08 -3.81)
-      (end 5.08 3.81)
+      (start -3.81 -6.35)
+      (end 3.81 6.35)
       (stroke
         (width 0.1)
         (type solid)
@@ -13159,9 +13159,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -1.27 0)
+      (at 0.0 8.89 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -13181,9 +13181,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -1.27 180)
+      (at 0.0 -8.89 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -13203,9 +13203,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 1.27 0)
+      (at 6.35 -4.440892098500626e-16 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -13245,7 +13245,7 @@
       "Value"
       "tinv_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -5.08 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -13255,7 +13255,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(3.65, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -13279,7 +13279,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -13291,7 +13291,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__tinv_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -13315,7 +13315,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(3.65, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -13327,7 +13327,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -13362,8 +13362,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -5.08 -7.62)
+      (end 5.08 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -13374,9 +13374,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -13396,9 +13396,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -13418,9 +13418,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -7.62 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -13440,9 +13440,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -7.62 -1.27 0)
       (length 2.54)
       (name "EN"
         (effects
@@ -13462,9 +13462,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 7.62 1.27 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -13504,7 +13504,7 @@
       "Value"
       "xnor2_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -3.81 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -13514,7 +13514,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(6.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -13538,7 +13538,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -13550,7 +13550,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__xnor2_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -13574,7 +13574,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(6.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -13586,7 +13586,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -13621,8 +13621,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -3.81 -7.62)
+      (end 3.81 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -13633,9 +13633,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -13655,9 +13655,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -13677,9 +13677,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -6.35 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -13699,9 +13699,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -6.35 -1.27 0)
       (length 2.54)
       (name "B"
         (effects
@@ -13721,9 +13721,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 6.35 1.27 180)
       (length 2.54)
       (name "Y"
         (effects
@@ -13763,7 +13763,7 @@
       "Value"
       "xor2_1"
       (id 1)
-      (at -5.08 -5.08 0)
+      (at -3.81 -7.62 0)
       (effects
         (font
           (size 1 1)
@@ -13773,7 +13773,7 @@
     )
     (property
       "Footprint"
-      "(0.0, 0.0)"
+      "(6.2, 8.3)"
       (id 2)
       (at 0 0 0)
       (effects
@@ -13797,7 +13797,7 @@
     )
     (property
       "Cell Class"
-      ""
+      "CORE"
       (id 10)
       (at 0 0 0)
       (effects
@@ -13809,7 +13809,7 @@
     )
     (property
       "Foreign Cell"
-      ""
+      "gf180mcu_osu_sc_gp12t3v3__xor2_1"
       (id 11)
       (at 0 0 0)
       (effects
@@ -13833,7 +13833,7 @@
     )
     (property
       "Cell Size"
-      "(0.0, 0.0)"
+      "(6.2, 8.3)"
       (id 13)
       (at 0 0 0)
       (effects
@@ -13845,7 +13845,7 @@
     )
     (property
       "Cell Symmetry"
-      ""
+      "XY"
       (id 14)
       (at 0 0 0)
       (effects
@@ -13880,8 +13880,8 @@
       )
     )
     (rectangle
-      (start -5.08 -5.08)
-      (end 5.08 5.08)
+      (start -3.81 -7.62)
+      (end 3.81 7.62)
       (stroke
         (width 0.1)
         (type solid)
@@ -13892,9 +13892,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at -7.62 -2.54 0)
+      (at 0.0 10.16 270)
       (length 2.54)
       (name "VDD"
         (effects
@@ -13914,9 +13914,9 @@
       )
     )
     (pin
-      bidirectional
+      power_in
       line
-      (at 7.62 -2.54 180)
+      (at 0.0 -10.16 90)
       (length 2.54)
       (name "VSS"
         (effects
@@ -13936,9 +13936,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at -7.62 0.0 0)
+      (at -6.35 1.27 0)
       (length 2.54)
       (name "A"
         (effects
@@ -13958,9 +13958,9 @@
       )
     )
     (pin
-      bidirectional
+      input
       line
-      (at 7.62 0.0 180)
+      (at -6.35 -1.27 0)
       (length 2.54)
       (name "B"
         (effects
@@ -13980,9 +13980,9 @@
       )
     )
     (pin
-      bidirectional
+      output
       line
-      (at -7.62 2.54 0)
+      (at 6.35 1.27 180)
       (length 2.54)
       (name "Y"
         (effects
