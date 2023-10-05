@@ -584,7 +584,7 @@ def _flatten_str(col):
 
 def extract(model, cellib: Path, args: Namespace):
 	IGNORE_PWR: bool = args.ignore_pwr
-	INFER_PWR: bool = args.infer_pwr
+	INFER_PWR: bool = not args.dont_infer_pwr
 	SPLIT_STR: str = args.split_char
 	PDK: str = args.pdk
 	STRIP_NAME: bool = not args.dont_strip
@@ -620,10 +620,11 @@ def extract(model, cellib: Path, args: Namespace):
 					pin_name = _flatten_str(pin['name'])
 					pin_dir = None
 					pin_type = None
-
-					for pstmt in pin['pstmnts']:
-						pin_dir  = None if 'dir' not in pstmt else pstmt['dir']
-						pin_type = None if 'use' not in pstmt else pstmt['use']
+					for stmt in pin['pstmnts']:
+						if 'dir' in stmt:
+							pin_dir = stmt['dir']['pin_dir']
+						if 'use' in stmt:
+							pin_type = stmt['use']['pin_type']
 
 					if pin_type is None and INFER_PWR:
 						if 'vss' in pin_name.lower() or 'gnd' in pin_name.lower():
@@ -647,33 +648,24 @@ def extract(model, cellib: Path, args: Namespace):
 			foreign    = ''
 			symmetry   = ''
 
-			sz   = None if 'size'     not in macro else macro['mstmst']['size']
-			og   = None if 'origin'   not in macro else macro['mstmst']['origin']
-			clss = None if 'class'    not in macro else macro['mstmst']['class']
-			frgn = None if 'foreign'  not in macro else macro['mstmst']['foreign']
-			symm = None if 'symmetry' not in macro else macro['mstmst']['symmetry']
+			for stmt in macro['mstmts']:
+				if 'size'     in stmt:
+					bounds = (
+						float(_flatten_str(stmt['size'][2])),
+						float(_flatten_str(stmt['size'][5])),
+					)
+				if 'origin'   in stmt:
+					origin = (
+						float(_flatten_str(stmt['origin'][2]['x'])),
+						float(_flatten_str(stmt['origin'][2]['y'])),
+					)
+				if 'class'    in stmt:
+					cell_class = stmt['class']['type']
+				if 'foreign'  in stmt:
+					foreign = _flatten_str(stmt['foreign']['name'])
+				if 'symmetry' in stmt:
+					symmetry = _flatten_str(stmt['symmetry'][1])
 
-			if sz is not None:
-				bounds = (
-					float(_flatten_str(sz[2])),
-					float(_flatten_str(sz[5])),
-				)
-
-			if og is not None:
-				origin = (
-					float(_flatten_str(og[2]['x'])),
-					float(_flatten_str(og[2]['y'])),
-				)
-
-			if clss is not None:
-				cell_class = clss['type']
-
-
-			if frgn is not None:
-				foreign = _flatten_str(frgn['name'])
-
-			if symm is not None:
-				symmetry = _flatten_str(symm[1])
 
 			cells.append(Cell(
 				cell_name, cell_pins, cellib.name,
@@ -837,9 +829,10 @@ def main():
 	)
 
 	parsing_options.add_argument(
-		'--infer-pwr', '-i',
-		action = 'store_true',
-		help   = 'try to infer power signals based on name id pin has no type'
+		'--dont-infer-pwr', '-i',
+		action  = 'store_true',
+		default = False,
+		help    = 'Don\'t try to infer power signals based on name id pin has no type'
 	)
 
 	parsing_options.add_argument(
