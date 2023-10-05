@@ -1,0 +1,11552 @@
+(kicad_symbol_lib (version 20211014) (generator pdk2kicad)
+  (symbol
+    "corner_bus_overlay"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "corner_bus_overlay"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_gpiov2"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_gpiov2"
+      (id 1)
+      (at -12.7 -10.16 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -10.16)
+      (end 12.7 10.16)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -7.62 0)
+      (length 2.54)
+      (name "PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -7.62 180)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -5.08 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -5.08 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -2.54 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -2.54 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 0.0 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 0.0 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 2.54 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 2.54 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 5.08 0)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 5.08 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 7.62 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vccd_hvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vccd_hvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vccd_lvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vccd_lvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vdda_hvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vdda_hvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vdda_lvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vdda_lvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vddio_hvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vddio_hvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vddio_lvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vddio_lvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vssa_hvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vssa_hvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vssa_lvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vssa_lvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vssd_hvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vssd_hvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vssd_lvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vssd_lvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vssio_hvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vssio_hvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "overlay_vssio_lvc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "overlay_vssio_lvc"
+      (id 1)
+      (at -12.7 -8.89 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -8.89)
+      (end 12.7 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999996 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999996 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999996 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999996 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.35 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.35 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "top_gpio_ovtv2"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "top_gpio_ovtv2"
+      (id 1)
+      (at -21.59 -29.21 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -21.59 -29.21)
+      (end 21.59 29.21)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -26.67 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -26.67 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -24.130000000000003 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -24.130000000000003 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -21.590000000000003 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -21.590000000000003 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -19.050000000000004 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -19.050000000000004 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -16.510000000000005 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -16.510000000000005 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -13.970000000000006 0)
+      (length 2.54)
+      (name "PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -13.970000000000006 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -11.430000000000007 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -11.430000000000007 180)
+      (length 2.54)
+      (name "DM[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -8.890000000000008 0)
+      (length 2.54)
+      (name "DM[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -8.890000000000008 180)
+      (length 2.54)
+      (name "DM[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -6.350000000000008 0)
+      (length 2.54)
+      (name "INP_DIS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -6.350000000000008 180)
+      (length 2.54)
+      (name "VTRIP_SEL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "17"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -3.8100000000000076 0)
+      (length 2.54)
+      (name "IB_MODE_SEL[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "18"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -3.8100000000000076 180)
+      (length 2.54)
+      (name "IB_MODE_SEL[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "19"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -1.2700000000000076 0)
+      (length 2.54)
+      (name "SLEW_CTL[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "20"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -1.2700000000000076 180)
+      (length 2.54)
+      (name "SLEW_CTL[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "21"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 1.2699999999999925 0)
+      (length 2.54)
+      (name "HYS_TRIM"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "22"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 1.2699999999999925 180)
+      (length 2.54)
+      (name "HLD_OVR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "23"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 3.8099999999999925 0)
+      (length 2.54)
+      (name "ENABLE_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "24"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      inverted
+      (at 24.13 3.8099999999999925 180)
+      (length 2.54)
+      (name "HLD_H_N"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "25"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 6.3499999999999925 0)
+      (length 2.54)
+      (name "ENABLE_VDDA_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "26"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 6.3499999999999925 180)
+      (length 2.54)
+      (name "ANALOG_EN"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "27"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 8.889999999999993 0)
+      (length 2.54)
+      (name "ENABLE_INP_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "28"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 8.889999999999993 180)
+      (length 2.54)
+      (name "IN"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "29"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 11.429999999999993 0)
+      (length 2.54)
+      (name "IN_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "30"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 11.429999999999993 180)
+      (length 2.54)
+      (name "VINREF"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "31"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 13.969999999999992 0)
+      (length 2.54)
+      (name "OUT"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "32"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 13.969999999999992 180)
+      (length 2.54)
+      (name "ANALOG_POL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "33"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 16.50999999999999 0)
+      (length 2.54)
+      (name "ANALOG_SEL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "34"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 16.50999999999999 180)
+      (length 2.54)
+      (name "SLOW"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "35"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      inverted
+      (at -24.13 19.04999999999999 0)
+      (length 2.54)
+      (name "OE_N"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "36"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 19.04999999999999 180)
+      (length 2.54)
+      (name "TIE_HI_ESD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "37"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 21.58999999999999 0)
+      (length 2.54)
+      (name "TIE_LO_ESD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "38"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 21.58999999999999 180)
+      (length 2.54)
+      (name "PAD_A_ESD_0_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "39"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 24.12999999999999 0)
+      (length 2.54)
+      (name "PAD_A_ESD_1_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "40"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 24.12999999999999 180)
+      (length 2.54)
+      (name "PAD_A_NOESD_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "41"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 26.669999999999987 0)
+      (length 2.54)
+      (name "ENABLE_VSWITCH_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "42"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 26.669999999999987 180)
+      (length 2.54)
+      (name "ENABLE_VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "43"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "top_gpiov2"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "top_gpiov2"
+      (id 1)
+      (at -21.59 -26.669999999999998 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -21.59 -26.669999999999998)
+      (end 21.59 26.669999999999998)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -24.13 0)
+      (length 2.54)
+      (name "PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -24.13 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -21.59 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -21.59 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -19.05 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -19.05 180)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -16.51 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -16.51 180)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -13.970000000000002 0)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -13.970000000000002 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -11.430000000000003 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -11.430000000000003 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -8.890000000000004 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -8.890000000000004 180)
+      (length 2.54)
+      (name "PAD_A_NOESD_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -6.350000000000004 0)
+      (length 2.54)
+      (name "ANALOG_POL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -6.350000000000004 180)
+      (length 2.54)
+      (name "ENABLE_VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -3.810000000000004 0)
+      (length 2.54)
+      (name "IN_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -3.810000000000004 180)
+      (length 2.54)
+      (name "IN"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "17"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -1.270000000000004 0)
+      (length 2.54)
+      (name "DM[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "18"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -1.270000000000004 180)
+      (length 2.54)
+      (name "DM[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "19"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 1.269999999999996 0)
+      (length 2.54)
+      (name "DM[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "20"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      inverted
+      (at 24.13 1.269999999999996 180)
+      (length 2.54)
+      (name "HLD_H_N"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "21"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 3.809999999999996 0)
+      (length 2.54)
+      (name "HLD_OVR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "22"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 3.809999999999996 180)
+      (length 2.54)
+      (name "INP_DIS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "23"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 6.349999999999996 0)
+      (length 2.54)
+      (name "ENABLE_VDDA_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "24"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 6.349999999999996 180)
+      (length 2.54)
+      (name "VTRIP_SEL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "25"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      inverted
+      (at -24.13 8.889999999999997 0)
+      (length 2.54)
+      (name "OE_N"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "26"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 8.889999999999997 180)
+      (length 2.54)
+      (name "OUT"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "27"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 11.429999999999996 0)
+      (length 2.54)
+      (name "SLOW"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "28"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 11.429999999999996 180)
+      (length 2.54)
+      (name "TIE_LO_ESD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "29"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 13.969999999999995 0)
+      (length 2.54)
+      (name "PAD_A_ESD_0_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "30"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 13.969999999999995 180)
+      (length 2.54)
+      (name "ANALOG_SEL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "31"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 16.509999999999994 0)
+      (length 2.54)
+      (name "ENABLE_INP_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "32"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 16.509999999999994 180)
+      (length 2.54)
+      (name "PAD_A_ESD_1_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "33"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 19.049999999999994 0)
+      (length 2.54)
+      (name "TIE_HI_ESD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "34"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 19.049999999999994 180)
+      (length 2.54)
+      (name "ENABLE_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "35"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 21.589999999999993 0)
+      (length 2.54)
+      (name "IB_MODE_SEL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "36"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 21.589999999999993 180)
+      (length 2.54)
+      (name "ENABLE_VSWITCH_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "37"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 24.129999999999992 0)
+      (length 2.54)
+      (name "ANALOG_EN"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "38"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "top_ground_hvc_wpad"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "top_ground_hvc_wpad"
+      (id 1)
+      (at -15.24 -13.969999999999999 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -15.24 -13.969999999999999)
+      (end 15.24 13.969999999999999)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -11.43 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -11.43 180)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -8.89 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -8.89 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -6.3500000000000005 0)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -6.3500000000000005 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -1.2700000000000005 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -1.2700000000000005 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 1.2699999999999996 0)
+      (length 2.54)
+      (name "G_PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 1.2699999999999996 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 3.8099999999999996 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 3.8099999999999996 180)
+      (length 2.54)
+      (name "PADISOR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 6.35 0)
+      (length 2.54)
+      (name "PADISOL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 6.35 180)
+      (length 2.54)
+      (name "DRN_HVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 8.89 0)
+      (length 2.54)
+      (name "SRC_BDY_HVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 8.89 180)
+      (length 2.54)
+      (name "OGC_HVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "17"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 11.43 0)
+      (length 2.54)
+      (name "G_CORE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "18"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "top_ground_lvc_wpad"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "top_ground_lvc_wpad"
+      (id 1)
+      (at -16.51 -15.24 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -16.51 -15.24)
+      (end 16.51 15.24)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -12.7 0)
+      (length 2.54)
+      (name "PADISOR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -12.7 180)
+      (length 2.54)
+      (name "PADISOL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -10.16 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -10.16 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -7.62 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -7.62 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -5.08 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -5.08 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -2.54 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -2.54 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 0.0 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 0.0 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 2.54 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 2.54 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 5.08 0)
+      (length 2.54)
+      (name "G_PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 5.08 180)
+      (length 2.54)
+      (name "SRC_BDY_LVC1"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 7.62 0)
+      (length 2.54)
+      (name "SRC_BDY_LVC2"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 7.62 180)
+      (length 2.54)
+      (name "BDY2_B2B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "17"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 10.16 0)
+      (length 2.54)
+      (name "DRN_LVC2"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "18"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 10.16 180)
+      (length 2.54)
+      (name "DRN_LVC1"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "19"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 12.7 0)
+      (length 2.54)
+      (name "G_CORE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "20"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 12.7 180)
+      (length 2.54)
+      (name "OGC_LVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "21"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "top_power_hvc_wpad"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "top_power_hvc_wpad"
+      (id 1)
+      (at -15.24 -12.7 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -15.24 -12.7)
+      (end 15.24 12.7)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -10.16 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -10.16 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -7.62 0)
+      (length 2.54)
+      (name "P_PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -7.62 180)
+      (length 2.54)
+      (name "DRN_HVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -5.08 0)
+      (length 2.54)
+      (name "OGC_HVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -5.08 180)
+      (length 2.54)
+      (name "P_CORE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -2.54 0)
+      (length 2.54)
+      (name "SRC_BDY_HVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -2.54 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 0.0 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 0.0 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 2.54 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 2.54 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 5.08 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 5.08 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 7.62 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 7.62 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 10.16 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "top_power_hvc_wpadv2"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "top_power_hvc_wpadv2"
+      (id 1)
+      (at -15.24 -13.969999999999999 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -15.24 -13.969999999999999)
+      (end 15.24 13.969999999999999)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -11.43 0)
+      (length 2.54)
+      (name "PADISOR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -11.43 180)
+      (length 2.54)
+      (name "PADISOL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -8.89 0)
+      (length 2.54)
+      (name "P_CORE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -8.89 180)
+      (length 2.54)
+      (name "DRN_HVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -6.3500000000000005 0)
+      (length 2.54)
+      (name "SRC_BDY_HVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -6.3500000000000005 180)
+      (length 2.54)
+      (name "OGC_HVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -3.8100000000000005 0)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -3.8100000000000005 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 -1.2700000000000005 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 -1.2700000000000005 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 1.2699999999999996 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 1.2699999999999996 180)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 3.8099999999999996 0)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 3.8099999999999996 180)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 6.35 0)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 6.35 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 8.89 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 17.78 8.89 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "17"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -17.78 11.43 0)
+      (length 2.54)
+      (name "P_PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "18"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "top_power_lvc_wpad"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "top_power_lvc_wpad"
+      (id 1)
+      (at -16.51 -15.24 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -16.51 -15.24)
+      (end 16.51 15.24)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -12.7 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -12.7 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -10.16 0)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -10.16 180)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -7.62 0)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -7.62 180)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -5.08 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -5.08 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 -2.54 0)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 -2.54 180)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 0.0 0)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 0.0 180)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 2.54 0)
+      (length 2.54)
+      (name "P_PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 2.54 180)
+      (length 2.54)
+      (name "SRC_BDY_LVC1"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 5.08 0)
+      (length 2.54)
+      (name "SRC_BDY_LVC2"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 5.08 180)
+      (length 2.54)
+      (name "BDY2_B2B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 7.62 0)
+      (length 2.54)
+      (name "DRN_LVC2"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 7.62 180)
+      (length 2.54)
+      (name "DRN_LVC1"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "17"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 10.16 0)
+      (length 2.54)
+      (name "P_CORE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "18"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 10.16 180)
+      (length 2.54)
+      (name "PADISOR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "19"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -19.05 12.7 0)
+      (length 2.54)
+      (name "PADISOL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "20"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 19.05 12.7 180)
+      (length 2.54)
+      (name "OGC_LVC"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "21"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "top_xres4v2"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "top_xres4v2"
+      (id 1)
+      (at -21.59 -17.78 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -21.59 -17.78)
+      (end 21.59 17.78)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -15.240000000000002 0)
+      (length 2.54)
+      (name "PAD_A_ESD_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      inverted
+      (at 24.13 -15.240000000000002 180)
+      (length 2.54)
+      (name "XRES_H_N"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -12.700000000000003 0)
+      (length 2.54)
+      (name "FILT_IN_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -12.700000000000003 180)
+      (length 2.54)
+      (name "ENABLE_VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -10.160000000000004 0)
+      (length 2.54)
+      (name "TIE_WEAK_HI_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -10.160000000000004 180)
+      (length 2.54)
+      (name "ENABLE_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -7.620000000000004 0)
+      (length 2.54)
+      (name "PULLUP_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -7.620000000000004 180)
+      (length 2.54)
+      (name "EN_VDDIO_SIG_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -5.080000000000004 0)
+      (length 2.54)
+      (name "TIE_LO_ESD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -5.080000000000004 180)
+      (length 2.54)
+      (name "TIE_HI_ESD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -2.5400000000000036 0)
+      (length 2.54)
+      (name "DISABLE_PULLUP_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -2.5400000000000036 180)
+      (length 2.54)
+      (name "INP_SEL_H"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 -3.552713678800501e-15 0)
+      (length 2.54)
+      (name "VSSIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 -3.552713678800501e-15 180)
+      (length 2.54)
+      (name "VSSA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 2.5399999999999965 0)
+      (length 2.54)
+      (name "VSSD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 2.5399999999999965 180)
+      (length 2.54)
+      (name "AMUXBUS_B"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 5.0799999999999965 0)
+      (length 2.54)
+      (name "AMUXBUS_A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 5.0799999999999965 180)
+      (length 2.54)
+      (name "VDDIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "17"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 7.6199999999999966 0)
+      (length 2.54)
+      (name "VDDIO"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "18"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 7.6199999999999966 180)
+      (length 2.54)
+      (name "VSWITCH"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "19"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 10.159999999999997 0)
+      (length 2.54)
+      (name "VDDA"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "20"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 10.159999999999997 180)
+      (length 2.54)
+      (name "VCCD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "21"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 12.699999999999996 0)
+      (length 2.54)
+      (name "VCCHIB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "22"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 24.13 12.699999999999996 180)
+      (length 2.54)
+      (name "VSSIO_Q"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "23"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -24.13 15.239999999999995 0)
+      (length 2.54)
+      (name "PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "24"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+)

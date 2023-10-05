@@ -1,0 +1,1209 @@
+(kicad_symbol_lib (version 20211014) (generator pdk2kicad)
+  (symbol
+    "decap_12"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "decap_12"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_ef_sc_hd.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_ef_sc_hd"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "VGND"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "VPWR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VPB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.27 180)
+      (length 2.54)
+      (name "VNB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "fakediode_2"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "fakediode_2"
+      (id 1)
+      (at -7.619999999999999 -5.08 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_ef_sc_hd.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_ef_sc_hd"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -7.619999999999999 -5.08)
+      (end 7.619999999999999 5.08)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 -2.54 0)
+      (length 2.54)
+      (name "DIODE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 10.16 -2.54 180)
+      (length 2.54)
+      (name "VGND"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 0.0 0)
+      (length 2.54)
+      (name "VPWR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 10.16 0.0 180)
+      (length 2.54)
+      (name "VPB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 2.54 0)
+      (length 2.54)
+      (name "VNB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "fill_4"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "fill_4"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_ef_sc_hd.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_ef_sc_hd"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "VGND"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "VPWR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VPB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.27 180)
+      (length 2.54)
+      (name "VNB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "fill_8"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "fill_8"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_ef_sc_hd.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_ef_sc_hd"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "VGND"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "VPWR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VPB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.27 180)
+      (length 2.54)
+      (name "VNB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "fill_12"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "fill_12"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_ef_sc_hd.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_ef_sc_hd"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "VPWR"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "VGND"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VPB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.27 180)
+      (length 2.54)
+      (name "VNB"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+)

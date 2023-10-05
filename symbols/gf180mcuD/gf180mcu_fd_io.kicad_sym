@@ -1,0 +1,3782 @@
+(kicad_symbol_lib (version 20211014) (generator pdk2kicad)
+  (symbol
+    "asig_5p0"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "asig_5p0"
+      (id 1)
+      (at -8.89 -5.08 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -8.89 -5.08)
+      (end 8.89 5.08)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -2.54 0)
+      (length 2.54)
+      (name "ASIG5V"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -2.54 180)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 0.0 0)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 0.0 180)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 2.54 0)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "bi_24t"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "bi_24t"
+      (id 1)
+      (at -6.35 -10.16 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -10.16)
+      (end 6.35 10.16)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -7.62 0)
+      (length 2.54)
+      (name "A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -7.62 180)
+      (length 2.54)
+      (name "CS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -5.08 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -5.08 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -2.54 0)
+      (length 2.54)
+      (name "IE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -2.54 180)
+      (length 2.54)
+      (name "OE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 0.0 0)
+      (length 2.54)
+      (name "PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 0.0 180)
+      (length 2.54)
+      (name "PD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 2.54 0)
+      (length 2.54)
+      (name "PU"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 2.54 180)
+      (length 2.54)
+      (name "SL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 5.08 0)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 5.08 180)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 7.62 0)
+      (length 2.54)
+      (name "Y"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "bi_t"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "bi_t"
+      (id 1)
+      (at -7.619999999999999 -11.43 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -7.619999999999999 -11.43)
+      (end 7.619999999999999 11.43)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 -8.89 0)
+      (length 2.54)
+      (name "A"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 10.16 -8.89 180)
+      (length 2.54)
+      (name "CS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 -6.3500000000000005 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 10.16 -6.3500000000000005 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 -3.8100000000000005 0)
+      (length 2.54)
+      (name "IE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 10.16 -3.8100000000000005 180)
+      (length 2.54)
+      (name "OE"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 -1.2700000000000005 0)
+      (length 2.54)
+      (name "PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 10.16 -1.2700000000000005 180)
+      (length 2.54)
+      (name "PD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 1.2699999999999996 0)
+      (length 2.54)
+      (name "PDRV0"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 10.16 1.2699999999999996 180)
+      (length 2.54)
+      (name "PDRV1"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 3.8099999999999996 0)
+      (length 2.54)
+      (name "PU"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 10.16 3.8099999999999996 180)
+      (length 2.54)
+      (name "SL"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 6.35 0)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 10.16 6.35 180)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -10.16 8.89 0)
+      (length 2.54)
+      (name "Y"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "brk2"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "brk2"
+      (id 1)
+      (at -5.08 -2.54 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -5.08 -2.54)
+      (end 5.08 2.54)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -7.62 0.0 0)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "brk5"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "brk5"
+      (id 1)
+      (at -5.08 -2.54 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -5.08 -2.54)
+      (end 5.08 2.54)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -7.62 0.0 0)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "cor"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "cor"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.27 180)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "dvdd"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "dvdd"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "dvss"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "dvss"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "fill1"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "fill1"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.27 180)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "fill5"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "fill5"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.27 180)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "fill10"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "fill10"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.27 180)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "fillnc"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "fillnc"
+      (id 1)
+      (at -6.35 -3.81 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -3.81)
+      (end 6.35 3.81)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.27 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.27 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.27 0)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.27 180)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "in_c"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "in_c"
+      (id 1)
+      (at -6.35 -6.35 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -6.35)
+      (end 6.35 6.35)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -3.8099999999999996 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -3.8099999999999996 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.2699999999999996 0)
+      (length 2.54)
+      (name "PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.2699999999999996 180)
+      (length 2.54)
+      (name "PD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.2700000000000005 0)
+      (length 2.54)
+      (name "PU"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.2700000000000005 180)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 3.8100000000000005 0)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 3.8100000000000005 180)
+      (length 2.54)
+      (name "Y"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+  (symbol
+    "in_s"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "in_s"
+      (id 1)
+      (at -6.35 -6.35 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_io.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_io"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -6.35 -6.35)
+      (end 6.35 6.35)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -3.8099999999999996 0)
+      (length 2.54)
+      (name "DVDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -3.8099999999999996 180)
+      (length 2.54)
+      (name "DVSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 -1.2699999999999996 0)
+      (length 2.54)
+      (name "PAD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 -1.2699999999999996 180)
+      (length 2.54)
+      (name "PD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 1.2700000000000005 0)
+      (length 2.54)
+      (name "PU"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 1.2700000000000005 180)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -8.89 3.8100000000000005 0)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 8.89 3.8100000000000005 180)
+      (length 2.54)
+      (name "Y"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+)

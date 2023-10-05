@@ -1,0 +1,921 @@
+(kicad_symbol_lib (version 20211014) (generator pdk2kicad)
+  (symbol
+    "gf180mcu_fd_ip_sram__sram64x8m8wm1"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "gf180mcu_fd_ip_sram__sram64x8m8wm1"
+      (id 1)
+      (at -8.89 -24.13 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "gf180mcu_fd_ip_sram__sram64x8m8wm1.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "gf180mcuD"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "gf180mcu_fd_ip_sram__sram64x8m8wm1"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -8.89 -24.13)
+      (end 8.89 24.13)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -21.59 0)
+      (length 2.54)
+      (name "A[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -21.59 180)
+      (length 2.54)
+      (name "A[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -19.05 0)
+      (length 2.54)
+      (name "A[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -19.05 180)
+      (length 2.54)
+      (name "A[3]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -16.51 0)
+      (length 2.54)
+      (name "A[4]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -16.51 180)
+      (length 2.54)
+      (name "A[5]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -13.970000000000002 0)
+      (length 2.54)
+      (name "CEN"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -13.970000000000002 180)
+      (length 2.54)
+      (name "CLK"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -11.430000000000003 0)
+      (length 2.54)
+      (name "D[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -11.430000000000003 180)
+      (length 2.54)
+      (name "D[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -8.890000000000004 0)
+      (length 2.54)
+      (name "D[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -8.890000000000004 180)
+      (length 2.54)
+      (name "D[3]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -6.350000000000004 0)
+      (length 2.54)
+      (name "D[4]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -6.350000000000004 180)
+      (length 2.54)
+      (name "D[5]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -3.810000000000004 0)
+      (length 2.54)
+      (name "D[6]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -3.810000000000004 180)
+      (length 2.54)
+      (name "D[7]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 -1.270000000000004 0)
+      (length 2.54)
+      (name "GWEN"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 -1.270000000000004 180)
+      (length 2.54)
+      (name "Q[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "17"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 1.269999999999996 0)
+      (length 2.54)
+      (name "Q[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "18"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 1.269999999999996 180)
+      (length 2.54)
+      (name "Q[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "19"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 3.809999999999996 0)
+      (length 2.54)
+      (name "Q[3]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "20"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 3.809999999999996 180)
+      (length 2.54)
+      (name "Q[4]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "21"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 6.349999999999996 0)
+      (length 2.54)
+      (name "Q[5]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "22"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 6.349999999999996 180)
+      (length 2.54)
+      (name "Q[6]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "23"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 8.889999999999997 0)
+      (length 2.54)
+      (name "Q[7]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "24"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 8.889999999999997 180)
+      (length 2.54)
+      (name "WEN[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "25"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 11.429999999999996 0)
+      (length 2.54)
+      (name "WEN[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "26"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 11.429999999999996 180)
+      (length 2.54)
+      (name "WEN[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "27"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 13.969999999999995 0)
+      (length 2.54)
+      (name "WEN[3]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "28"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 13.969999999999995 180)
+      (length 2.54)
+      (name "WEN[4]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "29"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 16.509999999999994 0)
+      (length 2.54)
+      (name "WEN[5]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "30"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 16.509999999999994 180)
+      (length 2.54)
+      (name "WEN[6]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "31"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 19.049999999999994 0)
+      (length 2.54)
+      (name "WEN[7]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "32"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 11.43 19.049999999999994 180)
+      (length 2.54)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "33"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -11.43 21.589999999999993 0)
+      (length 2.54)
+      (name "VSS"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "34"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,1295 @@
+(kicad_symbol_lib (version 20211014) (generator pdk2kicad)
+  (symbol
+    "sky130_sram_1kbyte_1rw1r_8x1024_8"
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Value"
+      "sky130_sram_1kbyte_1rw1r_8x1024_8"
+      (id 1)
+      (at -12.7 -34.290000000000006 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (justify top)
+      )
+    )
+    (property
+      "Footprint"
+      "(0.0, 0.0)"
+      (id 2)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Datasheet"
+      "sky130_sram_1kbyte_1rw1r_8x1024_8.lef"
+      (id 3)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Class"
+      ""
+      (id 10)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Foreign Cell"
+      ""
+      (id 11)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Origin"
+      "(0.0, 0.0)"
+      (id 12)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Size"
+      "(0.0, 0.0)"
+      (id 13)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Symmetry"
+      ""
+      (id 14)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell PDK"
+      "sky130B"
+      (id 15)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Cell Library"
+      "sky130_sram_1kbyte_1rw1r_8x1024_8"
+      (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (rectangle
+      (start -12.7 -34.290000000000006)
+      (end 12.7 34.290000000000006)
+      (stroke
+        (width 0.1)
+        (type solid)
+        (color 0 0 0 0)
+      )
+      (fill
+        (type background)
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -31.750000000000007 0)
+      (length 2.54)
+      (name "din0[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "0"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -31.750000000000007 180)
+      (length 2.54)
+      (name "din0[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "1"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -29.210000000000008 0)
+      (length 2.54)
+      (name "din0[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "2"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -29.210000000000008 180)
+      (length 2.54)
+      (name "din0[3]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "3"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -26.67000000000001 0)
+      (length 2.54)
+      (name "din0[4]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "4"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -26.67000000000001 180)
+      (length 2.54)
+      (name "din0[5]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "5"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -24.13000000000001 0)
+      (length 2.54)
+      (name "din0[6]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "6"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -24.13000000000001 180)
+      (length 2.54)
+      (name "din0[7]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "7"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -21.59000000000001 0)
+      (length 2.54)
+      (name "addr0[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "8"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -21.59000000000001 180)
+      (length 2.54)
+      (name "addr0[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "9"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -19.05000000000001 0)
+      (length 2.54)
+      (name "addr0[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "10"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -19.05000000000001 180)
+      (length 2.54)
+      (name "addr0[3]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "11"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -16.510000000000012 0)
+      (length 2.54)
+      (name "addr0[4]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "12"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -16.510000000000012 180)
+      (length 2.54)
+      (name "addr0[5]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "13"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -13.970000000000013 0)
+      (length 2.54)
+      (name "addr0[6]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "14"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -13.970000000000013 180)
+      (length 2.54)
+      (name "addr0[7]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "15"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -11.430000000000014 0)
+      (length 2.54)
+      (name "addr0[8]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "16"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -11.430000000000014 180)
+      (length 2.54)
+      (name "addr0[9]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "17"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -8.890000000000015 0)
+      (length 2.54)
+      (name "addr1[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "18"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -8.890000000000015 180)
+      (length 2.54)
+      (name "addr1[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "19"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -6.350000000000015 0)
+      (length 2.54)
+      (name "addr1[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "20"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -6.350000000000015 180)
+      (length 2.54)
+      (name "addr1[3]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "21"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -3.8100000000000147 0)
+      (length 2.54)
+      (name "addr1[4]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "22"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -3.8100000000000147 180)
+      (length 2.54)
+      (name "addr1[5]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "23"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 -1.2700000000000147 0)
+      (length 2.54)
+      (name "addr1[6]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "24"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 -1.2700000000000147 180)
+      (length 2.54)
+      (name "addr1[7]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "25"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 1.2699999999999854 0)
+      (length 2.54)
+      (name "addr1[8]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "26"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 1.2699999999999854 180)
+      (length 2.54)
+      (name "addr1[9]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "27"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 3.8099999999999854 0)
+      (length 2.54)
+      (name "csb0"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "28"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 3.8099999999999854 180)
+      (length 2.54)
+      (name "csb1"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "29"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 6.349999999999985 0)
+      (length 2.54)
+      (name "web0"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "30"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 6.349999999999985 180)
+      (length 2.54)
+      (name "clk0"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "31"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 8.889999999999986 0)
+      (length 2.54)
+      (name "clk1"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "32"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 8.889999999999986 180)
+      (length 2.54)
+      (name "wmask0[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "33"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 11.429999999999986 0)
+      (length 2.54)
+      (name "dout0[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "34"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 11.429999999999986 180)
+      (length 2.54)
+      (name "dout0[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "35"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 13.969999999999985 0)
+      (length 2.54)
+      (name "dout0[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "36"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 13.969999999999985 180)
+      (length 2.54)
+      (name "dout0[3]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "37"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 16.509999999999984 0)
+      (length 2.54)
+      (name "dout0[4]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "38"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 16.509999999999984 180)
+      (length 2.54)
+      (name "dout0[5]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "39"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 19.049999999999983 0)
+      (length 2.54)
+      (name "dout0[6]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "40"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 19.049999999999983 180)
+      (length 2.54)
+      (name "dout0[7]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "41"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 21.589999999999982 0)
+      (length 2.54)
+      (name "dout1[0]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "42"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 21.589999999999982 180)
+      (length 2.54)
+      (name "dout1[1]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "43"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 24.12999999999998 0)
+      (length 2.54)
+      (name "dout1[2]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "44"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 24.12999999999998 180)
+      (length 2.54)
+      (name "dout1[3]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "45"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 26.66999999999998 0)
+      (length 2.54)
+      (name "dout1[4]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "46"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 26.66999999999998 180)
+      (length 2.54)
+      (name "dout1[5]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "47"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 29.20999999999998 0)
+      (length 2.54)
+      (name "dout1[6]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "48"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 29.20999999999998 180)
+      (length 2.54)
+      (name "dout1[7]"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "49"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at -15.239999999999998 31.74999999999998 0)
+      (length 2.54)
+      (name "vccd1"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "50"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+    (pin
+      bidirectional
+      line
+      (at 15.239999999999998 31.74999999999998 180)
+      (length 2.54)
+      (name "vssd1"
+        (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+     )
+     (number "51"
+       (effects
+          (font
+            (size 1 1)
+          )
+          hide
+        )
+      )
+    )
+  )
+)
