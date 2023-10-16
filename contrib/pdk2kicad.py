@@ -5,9 +5,9 @@ from enum               import Enum, auto
 from argparse           import ArgumentParser, ArgumentDefaultsHelpFormatter, Namespace
 from pathlib            import Path
 from concurrent.futures import ThreadPoolExecutor
+from datetime           import datetime
 
 import re
-import datetime
 import sys
 
 import tatsu
@@ -16,7 +16,7 @@ from rich               import traceback
 from rich.logging       import RichHandler
 
 env = Environment(trim_blocks = True, lstrip_blocks = True)
-env.globals['now'] = datetime.datetime.utcnow
+env.globals['now'] = datetime.utcnow
 env.globals['len'] = len
 
 LEF_TATSU = '''\
@@ -1039,6 +1039,12 @@ def main():
 	log.info(f'Generating KiCad symbol libraries for PDK {args.pdk}')
 	log.info('This might take some time...')
 
+	sub_times = dict()
+
+	_start = datetime.utcnow()
+
+	_lef_start = datetime.utcnow()
+
 	lefs = collect_lefs(args)
 	if lefs is None:
 		log.error('PDK had no LEF files, aborting')
@@ -1046,16 +1052,40 @@ def main():
 
 	cells = process_lefs(args, lefs)
 
+	sub_times['lef'] = datetime.utcnow() - _lef_start
+
 	if args.spice:
+		_spice_start = datetime.utcnow()
 		log.info('Preforming SPICE merge...')
 		spices = collect_spice(args)
 		spicelibs = process_spices(args, spices)
 
 		merge_spice(args, cells, spicelibs)
+
+		sub_times['spice'] = datetime.utcnow() - _spice_start
+
 	else:
 		log.warning('Skipping SPICE merge')
 
-	return emit_symlibs(args, cells)
+	_symlib_start = datetime.utcnow()
+	res = emit_symlibs(args, cells)
+
+	sub_times['symlib'] = datetime.utcnow() - _symlib_start
+
+	_end = datetime.utcnow()
+
+	log.info(f'Total Runtime: {_end - _start}')
+	log.info(f' => Cell Library ingestion: {sub_times["lef"]}')
+	if args.spice:
+		log.info(f' => SPICE Merge: {sub_times["spice"]}')
+	log.info(f' => Symbol library generating: {sub_times["symlib"]}')
+
+	if res:
+		log.info(f'Run complete, KiCad symbol library for {args.pdk} generated.')
+		return 0
+	else:
+		log.error(f'Unable to generate KiCad symbol library for {args.pdk}')
+		return 1
 
 
 
