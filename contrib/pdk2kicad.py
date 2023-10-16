@@ -227,7 +227,7 @@ def _setup_logging(args: Namespace = None) -> None:
 	)
 
 class Property:
-	def __init__(self, name, value, pid, hide = True):
+	def __init__(self, name: str, value: str, pid: int, hide: bool = True) -> None:
 		self.name = name
 		self.value = value
 		self.id = pid
@@ -235,14 +235,143 @@ class Property:
 		self.pos = (0, 0, 0)
 		self.justify = False
 
-	def __str__(self):
+	def __str__(self) -> str:
 		return self.__repr__()
 
-	def __repr__(self):
+	def __repr__(self) -> str:
 		return f'(property "{self.name}" "{self.value}" (id {self.id}))'
 
+
+
+class PinDir(Enum):
+	INPUT         = auto()
+	OUTPUT        = auto()
+	TRISTATE      = auto()
+	BIDIRECTIONAL = auto()
+	PASSIVE       = auto()
+	UNSPECIFIED   = auto()
+
+	def __str__(self) -> str:
+		if self == PinDir.INPUT:
+			return 'input'
+		elif self == PinDir.OUTPUT:
+			return 'output'
+		elif self == PinDir.TRISTATE:
+			return 'tristate'
+		elif self == PinDir.BIDIRECTIONAL:
+			return 'bidirectional'
+		elif self == PinDir.PASSIVE:
+			return 'passive'
+		else:
+			return 'unspecified'
+
+	@staticmethod
+	def from_str(s: str) -> 'PinDir':
+		if s is None:
+			return PinDir.BIDIRECTIONAL
+
+		normalized = s.lower()
+
+		if normalized == 'input':
+			return PinDir.INPUT
+		elif normalized == 'output':
+			return PinDir.OUTPUT
+		elif 'tristate' in normalized:
+			return PinDir.TRISTATE
+		elif normalized == 'bidirectional' or normalized == 'inout':
+			return PinDir.BIDIRECTIONAL
+		elif normalized == 'passive' or normalized == 'feedthru':
+			return PinDir.PASSIVE
+		else:
+			return PinDir.UNSPECIFIED
+
+class PinType(Enum):
+	SIGNAL = auto()
+	POWER  = auto()
+	GROUND = auto()
+	CLOCK  = auto()
+
+	def __str__(self) -> str:
+		if self == PinType.POWER:
+			return 'power'
+		elif self == PinType.GROUND:
+			return 'ground'
+		elif self == PinType.CLOCK:
+			return 'clock'
+		else:
+			return 'signal'
+
+	@staticmethod
+	def from_str(s: str) -> 'PinType':
+		if s is None:
+			return PinType.SIGNAL
+		normalized = s.lower()
+
+		if normalized == 'power':
+			return PinType.POWER
+		elif normalized == "ground":
+			return PinType.GROUND
+		elif normalized == 'clock':
+			return PinType.CLOCK
+		else:
+			return PinType.SIGNAL
+
+class Pin:
+	def __init__(self, name: str, d: str, typ: str, num: int = 0) -> None:
+		self.name = name
+		self.number = num
+		self.dir = PinDir.from_str(d)
+		self.type = PinType.from_str(typ)
+		self.pos = (0, 0, 0)
+
+	def set_x(self, x: float):
+		self.pos = (x, self.pos[1], self.pos[2])
+
+	def set_y(self, y: float):
+		self.pos = (self.pos[0], y, self.pos[2])
+
+	def set_rot(self, r: float):
+		self.pos = (self.pos[0], self.pos[1], r)
+
+	def electrical_type(self) -> str:
+		if self.type == PinType.POWER or self.type == PinType.GROUND:
+			return 'power_in'
+		else:
+			if self.dir == PinDir.INPUT:
+				return 'input'
+			elif self.dir == PinDir.OUTPUT:
+				return 'output'
+			elif self.dir == PinDir.TRISTATE:
+				return 'tristate'
+			elif self.dir == PinDir.BIDIRECTIONAL:
+				return 'bidirectional'
+			elif self.dir == PinDir.PASSIVE:
+				return 'passive'
+			else:
+				return 'unspecified'
+
+	def graphical_style(self) -> str:
+		if self.is_clk():
+			return 'clock'
+		elif self.is_inverted():
+			return 'inverted'
+		else:
+			return 'line'
+
+	def is_clk(self) -> bool:
+		return self.type == PinType.CLOCK
+
+	def is_inverted(self) -> bool:
+		return self.name.lower().split('_')[-1] in ('bar', 'n')
+
+	def __str__(self) -> str:
+		return self.__repr__()
+
+	def __repr__(self) -> str:
+		return f'(pin "{self.name}" {self.type} {self.dir})'
+
 class Cell:
-	def _count_pins(self):
+	def _count_pins(self) -> None:
 		pwr = 0
 		gnd = 0
 		inp = 0
@@ -264,7 +393,7 @@ class Cell:
 
 		self._pin_counts = (pwr, gnd, inp, out, iop)
 
-	def _calc_bounds(self):
+	def _calc_bounds(self) -> tuple[float, float, float, float]:
 		hpad = 0
 		wpad = 0
 
@@ -306,7 +435,7 @@ class Cell:
 
 		return (-x - wpad, -y - hpad, x + wpad, y + hpad)
 
-	def _fixup_pins(self):
+	def _fixup_pins(self) -> None:
 		x0, y0, x1, y1 = self._bounds
 
 		pin_idx = 0
@@ -382,14 +511,17 @@ class Cell:
 							out_y += 2.54
 							rot = 0
 
-	def _fixup_properties(self):
+	def _fixup_properties(self) -> None:
 		for prop in self.properties:
 			if prop.name == 'Value':
 				prop.pos = (self._bounds[0], self._bounds[1], 0)
 				prop.justify = True
 
 
-	def __init__(self, name, pins, lef_file_name, bounds = (0.0, 0.0), properties = []):
+	def __init__(
+			self, name: str, pins: list[Pin], lef_file_name: str,
+			bounds: tuple[float, float] = (0.0, 0.0), properties: list[Property] = []
+	) -> None:
 		self.id = name
 		self.pins = pins
 		self._pin_counts = None
@@ -409,7 +541,8 @@ class Cell:
 
 		self._fixup_properties()
 
-	def get_rect(self):
+
+	def get_rect(self) -> str:
 		return f'''\
 (rectangle
       (start {self._bounds[0]} {self._bounds[1]})
@@ -424,156 +557,31 @@ class Cell:
       )
     )'''
 
-	def pin_count(self):
+	def pin_count(self) -> int:
 		return len(self.pins)
 
-	def pwr_pins(self):
+	def pwr_pins(self) -> int:
 		return self._pin_counts[0]
 
-	def gnd_pins(self):
+	def gnd_pins(self) -> int:
 		return self._pin_counts[1]
 
-	def inp_pins(self):
+	def inp_pins(self) -> int:
 		return self._pin_counts[2]
 
-	def out_pins(self):
+	def out_pins(self) -> int:
 		return self._pin_counts[3]
 
-	def iop_pins(self):
+	def iop_pins(self) -> int:
 		return self._pin_counts[4]
 
-	def __str__(self):
+	def __str__(self) -> str:
 		return self.__repr__()
 
-	def __repr__(self):
+	def __repr__(self) -> str:
 		return f'(cell "{self.id}" {" ".join(map(str, self.pins))})'
 
-class PinDir(Enum):
-	INPUT         = auto()
-	OUTPUT        = auto()
-	TRISTATE      = auto()
-	BIDIRECTIONAL = auto()
-	PASSIVE       = auto()
-	UNSPECIFIED   = auto()
-
-	def __str__(self):
-		if self == PinDir.INPUT:
-			return 'input'
-		elif self == PinDir.OUTPUT:
-			return 'output'
-		elif self == PinDir.TRISTATE:
-			return 'tristate'
-		elif self == PinDir.BIDIRECTIONAL:
-			return 'bidirectional'
-		elif self == PinDir.PASSIVE:
-			return 'passive'
-		else:
-			return 'unspecified'
-
-	@staticmethod
-	def from_str(s):
-		if s is None:
-			return PinDir.BIDIRECTIONAL
-
-		normalized = s.lower()
-
-		if normalized == 'input':
-			return PinDir.INPUT
-		elif normalized == 'output':
-			return PinDir.OUTPUT
-		elif 'tristate' in normalized:
-			return PinDir.TRISTATE
-		elif normalized == 'bidirectional' or normalized == 'inout':
-			return PinDir.BIDIRECTIONAL
-		elif normalized == 'passive' or normalized == 'feedthru':
-			return PinDir.PASSIVE
-		else:
-			return PinDir.UNSPECIFIED
-
-class PinType(Enum):
-	SIGNAL = auto()
-	POWER  = auto()
-	GROUND = auto()
-	CLOCK  = auto()
-
-	def __str__(self):
-		if self == PinType.POWER:
-			return 'power'
-		elif self == PinType.GROUND:
-			return 'ground'
-		elif self == PinType.CLOCK:
-			return 'clock'
-		else:
-			return 'signal'
-
-	@staticmethod
-	def from_str(s):
-		if s is None:
-			return PinType.SIGNAL
-		normalized = s.lower()
-
-		if normalized == 'power':
-			return PinType.POWER
-		elif normalized == "ground":
-			return PinType.GROUND
-		elif normalized == 'clock':
-			return PinType.CLOCK
-		else:
-			return PinType.SIGNAL
-
-class Pin:
-	def __init__(self, name, d, typ, num = 0):
-		self.name = name
-		self.number = num
-		self.dir = PinDir.from_str(d)
-		self.type = PinType.from_str(typ)
-		self.pos = (0, 0, 0)
-
-	def set_x(self, x):
-		self.pos = (x, self.pos[1], self.pos[2])
-
-	def set_y(self, y):
-		self.pos = (self.pos[0], y, self.pos[2])
-
-	def set_rot(self, r):
-		self.pos = (self.pos[0], self.pos[1], r)
-
-	def electrical_type(self):
-		if self.type == PinType.POWER or self.type == PinType.GROUND:
-			return 'power_in'
-		else:
-			if self.dir == PinDir.INPUT:
-				return 'input'
-			elif self.dir == PinDir.OUTPUT:
-				return 'output'
-			elif self.dir == PinDir.TRISTATE:
-				return 'tristate'
-			elif self.dir == PinDir.BIDIRECTIONAL:
-				return 'bidirectional'
-			elif self.dir == PinDir.PASSIVE:
-				return 'passive'
-			else:
-				return 'unspecified'
-
-	def graphical_style(self):
-		if self.is_clk():
-			return 'clock'
-		elif self.is_inverted():
-			return 'inverted'
-		else:
-			return 'line'
-
-	def is_clk(self):
-		return self.type == PinType.CLOCK
-
-	def is_inverted(self):
-		return self.name.lower().split('_')[-1] in ('bar', 'n')
-
-	def __str__(self):
-		return self.__repr__()
-
-	def __repr__(self):
-		return f'(pin "{self.name}" {self.type} {self.dir})'
+		
 
 def _flatten(col):
 	return [i for sl in list(col) for i in sl]
@@ -582,7 +590,7 @@ def _flatten_str(col):
 	return ''.join(_flatten(col))
 
 
-def extract(model, cellib: Path, args: Namespace):
+def extract(model, cellib: Path, args: Namespace) -> list[Cell]:
 	IGNORE_PWR: bool = args.ignore_pwr
 	INFER_PWR: bool = not args.dont_infer_pwr
 	SPLIT_STR: str = args.split_char
@@ -637,7 +645,7 @@ def extract(model, cellib: Path, args: Namespace):
 						continue
 
 					cell_pins.append(Pin(
-						pin_name, pin_dir, pin_type, num = len(cell_pins)
+						pin_name, pin_dir, pin_type, num = len(cell_pins) + 1
 					))
 
 			log.debug(f' ===> Found {len(cell_pins)} pins in cell \'{cell_name}\' ({ignored_pins} ignored)')
@@ -684,7 +692,8 @@ def extract(model, cellib: Path, args: Namespace):
 	return cells
 
 
-def collect_lefs(args: Namespace):
+
+def collect_lefs(args: Namespace) -> list[Path]:
 	PDK: str = args.pdk
 	PDK_ROOT: Path = args.pdk_root
 	PDK_PATH   = (PDK_ROOT / PDK)
@@ -720,18 +729,9 @@ def collect_lefs(args: Namespace):
 	log.info(f'Found {len(lef_files)} LEF files for PDK')
 	return lef_files
 
-def process_lefs(args: Namespace, lefs: list[Path]):
-	OUTDIR: Path = args.outdir
+def process_lefs(args: Namespace, lefs: list[Path]) -> list[tuple[list[Cell], Path]]:
 	PDK: str = args.pdk
-	SKIP: bool = args.skip_existing
-	FLATTEN: bool = args.flatten
 	JOBS: int = args.jobs
-
-	if not FLATTEN:
-		OUTDIR = (OUTDIR / PDK)
-
-	if not OUTDIR.exists():
-		OUTDIR.mkdir(exist_ok = True, parents = True)
 
 	log.info('Processing LEFs')
 
@@ -740,36 +740,16 @@ def process_lefs(args: Namespace, lefs: list[Path]):
 
 	log.info('Processing cell libraries, this will take a while.')
 	def _process_cell_lib(cellib: Path):
-		if FLATTEN:
-			KISYM_LIB = (OUTDIR / f'{PDK}_{cellib.stem}.kicad_sym')
-		else:
-			KISYM_LIB = (OUTDIR / f'{cellib.stem}.kicad_sym')
-
-		if KISYM_LIB.exists() and SKIP:
-			log.info(f' => Cell library {KISYM_LIB.name} already exists, skipping')
-			return
-
 		log.info(f' => Processing Cell Library \'{PDK}/{cellib.stem}\'')
 		cells = extract(model, cellib, args)
-		if cells is not None:
-			log.info(f' => Writing KiCad symbols to \'{KISYM_LIB.name}\'')
+		return (cells, cellib)
 
-			log.debug(' ==> Rendering Symbol Library')
-			symfile = KISYM_TEMPLATE.render(
-				name     = cellib.stem,
-				lef_file = cellib.name,
-				symbols  = cells
-			)
 
-			log.debug(f' ==> Writing to \'{KISYM_LIB}\'')
-			with KISYM_LIB.open('w') as sym:
-				sym.write(symfile)
-				sym.write('\n')
 
+	cellibs = list()
 	if JOBS == 1:
 		for cellib in lefs:
-			_process_cell_lib(cellib)
-		return 0
+			cellibs.append(_process_cell_lib(cellib))
 	else:
 		futures = list()
 		with ThreadPoolExecutor(max_workers = JOBS) as pool:
@@ -778,8 +758,43 @@ def process_lefs(args: Namespace, lefs: list[Path]):
 					_process_cell_lib, cellib
 				))
 
-		return all(map(lambda f: f.result(), futures))
+		cellibs = list(map(lambda f: f.result(), futures))
+	return cellibs
 
+
+
+def emit_symlibs(args: Namespace, cellibs: tuple[list[Cell], Path]) -> bool:
+	OUTDIR: Path = args.outdir
+	PDK: str = args.pdk
+	FLATTEN: bool = args.flatten
+
+	if not FLATTEN:
+		OUTDIR = (OUTDIR / PDK)
+
+	for cells, cellib in cellibs:
+		if FLATTEN:
+			KISYM_LIB = (OUTDIR / f'{PDK}_{cellib.stem}.kicad_sym')
+		else:
+			KISYM_LIB = (OUTDIR / f'{cellib.stem}.kicad_sym')
+
+		if not OUTDIR.exists():
+			OUTDIR.mkdir(exist_ok = True, parents = True)
+
+		log.info(f' => Writing KiCad symbols to \'{KISYM_LIB.name}\'')
+
+		log.debug(' ==> Rendering Symbol Library')
+		symfile = KISYM_TEMPLATE.render(
+			name     = cellib.stem,
+			lef_file = cellib.name,
+			symbols  = cells
+		)
+
+		log.debug(f' ==> Writing to \'{KISYM_LIB}\'')
+		with KISYM_LIB.open('w') as sym:
+			sym.write(symfile)
+			sym.write('\n')
+
+	return True
 
 def main():
 	traceback.install()
@@ -794,7 +809,7 @@ def main():
 	core_options    = parser.add_argument_group('Core Options')
 	parsing_options = parser.add_argument_group('Parsing Options')
 	pdk_options     = parser.add_argument_group('PDK Options')
-	symbol_options  = parser.add_argument_group('PDK Options')
+	symbol_options  = parser.add_argument_group('KiCad Symbol Options')
 
 	core_options.add_argument(
 		'--verbose', '-v',
@@ -902,7 +917,11 @@ def main():
 		log.error('PDK had no LEF files, aborting')
 		return 1
 
-	return process_lefs(args, lefs)
+	cells = process_lefs(args, lefs)
+
+
+	return emit_symlibs(args, cells)
+
 
 
 
