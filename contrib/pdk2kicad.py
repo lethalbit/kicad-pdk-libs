@@ -823,7 +823,7 @@ def process_spices(args: Namespace, spices: list[Path]) -> list[tuple[Path, dict
 			name = subckt.group(2)
 			spices[name] = full
 
-		log.info(f' ==> Found {len(spices)} cells in {netlist.stem}')
+		log.info(f' ==> Found {len(spices)} subckts in {netlist.stem}')
 		return (netlist, spices)
 
 	spicelibs = list()
@@ -857,6 +857,10 @@ def merge_spice(
 		netlists[f.stem] = model
 
 	for cells, cellib in cellibs:
+		if cellib.stem not in netlists:
+			log.warning(f'No SPICE lib found for cell library \'{cellib.stem}\'')
+			continue
+
 		if LINK_SPICE:
 			SPICE_LIB = f'${{PDK_ROOT}}/{PDK}/libs.ref/{cellib.stem}/spice/{cellib.stem}.spice'
 		for cell in cells:
@@ -878,8 +882,7 @@ def merge_spice(
 					'Sim.Params',  f'model=\\"{model.encode("unicode_escape").decode("utf-8")}\\"', 93
 				))
 
-	log.info(f'Merged {total - unk} SPICE models with matching cells')
-	log.info(f'(Total: {total}, No Models: {unk})')
+	log.info(f'Merged {total - unk} SPICE models with matching cells (Total: {total}, No Models: {unk})')
 
 
 def emit_symlibs(args: Namespace, cellibs: tuple[list[Cell], Path]) -> bool:
