@@ -541,6 +541,9 @@ class Cell:
 
 		self._fixup_properties()
 
+	def append_property(self, prop: Property) -> None:
+		self.properties.append(prop)
+		self._fixup_properties()
 
 	def get_rect(self) -> str:
 		return f'''\
