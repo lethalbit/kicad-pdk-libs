@@ -930,6 +930,11 @@ def main():
 	)
 
 	symbol_options.add_argument(
+		'--dont-strip', '-D',
+		action  = 'store_true',
+		default = False,
+		help    = 'Don\'t strip the cell library name from the cell'
+	)
 
 	spice_options.add_argument(
 		'--spice',
