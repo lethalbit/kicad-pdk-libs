@@ -695,6 +695,43 @@ def extract(model, cellib: Path, args: Namespace) -> list[Cell]:
 	return cells
 
 
+def collect_spice(args: Namespace) -> list[Path]:
+	PDK: str = args.pdk
+	PDK_ROOT: Path = args.pdk_root
+	PDK_PATH   = (PDK_ROOT / PDK)
+	PDK_REFLIB = (PDK_PATH / 'libs.ref')
+	SKIP_SRAM: bool = args.skip_sram
+
+	spice_files = list()
+
+	log.info(f'Collecting SPICE files from \'{PDK}\'')
+	log.debug(f'PDK_ROOT: {PDK_ROOT}, PDK: {PDK}')
+
+	if not PDK_PATH.exists() or not PDK_REFLIB.exists():
+		log.error(f'Unable to find PDK {PDK} in PDK_ROOT: {PDK_ROOT}')
+		return None
+
+	for cellib in PDK_REFLIB.iterdir():
+		log.info(f' => Found Cell library \'{cellib.name}\'')
+
+		if SKIP_SRAM and 'sram' in cellib.name.lower():
+			log.info(' ==> Skipping cell library, likely contains SRAM cells')
+			continue
+
+		CELL_LEFS = (cellib / 'spice')
+		if not CELL_LEFS.exists():
+			log.warning(f' => Cell library \'{cellib.name}\' has no SPICE files, skipping...')
+			continue
+
+		for spice in CELL_LEFS.iterdir():
+			if spice.suffix.lower() == '.spice':
+				log.debug(f' => Found SPICE file \'{spice}\'')
+				spice_files.append(spice)
+
+	log.info(f'Found {len(spice_files)} SPICE files for PDK')
+	return spice_files
+
+
 
 def collect_lefs(args: Namespace) -> list[Path]:
 	PDK: str = args.pdk
@@ -813,6 +850,7 @@ def main():
 	parsing_options = parser.add_argument_group('Parsing Options')
 	pdk_options     = parser.add_argument_group('PDK Options')
 	symbol_options  = parser.add_argument_group('KiCad Symbol Options')
+	spice_options   = parser.add_argument_group('SPICE Model Options')
 
 	core_options.add_argument(
 		'--verbose', '-v',
@@ -892,17 +930,19 @@ def main():
 	)
 
 	symbol_options.add_argument(
+
+	spice_options.add_argument(
 		'--spice',
 		action  = 'store_true',
 		default = False,
 		help    = 'Attempt to extract and then embed SPICE info in the symbol files'
 	)
 
-	symbol_options.add_argument(
-		'--dont-strip', '-D',
+	spice_options.add_argument(
+		'--link',
 		action  = 'store_true',
 		default = False,
-		help    = 'Don\'t strip the cell library name from the cell'
+		help    = 'Rather than embedding the SPICE subckt model into the symbol, use the PDK lib'
 	)
 
 	args = parser.parse_args()
@@ -922,6 +962,11 @@ def main():
 
 	cells = process_lefs(args, lefs)
 
+	if args.spice:
+		log.info('Preforming SPICE merge...')
+		spices = collect_spice(args)
+	else:
+		log.warning('Skipping SPICE merge')
 
 	return emit_symlibs(args, cells)
 
