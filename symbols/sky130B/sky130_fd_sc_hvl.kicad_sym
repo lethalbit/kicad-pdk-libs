@@ -135,6 +135,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__a21o_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -10.16)
       (end 6.35 10.16)
@@ -460,6 +496,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__a21oi_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -10.16)
       (end 6.35 10.16)
@@ -777,6 +849,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__a22o_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -1132,6 +1240,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__a22oi_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -11.43)
       (end 6.35 11.43)
@@ -1479,6 +1623,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__and2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -8.89)
       (end 5.08 8.89)
@@ -1774,6 +1954,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__and3_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -2107,6 +2323,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__buf_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -7.62)
       (end 5.08 7.62)
@@ -2380,6 +2632,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__buf_2"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -2669,6 +2957,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__buf_4"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -7.62)
       (end 5.08 7.62)
@@ -2942,6 +3266,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__buf_8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -3231,6 +3591,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__buf_16"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -7.62)
       (end 5.08 7.62)
@@ -3504,6 +3900,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__buf_32"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -3793,6 +4225,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__conb_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -8.89)
       (end 6.35 8.89)
@@ -4074,6 +4542,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__decap_4"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -4311,6 +4815,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__decap_8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -4540,6 +5080,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__dfrbp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -4895,6 +5471,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__dfrtp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -12.700000000000001 -10.16)
       (end 12.700000000000001 10.16)
@@ -5212,6 +5824,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__dfsbp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -5567,6 +6215,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__dfstp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -10.16 -10.16)
       (end 10.16 10.16)
@@ -5884,6 +6568,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__dfxbp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -6217,6 +6937,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__dfxtp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -7.62 -8.89)
       (end 7.62 8.89)
@@ -6520,6 +7276,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__diode_2"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -10.16 -7.62)
       (end 10.16 7.62)
@@ -6771,6 +7563,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__dlclkp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -7074,6 +7902,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__dlrtp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -7407,6 +8271,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__dlxtp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -8.89 -8.89)
       (end 8.89 8.89)
@@ -7710,6 +8610,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__einvn_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -8.89 -8.89)
       (end 8.89 8.89)
@@ -8005,6 +8941,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__einvp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -9264,6 +10236,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__inv_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -7.62)
       (end 5.08 7.62)
@@ -9537,6 +10545,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__inv_2"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -9826,6 +10870,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__inv_4"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -7.62)
       (end 5.08 7.62)
@@ -10099,6 +11179,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__inv_8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -10388,6 +11504,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__inv_16"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -7.62)
       (end 5.08 7.62)
@@ -10661,6 +11813,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__lsbufhv2hv_hl_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -10972,6 +12160,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__lsbufhv2hv_lh_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -12.7)
       (end 6.35 12.7)
@@ -11267,6 +12491,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__lsbufhv2lv_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -11578,6 +12838,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__lsbufhv2lv_simple_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -8.89)
       (end 6.35 8.89)
@@ -11881,6 +13177,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__lsbuflv2hv_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -8.89)
       (end 6.35 8.89)
@@ -12176,6 +13508,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg_3"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -12509,6 +13877,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -13.97 -10.16)
       (end 13.97 10.16)
@@ -12834,6 +14238,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__lsbuflv2hv_symmetric_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -8.89)
       (end 6.35 8.89)
@@ -13129,6 +14569,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__mux2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -13454,6 +14930,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__mux4_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -13853,6 +15365,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__nand2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -8.89)
       (end 5.08 8.89)
@@ -14148,6 +15696,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__nand3_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -14481,6 +16065,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__nor2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -8.89)
       (end 5.08 8.89)
@@ -14776,6 +16396,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__nor3_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -15109,6 +16765,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__o21a_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -10.16)
       (end 6.35 10.16)
@@ -15434,6 +17126,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__o21ai_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -10.16)
       (end 6.35 10.16)
@@ -15751,6 +17479,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__o22a_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -16106,6 +17870,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__o22ai_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -11.43)
       (end 6.35 11.43)
@@ -16453,6 +18253,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__or2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -8.89)
       (end 5.08 8.89)
@@ -16748,6 +18584,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__or3_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -17081,6 +18953,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__probe_p_8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -7.62)
       (end 5.08 7.62)
@@ -17354,6 +19262,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__probec_p_8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -17643,6 +19587,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__schmittbuf_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -7.62)
       (end 5.08 7.62)
@@ -17916,6 +19896,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__sdfrbp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -18315,6 +20331,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__sdfrtp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -12.700000000000001 -12.7)
       (end 12.700000000000001 12.7)
@@ -18676,6 +20728,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__sdfsbp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -19075,6 +21163,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__sdfstp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -10.16 -12.7)
       (end 10.16 12.7)
@@ -19436,6 +21560,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__sdfxbp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -19813,6 +21973,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__sdfxtp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -7.62 -11.43)
       (end 7.62 11.43)
@@ -20160,6 +22356,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__sdlclkp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -8.89 -10.16)
       (end 8.89 10.16)
@@ -20477,6 +22709,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__sdlxtp_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -20832,6 +23100,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__xnor2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -8.89)
       (end 5.08 8.89)
@@ -21127,6 +23431,42 @@
       "Cell Library"
       "sky130_fd_sc_hvl"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "sky130_fd_sc_hvl__xor2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
