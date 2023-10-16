@@ -135,6 +135,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__addf_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -8.89)
       (end 5.08 8.89)
@@ -438,6 +474,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__addh_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -7.62)
       (end 5.08 7.62)
@@ -719,6 +791,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__and2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -7.62)
       (end 3.81 7.62)
@@ -970,6 +1078,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__ant"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -1408,6 +1552,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__aoi21_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -8.89)
       (end 5.08 8.89)
@@ -1681,6 +1861,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__aoi22_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -1992,6 +2208,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__buf_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -2221,6 +2473,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__buf_2"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -2466,6 +2754,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__buf_4"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -2695,6 +3019,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__buf_8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -2940,6 +3300,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__buf_16"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -3169,6 +3565,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkbuf_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -3414,6 +3846,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkbuf_2"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -3643,6 +4111,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkbuf_4"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -3888,6 +4392,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkbuf_8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -4117,6 +4657,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkbuf_16"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -4362,6 +4938,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkinv_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -4591,6 +5203,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkinv_2"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -4836,6 +5484,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkinv_4"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -5065,6 +5749,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkinv_8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -5310,6 +6030,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__clkinv_16"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -5547,6 +6303,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__decap_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -2.54 -5.08)
       (end 2.54 5.08)
@@ -5732,6 +6524,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__dff_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -6021,6 +6849,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__dffn_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -7.62)
       (end 6.35 7.62)
@@ -6294,6 +7158,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__dffsr_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -6627,6 +7527,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__dlat_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -6.35 -7.62)
       (end 6.35 7.62)
@@ -6878,6 +7814,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__dlatn_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -8110,6 +9082,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__inv_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -8339,6 +9347,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__inv_2"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -8584,6 +9628,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__inv_4"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -8813,6 +9893,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__inv_8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -9058,6 +10174,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__inv_16"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -9287,6 +10439,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__mux2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -9576,6 +10764,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__nand2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -7.62)
       (end 3.81 7.62)
@@ -9835,6 +11059,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__nor2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -7.62)
       (end 3.81 7.62)
@@ -10086,6 +11346,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__oai21_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -10367,6 +11663,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__oai22_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -10678,6 +12010,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__oai31_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -5.08 -10.16)
       (end 5.08 10.16)
@@ -10981,6 +12349,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__or2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -7.62)
       (end 3.81 7.62)
@@ -11232,6 +12636,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__tbuf_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -11499,6 +12939,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__tieh"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -11714,6 +13190,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__tiel"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
@@ -11921,6 +13433,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__tinv_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
@@ -12188,6 +13736,42 @@
         hide
       )
     )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__xnor2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
     (rectangle
       (start -3.81 -7.62)
       (end 3.81 7.62)
@@ -12439,6 +14023,42 @@
       "Cell Library"
       "gf180mcu_osu_sc_gp9t3v3"
       (id 16)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Library"
+      "${PDK_ROOT}/gf180mcuA/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/gf180mcu_osu_sc_gp9t3v3.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Name"
+      "gf180mcu_osu_sc_gp9t3v3__xor2_1"
+      (id 91)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        hide
+      )
+    )
+    (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
         (font
