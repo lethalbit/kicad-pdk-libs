@@ -3,6 +3,10 @@
 This is a [KiCad] symbol library that contains the collection of cells from the [sky130] and [gf180mcu] PDKs for use in schematic capture and SPICE simulation.
 
 
+> [!IMPORTANT]
+> The in-repo libraries are exported with SPICE libraries as a link, not embedded. To ensure spice works, you need `PDK_ROOT` set in your KiCad paths for that to work.
+
+
 ## Re-generating the libraries
 
 There shouldn't be a need to re-generate the libraries from scratch, but in the case one wishes to do so, then a few prerequisites are needed.
