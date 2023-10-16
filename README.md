@@ -52,6 +52,11 @@ $ python ./contrib/pdk2kicad.py --pdk gf180mcuD
 
 When it's all over, all of the symbols will be located in [`symbols/<PDK>/`](./symbols/).
 
+### Note on SPICE Models
+
+To add SPICE model linkage to the KiCad symbols, then pass `--spice` when re-generating the symbols. This will embed the appropriate spice `.subckt` into the symbol. If you do not wish to do that and wish to rather do a library link, then also pass `--link`.
+
+When symbols are generated with a library link, then you need to have `PDK_ROOT` set appropriately in your KiCad paths so the SPICE library can resolve.
 
 ## License
 
