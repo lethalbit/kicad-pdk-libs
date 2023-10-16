@@ -860,7 +860,7 @@ def main():
 
 	core_options.add_argument(
 		'--outdir', '-o',
-		type    = str,
+		type    = Path,
 		default = Path.cwd() / 'symbols',
 		help    = 'output directory for kicad_sym files'
 	)
