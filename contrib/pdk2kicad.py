@@ -6,6 +6,7 @@ from argparse           import ArgumentParser, ArgumentDefaultsHelpFormatter, Na
 from pathlib            import Path
 from concurrent.futures import ThreadPoolExecutor
 
+import re
 import datetime
 import sys
 
@@ -801,6 +802,84 @@ def process_lefs(args: Namespace, lefs: list[Path]) -> list[tuple[list[Cell], Pa
 		cellibs = list(map(lambda f: f.result(), futures))
 	return cellibs
 
+def process_spices(args: Namespace, spices: list[Path]) -> list[tuple[Path, dict[str, str]]]:
+	PDK: str = args.pdk
+	JOBS: int = args.jobs
+
+	subckt_regex = re.compile(r'(\.subckt\s+([\w\d]+)\s+([\w\d\s]+)\n([\w\d\s#+=.]+\n)+\.ends)\n')
+
+	log.info('Processing SPICE netlists')
+
+	def _process_spice(netlist: Path) -> tuple[Path, dict[str, str]]:
+		log.info(f' => Processing SPICE netlist \'{PDK}/{netlist.stem}\'')
+
+		with netlist.open('r') as f:
+			spice = ''.join(f.readlines())
+
+		spices = dict()
+
+		for subckt in subckt_regex.finditer(spice):
+			full = subckt.group(1)
+			name = subckt.group(2)
+			spices[name] = full
+
+		log.info(f' ==> Found {len(spices)} cells in {netlist.stem}')
+		return (netlist, spices)
+
+	spicelibs = list()
+	if JOBS == 1:
+		for netlist in spices:
+			spicelibs.append(_process_spice(netlist))
+	else:
+		futures = list()
+		with ThreadPoolExecutor(max_workers = JOBS) as pool:
+			for netlist in spices:
+				futures.append(pool.submit(
+					_process_spice, netlist
+				))
+		spicelibs = list(map(lambda f: f.result(), futures))
+	return spicelibs
+
+def merge_spice(
+	args: Namespace, cellibs: list[tuple[list[Cell], Path]],
+	spicelibs:  list[tuple[Path, dict[str, str]]]
+) -> None:
+	PDK: str = args.pdk
+	LINK_SPICE: bool = args.link
+
+	log.info(f'Merging SPICE netlists into symbols')
+
+	netlists = dict()
+	total = 0
+	unk = 0
+
+	for f, model in spicelibs:
+		netlists[f.stem] = model
+
+	for cells, cellib in cellibs:
+		if LINK_SPICE:
+			SPICE_LIB = f'${{PDK_ROOT}}/{PDK}/libs.ref/{cellib.stem}/spice/{cellib.stem}.spice'
+		for cell in cells:
+			total += 1
+			CELL_NAME = f'{cellib.stem}__{cell.id}'
+			log.debug(f'Looking for model for {CELL_NAME}')
+			model = netlists[cellib.stem].get(CELL_NAME, None)
+			if model is None:
+				unk += 1
+				continue
+
+			if LINK_SPICE:
+				cell.append_property(Property('Sim.Library', SPICE_LIB, 90))
+				cell.append_property(Property('Sim.Name',    CELL_NAME, 91))
+				cell.append_property(Property('Sim.Device',  'SUBCKT',  92))
+			else:
+				cell.append_property(Property('Sim.Device',  'SPICE', 92))
+				cell.append_property(Property(
+					'Sim.Params',  f'model=\\"{model.encode("unicode_escape").decode("utf-8")}\\"', 93
+				))
+
+	log.info(f'Merged {total - unk} SPICE models with matching cells')
+	log.info(f'(Total: {total}, No Models: {unk})')
 
 
 def emit_symlibs(args: Namespace, cellibs: tuple[list[Cell], Path]) -> bool:
@@ -970,6 +1049,9 @@ def main():
 	if args.spice:
 		log.info('Preforming SPICE merge...')
 		spices = collect_spice(args)
+		spicelibs = process_spices(args, spices)
+
+		merge_spice(args, cells, spicelibs)
 	else:
 		log.warning('Skipping SPICE merge')
 
