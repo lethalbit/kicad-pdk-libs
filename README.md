@@ -6,61 +6,9 @@ This is a [KiCad] symbol library that contains the collection of cells from the 
 > [!IMPORTANT]
 > The in-repo libraries are exported with SPICE libraries as a link, not embedded. To ensure spice works, you need `PDK_ROOT` set in your KiCad paths for that to work.
 
+## Documentation
 
-## Re-generating the libraries
-
-There shouldn't be a need to re-generate the libraries from scratch, but in the case one wishes to do so, then a few prerequisites are needed.
-
-First, set up a python [virtual environment](https://docs.python.org/3/tutorial/venv.html) and then install all the needed dependencies and tools into it.
-
-```
-$ python -m venv .venv
-$ source .venv/bin/active
-$ python -m pip install tatsu rich jinja2 volare
-```
-
-Next, we setup PDK root we want to use:
-
-```
-$ export PDK_ROOT="${HOME}/.local/share/PDK"
-$ mkdir -p "${PDK_ROOT}"
-```
-
-It's not recommended to use your existing PDK root if there is one.
-
-Next, setup the PDKs using [volare], we build the PDKs from source to ensure we get all of the cell libraries for the PDKs as well as the correct version of the PDK we want. This will take a while.
-
-```
-$ volare build --pdk sky130 -l all dd7771c384ed36b91a25e9f8b314355fc26561be
-$ volare build --pdk gf180mcu -l all dd7771c384ed36b91a25e9f8b314355fc26561be
-
-```
-
-Next ensure the PDKs are enabled so they are symlinked to the `PDK_ROOT` we set up
-
-```
-$ volare enable --pdk sky130 -l all dd7771c384ed36b91a25e9f8b314355fc26561be
-$ volare enable --pdk gf180mcu -l all dd7771c384ed36b91a25e9f8b314355fc26561be
-```
-
-Once that is done, you can invoke [`pdk2kicad`](./contrib/pdk2kicad.py) to generate the symbol libraries for [KiCad]. This will take a long time.
-
-```
-$ python ./contrib/pdk2kicad.py --pdk sky130A
-$ python ./contrib/pdk2kicad.py --pdk sky130B
-$ python ./contrib/pdk2kicad.py --pdk gf180mcuA
-$ python ./contrib/pdk2kicad.py --pdk gf180mcuB
-$ python ./contrib/pdk2kicad.py --pdk gf180mcuC
-$ python ./contrib/pdk2kicad.py --pdk gf180mcuD
-```
-
-When it's all over, all of the symbols will be located in [`symbols/<PDK>/`](./symbols/).
-
-### Note on SPICE Models
-
-To add SPICE model linkage to the KiCad symbols, then pass `--spice` when re-generating the symbols. This will embed the appropriate spice `.subckt` into the symbol. If you do not wish to do that and wish to rather do a library link, then also pass `--link`.
-
-When symbols are generated with a library link, then you need to have `PDK_ROOT` set appropriately in your KiCad paths so the SPICE library can resolve.
+The documentation for usage and installation can be found [here](./docs/index.md).
 
 ## License
 
@@ -74,3 +22,4 @@ The [library symbols](./symbols/) generated from the `pdk2kicad` script are lice
 [gf180mcu]: https://gf180mcu-pdk.readthedocs.io/en/latest/
 [open_pdk]: https://github.com/RTimothyEdwards/open_pdks
 [volare]: https://github.com/efabless/volare
+[PCM]: https://www.kicad.org/pcm/
