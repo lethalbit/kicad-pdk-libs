@@ -67,5 +67,4 @@ To speed this up, you can use the `-j` option to specify the number of parallel 
 [gf180mcu]: https://gf180mcu-pdk.readthedocs.io/en/latest/
 [open_pdk]: https://github.com/RTimothyEdwards/open_pdks
 [volare]: https://github.com/efabless/volare
-[PCM]: https://www.kicad.org/pcm/
 [pypy]: https://www.pypy.org/

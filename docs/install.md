@@ -1,7 +1,7 @@
 # KiCad-PDK-Libs: Installing
 
 > [!NOTE]
-> Currently this is not in the KiCad [PCM], so you need to install it manually, but it's not particularly hard to do.
+> Currently this is not in the [KiCad] [PCM], so you need to install it manually, but it's not particularly hard to do.
 
 ### Manually Installing
 
@@ -25,3 +25,7 @@ Once that is done, go to `Preferences` -> `Manage Symbol Libraries` and add the 
 | :heavy_check_mark: | :heavy_check_mark: | `sky130_fd_sc_hvl`  | `${PDK_LIBS}/sky130B/sky130_fd_sc_hvl.kicad_sym`  |
 
 Once that is done ensure they show up when you try to add a part to eeschema, and you should be good to go!
+
+[KiCad]: https://www.kicad.org/
+[open_pdk]: https://github.com/RTimothyEdwards/open_pdks
+[PCM]: https://www.kicad.org/pcm/
