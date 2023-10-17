@@ -6,6 +6,8 @@ This is a [KiCad] symbol library that contains the collection of cells from the 
 > [!IMPORTANT]
 > The in-repo libraries are exported with SPICE libraries as a link, not embedded. To ensure spice works, you need `PDK_ROOT` set in your KiCad paths for that to work.
 
+To get started see the [installation](./docs/install.md) instructions and then once you're done there you can follow the [introduction](./docs/intro.md) to get your first SPICE sim done!
+
 ## Documentation
 
 The documentation for usage and installation can be found [here](./docs/index.md).
