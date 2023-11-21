@@ -3,12 +3,24 @@
     "name": "KiCad PDK library",
     "description": "sky130 and gf180mcu symbols for schematic capture",
     "description_full": "This package contains extracted symbols and SPICE netlists from the open_pdk project for the sky130 and gf180mcu PDKs to allow for schematic capture and spice simulation inside KiCad.\n\n These files are generated automatically from a fully built PDK.",
-    "identifier": "com.github.lethalbit.kicad-pdk-libs",
+    "identifier": "net.lethalbit.kicad-pdk-libs",
     "type": "library",
     "author": {
         "name": "Aki Van Ness (lethalbit)",
         "contact": {
-            "email": "aki@lethalbit.net"
+            "email": "aki@lethalbit.net",
+            "github": "https://github.com/lethalbit",
+            "twitter": "https://twitter.com/lethalbit",
+            "mastodon": "https://chaos.social/@lethalbit"
+        }
+    },
+    "maintainer": {
+        "name": "Aki Van Ness (lethalbit)",
+        "contact": {
+            "email": "aki@lethalbit.net",
+            "github": "https://github.com/lethalbit",
+            "twitter": "https://twitter.com/lethalbit",
+            "mastodon": "https://chaos.social/@lethalbit"
         }
     },
     "license": "Apache-2.0",
