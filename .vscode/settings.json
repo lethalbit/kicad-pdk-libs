@@ -1,0 +1,11 @@
+{
+    "flake8.args": [
+        "--config", "${workspaceFolder}/contrib/.flake8"
+    ],
+    "mypy-type-checker.args": [
+        "--config-file", "${workspaceFolder}/contrib/.mypy.ini"
+    ],
+    "mypy-type-checker.reportingScope": "file",
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.autoImportCompletions": true,
+}
