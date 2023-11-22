@@ -368,7 +368,7 @@ class Cell:
 
 
 	def __init__(
-			self, name: str, pins: list[Pin], lef_file_name: str,
+			self, name: str, pins: list[Pin], lef_file_name: str, cell_type: CellType,
 			bounds: tuple[float, float] = (0.0, 0.0), properties: list[Property] = []
 	) -> None:
 		self.id = name
