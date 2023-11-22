@@ -1,0 +1,118 @@
+@@grammar :: lef
+@@left_recursion :: True
+@@parseinfo :: False
+@@eol_comments :: /#([^\n]*?)$/
+
+start = { lef_statements } "END" /\s+/ "LIBRARY" $;
+
+lef_statements = ver:version | nowiree | divchar:dividerchar | buschar:busbitchars
+               | macro:macro | propdefs:propdefs | case:casesens | units:units
+               | mfr:mfrid
+               ;
+
+
+version     = "VERSION" ~ /\s+/ major:DIGIT "." minor:DIGIT [ ("." rev:DIGIT)] end_stmt ;
+mfrid       = "MANUFACTURINGGRID" ~ /\s+/ val:NUMERIC end_stmt ;
+nowiree     = "NOWIREEXTENSIONATPIN" ~ /\s+/ ( "ON" | "OFF" ) end_stmt ;
+casesens    = "NAMESCASESENSITIVE" ~ /\s+/ ( "ON" | "OFF" ) end_stmt ;
+dividerchar = "DIVIDERCHAR" ~ /\s+/ '"' /\W/ '"' end_stmt;
+busbitchars = "BUSBITCHARS" ~ /\s+/ '"' /\W/ /\W/ '"' end_stmt;
+macro       = "MACRO" ~ /\s+/ name:IDENT /\n/ mstmts:{ macro_stmt } /\n/ "END" /\s+/ IDENT ;
+propdefs    = "PROPERTYDEFINITIONS" ~ /\n/ prps:{ p_defs } /\n/ "END" /\s+/ "PROPERTYDEFINITIONS" ;
+units       = "UNITS" ~ /\n/ defs:{ unit_def } /\n/ "END" /\s+/ "UNITS" ;
+
+unit_def    = time:unit_d_time | cap:unit_d_cap | res:unit_d_res | pow:unit_d_pow
+            | cur:unit_d_cur | volt:unit_d_volt | db:unit_d_db | freq:unit_d_freq
+            ;
+
+unit_d_time = "TIME" ~ /\s+/ "NANOSECONDS" /\s+/ val:NUMERIC end_stmt ;
+unit_d_cap  = "CAPACITANCE" ~ /\s+/ "PICOFARADS" /\s+/ val:NUMERIC end_stmt ;
+unit_d_res  = "RESISTANCE" ~ /\s+/ "OHMS" /\s+/ val:NUMERIC end_stmt ;
+unit_d_pow  = "POWER" ~ /\s+/ "MILLIWATTS" /\s+/ val:NUMERIC end_stmt ;
+unit_d_cur  = "CURRENT" ~ /\s+/ "MILLIAMPS" /\s+/ val:NUMERIC end_stmt ;
+unit_d_volt = "VOLTAGE" ~ /\s+/ "VOLTS" /\s+/ val:NUMERIC end_stmt ;
+unit_d_db   = "DATABASE" ~ /\s+/ "MICRONS" /\s+/ val:NUMERIC end_stmt ;
+unit_d_freq = "FREQUENCY" ~ /\s+/ "MEGAHERTZ" /\s+/ val:NUMERIC end_stmt ;
+
+
+p_defs      = "MACRO" ~ /\s+/ name:IDENT /\s+/ type:IDENT end_stmt ;
+
+
+macro_stmt  = class:macro_s_class | foreign:macro_s_foreign | origin:macro_s_origin
+            | eeq:macro_s_eeq | size:macro_s_size | symmetry:macro_s_symmetry
+            | site:macro_s_site | pin:macro_s_pin | obs:macro_s_obs
+            | density:macro_s_density | prop:property
+            ;
+
+
+macro_s_class    = "CLASS" ~ type:macro_s_class_tp end_stmt ;
+macro_s_class_tp = ( "COVER"  | "cover"  ) ~ [ "BUMP" ] | "RING" | "BLOCK" [  "BLACKBOX" | "SOFT"  ]
+                 | ( "PAD"    | "pad"    ) ~ [ "INPUT" | "OUTPUT" | "INOUT" | "POWER" | "SPACER" | "AREAIO"  ]
+                 | ( "CORE"   | "core"   ) ~ [ "FEEDTRU" | "TIEHIGH" | "TIELOW" | "SPACER" | "ANTENNACELL" | "WELLTAP"  ]
+                 | ( "ENDCAP" | "endcap" ) ~ [ "PRE" | "POST" | "TOPLEFT" | "TOPRIGHT" | "BOTTOMLEFT" | "BOTTOMRIGHT"  ]
+	             ;
+macro_s_foreign  = "FOREIGN" ~  /\s+/ name:IDENT [ /\s+/ POINT [ /\s+/ ORIENTATION ] ] end_stmt ;
+macro_s_origin   = "ORIGIN" ~ /\s+/ POINT end_stmt ;
+macro_s_eeq      = "EEQ" ~ /\s+/ name:IDENT end_stmt ;
+macro_s_size     = "SIZE" ~ /\s+/ NUMERIC "BY" /\s+/ NUMERIC end_stmt ;
+macro_s_symmetry = "SYMMETRY" ~ { ("X" | "Y" | "R90") }+ end_stmt ;
+macro_s_site     = "SITE" ~ /\s+/ name:IDENT [ DIGIT DIGIT ORIENTATION [ step_patern ] ] end_stmt ;
+macro_s_pin      = "PIN" ~ /\s+/ name:IDENT /\n/ pstmnts:{ macro_pin_stmt } /\n/ "END" /\s+/ IDENT  ;
+macro_s_obs      = "OBS" ~ /\n/ { layer_geometry } /\n/ "END" ;
+macro_s_density  = "DENSITY" ~ /\n/ { layer } /\n/ "END" ;
+
+
+macro_pin_stmt   =  taperule:pin_taperule | dir:pin_direction | use:pin_use
+                 | netexpr:pin_netexpr | splysns:pin_supplysens | gndsns:pin_gndsens
+                 | shape:pin_shape | mustjoin:pin_mustjoin | port:pin_port
+                 | prop:property | antenna:pin_antenna
+                 ;
+pin_taperule     = "TAPERULE" ~ /\s+/ IDENT end_stmt ;
+pin_direction    = "DIRECTION" ~ pin_dir:( "INPUT" | "OUTPUT" [ "TRISTATE" ] | "INOUT" | "FEEDTRHU" ) end_stmt ;
+pin_use          = "USE" ~ pin_type:( "SIGNAL" | "ANALOG" | "POWER" | "GROUND" | "CLOCK" ) end_stmt ;
+pin_netexpr      = "NETEXPR" ~ '"' IDENT /\s+/ IDENT '"' end_stmt ;
+pin_supplysens   = "SUPPLYSENSITIVITY" ~ /\s+/ IDENT end_stmt ;
+pin_gndsens      = "GROUNDSENSITIVITY" ~ /\s+/ IDENT end_stmt ;
+pin_shape        = "SHAPE" ~ shp:( "ABUTMENT" | "RING" | "FEEDTHRU" ) end_stmt ;
+pin_mustjoin     = "MUSTJOIN" ~ /\s+/ IDENT end_stmt ;
+pin_port         = "PORT" ~ /\n/ class:["CLASS" class_type:( "NONE" | "CORE" | "BUMP" | "none" | "core" | "bump" ) end_stmt ] geometry:{ layer_geometry }+ /\n/ "END" ;
+pin_antenna      = pin_antenna_pmetal | pin_antenna_pmetalside | pin_antenna_pcut
+                 | pin_antenna_diffarea | pin_antenna_model | pin_antenna_gatearea
+                 | pin_antenna_maxareac | pin_antenna_maxsideareac | pin_antenna_maxcutc
+                 ;
+pin_antenna_pmetal       = "ANTENNAPARTIALMETALAREA" ~ /\s+/ NUMERIC [ "LAYER" /\s+/ IDENT ] end_stmt ;
+pin_antenna_pmetalside   = "ANTENNAPARTIALMETALSIDEAREA" ~ /\s+/ NUMERIC [ "LAYER" /\s+/ IDENT ] end_stmt ;
+pin_antenna_pcut         = "ANTENNAPARTIALCUTAREA" ~ /\s+/ NUMERIC [ "LAYER" /\s+/ IDENT ] end_stmt ;
+pin_antenna_diffarea     = "ANTENNADIFFAREA" ~ /\s+/ NUMERIC [ "LAYER" /\s+/ IDENT ] end_stmt ;
+pin_antenna_model        = "ANTENNAMODEL" ~ ( "OXIDE1" | "OXIDE2" | "OXIDE3" | "OXIDE4" ) end_stmt ;
+pin_antenna_gatearea     = "ANTENNAGATEAREA" ~ /\s+/ NUMERIC [ "LAYER" /\s+/ IDENT ] end_stmt ;
+pin_antenna_maxareac     = "ANTENNAMAXAREACAR" ~ /\s+/ NUMERIC [ "LAYER" /\s+/ IDENT ] end_stmt ;
+pin_antenna_maxsideareac = "ANTENNAMAXSIDEAREACAR" ~ /\s+/ NUMERIC [ "LAYER" /\s+/ IDENT ] end_stmt ;
+pin_antenna_maxcutc      = "ANTENNAMAXCUTCAR" ~ /\s+/ NUMERIC [ "LAYER" /\s+/ IDENT ] end_stmt ;
+
+
+layer_geometry   = layer  geometry:{ shape:(poly:polygon | path:path | rect:rectangle) }* ;
+
+layer            = "LAYER" ~ /\s+/ name:IDENT [ "EXCEPTPGNET" ] { layer_sw } end_stmt ;
+layer_sw         = layer_sw_spacing | layer_sw_drwidth ;
+layer_sw_spacing = "SPACING" ~ /\s+/ NUMERIC ;
+layer_sw_drwidth = "DESIGNRULEWIDTH" ~ /\s+/ NUMERIC ;
+
+property    = "PROPERTY" ~ /\s+/ name:IDENT /\s+/ [ '"' ] value:(IDENT | NUMERIC) [ '"' ] end_stmt ;
+polygon     = "POLYGON" ~ /\s+/ p0:POINT /\s+/ p1:POINT /\s+/ p2:POINT /\s+/ pts:{ ptn:POINT /\s+/ } end_stmt ;
+path        = "PATH" ~ /\s+/ points:{ pt:POINT /\s+/ }+ end_stmt ;
+rectangle   = "RECT" ~ /\s+/ pt0:NUMERIC /\s+/ pt1:NUMERIC /\s+/ pt2:NUMERIC /\s+/ pt3:NUMERIC [ /\s+/ diffusion:NUMERIC ] end_stmt ;
+step_patern = "DO" ~ /\s+/ cntx:NUMERIC "BY" /\s+/ cnty:NUMERIC "STEP" /\s+/ stpx:NUMERIC /\s+/ stpy:NUMERIC ;
+
+POINT       = x:NUMERIC /\s+/ y:NUMERIC ;
+IDENT       = { (ALPHA | "_") } { ( ALPHANUM | "[" | "]" | /\w+/) } ;
+NUMERIC     = (@:FLOAT | @:INTEGER) ;
+FLOAT       = [ /\-/ | /\+/ ] { DIGIT }+ /\./ ~ { DIGIT }+ ;
+INTEGER     = [ /\-/ | /\+/ ] { DIGIT }+ ;
+ALPHANUM    = ALPHA | DIGIT ;
+DIGIT       = /\d/ ;
+ALPHA       = /\w/ ;
+
+ORIENTATION = "N" | "E" | "S" | "W" | "FN" | "FS" | "FE" | "FW" ;
+
+end_stmt = ";" ;
