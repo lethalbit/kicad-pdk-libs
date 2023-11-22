@@ -22,6 +22,12 @@ EXTRA_DIR         = (Path(__file__).parent / 'ext')
 TATSU_LEF_GRAMMAR = (EXTRA_DIR / 'lef.tatsu')
 KISYM_TEMPLATE    = (EXTRA_DIR / 'kicad_sym.jinja')
 
+CELL_TEMPLATE_CELL  = (EXTRA_DIR / 'cell.jinja')
+CELL_TEMPLATE_NMOS3 = (EXTRA_DIR / 'nmos3.jinja')
+CELL_TEMPLATE_NMOS4 = (EXTRA_DIR / 'nmos4.jinja')
+CELL_TEMPLATE_PMOS3 = (EXTRA_DIR / 'pmos3.jinja')
+CELL_TEMPLATE_PMOS4 = (EXTRA_DIR / 'pmos4.jinja')
+
 env = Environment(trim_blocks = True, lstrip_blocks = True)
 env.globals['now'] = datetime.utcnow
 env.globals['len'] = len
@@ -56,7 +62,6 @@ class Property:
 
 	def __repr__(self) -> str:
 		return f'(property "{self.name}" "{self.value}" (id {self.id}))'
-
 
 
 class PinDir(Enum):
@@ -185,6 +190,34 @@ class Pin:
 
 	def __repr__(self) -> str:
 		return f'(pin "{self.name}" {self.type} {self.dir})'
+
+class CellType(Enum):
+	PFET      = auto()
+	NFET      = auto()
+	CELL      = auto()
+
+	def __str__(self) -> str:
+		match self:
+			case CellType.PFET:
+				return 'PFET'
+			case CellType.NFET:
+				return 'NFET'
+			case _:
+				return 'CELL'
+
+	@staticmethod
+	def from_str(s: str) -> 'CellType':
+		if s is None:
+			return CellType.CELL
+		normalized = s.lower()
+		match normalized:
+			case 'pfet':
+				return CellType.PFET
+			case 'nfet':
+				return CellType.NFET
+			case _:
+				return CellType.CELL
+
 
 class Cell:
 	def _count_pins(self) -> None:
@@ -340,20 +373,29 @@ class Cell:
 	) -> None:
 		self.id = name
 		self.pins = pins
+		self.cell_type = cell_type
 		self._pin_counts = None
 		self._count_pins()
 		self._padding = (0, 0, 0, 0)
 		self._bounds = self._calc_bounds()
-
 		self._fixup_pins()
 
-		self.properties = [
-			Property('Reference', 'X',           0),
+		self.properties = []
+
+		match self.cell_type:
+			case CellType.PFET | CellType.NFET:
+				self.properties.append(Property('Reference', 'Q', 0))
+			case _:
+				self.properties.append(Property('Reference', 'X', 0))
+
+		self.properties += [
 			Property('Value',     name,          1, False),
 			Property('Footprint', f'{bounds}',   2),
 			Property('Datasheet', lef_file_name, 3),
 			*properties
 		]
+
+
 
 		self._fixup_properties()
 
@@ -361,20 +403,62 @@ class Cell:
 		self.properties.append(prop)
 		self._fixup_properties()
 
-	def get_rect(self) -> str:
-		return f'''\
-(rectangle
-      (start {self._bounds[0]} {self._bounds[1]})
-      (end {self._bounds[2]} {self._bounds[3]})
-      (stroke
-        (width 0.1)
-        (type solid)
-        (color 0 0 0 0)
-      )
-      (fill
-        (type background)
-      )
-    )'''
+	def render_cell(self) -> str:
+		template = None
+		match self.cell_type:
+			case CellType.CELL:
+				template = CELL_TEMPLATE_CELL
+			case CellType.NFET:
+				if self.pin_count() == 3:
+					template = CELL_TEMPLATE_NMOS3
+				elif self.pin_count() == 4:
+					template = CELL_TEMPLATE_NMOS4
+				else:
+					log.warning(
+						f'FET {self.id} has a non-standard pin count ({self.pin_count()}). defaulting to CELL template'
+					)
+					template = CELL_TEMPLATE_CELL
+			case CellType.PFET:
+				if self.pin_count() == 3:
+					template = CELL_TEMPLATE_PMOS3
+				elif self.pin_count() == 4:
+					template = CELL_TEMPLATE_PMOS4
+				else:
+					log.warning(
+						f'FET {self.id} has a non-standard pin count ({self.pin_count()}). defaulting to CELL template'
+					)
+					template = CELL_TEMPLATE_CELL
+			case _:
+				raise RuntimeError('Unknown Cell type')
+
+
+		with template.open('r') as tmpl:
+			cell_tmpl = env.from_string(''.join(tmpl.readlines()))
+
+		return cell_tmpl.render(
+			sym = self
+		)
+
+	def fet_gates(self) -> dict[str, int]:
+		if self.cell_type not in (CellType.NFET, CellType.PFET):
+			raise RuntimeError(f'Cell is a {self.cell_type}, not a FET')
+
+		drain  = list(filter(lambda p: p.name.lower() == 'drain', self.pins))
+		gate   = list(filter(lambda p: p.name.lower() == 'gate', self.pins))
+		source = list(filter(lambda p: p.name.lower() == 'source', self.pins))
+		bulk   = list(filter(lambda p: p.name.lower() in ('substrate', 'psub', 'bulk'), self.pins))
+
+
+		return {
+			'drain':  drain[0].number  if len(drain)  > 0 else '?',
+			'gate':   gate[0].number   if len(gate)   > 0 else '?',
+			'source': source[0].number if len(source) > 0 else '?',
+			'bulk':   bulk[0].number   if len(bulk)   > 0 else '?',
+		}
+
+
+	def get_bounds(self) -> tuple[float, float, float, float]:
+		return self._bounds
 
 	def pin_count(self) -> int:
 		return len(self.pins)
@@ -398,9 +482,8 @@ class Cell:
 		return self.__repr__()
 
 	def __repr__(self) -> str:
-		return f'(cell "{self.id}" {" ".join(map(str, self.pins))})'
+		return f'({self.cell_type} "{self.id}" {" ".join(map(str, self.pins))})'
 
-		
 
 def _flatten(col):
 	return [i for sl in list(col) for i in sl]
@@ -440,7 +523,7 @@ def extract(model, cellib: Path, args: Namespace) -> list[Cell]:
 			cell_pins = list()
 			ignored_pins = 0
 
-			log.debug(f' ===> Looking for pins')
+			log.debug(' ===> Looking for pins')
 			for stmt in macro['mstmts']:
 				pin = None if 'pin' not in stmt else stmt['pin']
 				if pin is not None:
@@ -494,8 +577,17 @@ def extract(model, cellib: Path, args: Namespace) -> list[Cell]:
 					symmetry = _flatten_str(stmt['symmetry'][1])
 
 
+			cell_type = CellType.CELL
+
+			# TODO: Generalize/Better heuristics
+			# These are specific to sky130_fd_pr
+			if cell_name.startswith('rf_nfet'):
+				cell_type = CellType.NFET
+			elif cell_name.startswith('rf_pfet'):
+				cell_type = CellType.PFET
+
 			cells.append(Cell(
-				cell_name, cell_pins, cellib.name,
+				cell_name, cell_pins, cellib.name, cell_type,
 				bounds = bounds, properties = (
 					Property('Cell Class',    f'{cell_class}',  10),
 					Property('Foreign Cell',  f'{foreign}',     11),
@@ -593,15 +685,14 @@ def process_lefs(args: Namespace, lefs: list[Path]) -> list[tuple[list[Cell], Pa
 
 	log.info('Compiling TatSu parser, this might take a minute')
 	with TATSU_LEF_GRAMMAR.open('r') as lef_grammar:
-		model = tatsu.compile('\n'.join(lef_grammar.readlines()))
+		model = tatsu.compile(''.join(lef_grammar.readlines()))
 
 	log.info('Processing cell libraries, this will take a while.')
+
 	def _process_cell_lib(cellib: Path):
 		log.info(f' => Processing Cell Library \'{PDK}/{cellib.stem}\'')
 		cells = extract(model, cellib, args)
 		return (cells, cellib)
-
-
 
 	cellibs = list()
 	if JOBS == 1:
@@ -663,7 +754,7 @@ def merge_spice(
 	PDK: str = args.pdk
 	LINK_SPICE: bool = args.link
 
-	log.info(f'Merging SPICE netlists into symbols')
+	log.info('Merging SPICE netlists into symbols')
 
 	netlists = dict()
 	total = 0
@@ -723,7 +814,7 @@ def emit_symlibs(args: Namespace, cellibs: tuple[list[Cell], Path]) -> bool:
 		log.debug(' ==> Rendering Symbol Library')
 
 		with KISYM_TEMPLATE.open('r') as tmpl:
-			template = env.from_string('\n'.join(tmpl.readlines()))
+			template = env.from_string(''.join(tmpl.readlines()))
 
 		symfile = template.render(
 			name     = cellib.stem,
