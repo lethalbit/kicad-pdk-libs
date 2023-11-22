@@ -855,6 +855,10 @@ def main():
 	args = parser.parse_args()
 	_setup_logging(args)
 
+	if args.pdk_root is None:
+		log.error('PDK_ROOT must be set or passed via --pdk!')
+		return 1
+
 	if not args.pdk_root.exists():
 		log.error(f'PDK_ROOT {args.pdk_root} does not exist!')
 		return 1
