@@ -757,7 +757,7 @@ def merge_spice(
 	spicelibs:  list[tuple[Path, dict[str, str]]]
 ) -> None:
 	PDK: str = args.pdk
-	LINK_SPICE: bool = args.link
+	LINK_SPICE: bool = args.dont_link
 
 	log.info('Merging SPICE netlists into symbols')
 
@@ -949,10 +949,10 @@ def main():
 	)
 
 	spice_options.add_argument(
-		'--link',
-		action  = 'store_true',
-		default = False,
-		help    = 'Rather than embedding the SPICE subckt model into the symbol, use the PDK lib'
+		'--dont-link',
+		action  = 'store_false',
+		default = True,
+		help    = 'Rather than linking the SPICE subckt model into the symbol, embed it.'
 	)
 
 	args = parser.parse_args()
