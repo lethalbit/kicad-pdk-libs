@@ -498,6 +498,7 @@ def extract(model, cellib: Path, args: Namespace) -> list[Cell]:
 	SPLIT_STR: str = args.split_char
 	PDK: str = args.pdk
 	STRIP_NAME: bool = not args.dont_strip
+	KEEP_EMPTY: bool = args.keep_empty
 
 	ast = None
 	cells = list()
@@ -550,7 +551,8 @@ def extract(model, cellib: Path, args: Namespace) -> list[Cell]:
 						pin_name, pin_dir, pin_type, num = len(cell_pins) + 1
 					))
 
-			log.debug(f' ===> Found {len(cell_pins)} pins in cell \'{cell_name}\' ({ignored_pins} ignored)')
+			cell_pin_count = len(cell_pins)
+			log.debug(f' ===> Found {cell_pin_count} pins in cell \'{cell_name}\' ({ignored_pins} ignored)')
 
 			bounds     = (0.0, 0.0)
 			origin     = (0.0, 0.0)
@@ -586,18 +588,21 @@ def extract(model, cellib: Path, args: Namespace) -> list[Cell]:
 			elif cell_name.startswith('rf_pfet'):
 				cell_type = CellType.PFET
 
-			cells.append(Cell(
-				cell_name, cell_pins, cellib.name, cell_type,
-				bounds = bounds, properties = (
-					Property('Cell Class',    f'{cell_class}',  10),
-					Property('Foreign Cell',  f'{foreign}',     11),
-					Property('Cell Origin',   f'{origin}',      12),
-					Property('Cell Size',     f'{bounds}',      13),
-					Property('Cell Symmetry', f'{symmetry}',    14),
-					Property('Cell PDK',      f'{PDK}',         15),
-					Property('Cell Library',  f'{cellib.stem}', 16)
-				)
-			))
+			if cell_pin_count > 0 or KEEP_EMPTY:
+				if cell_pin_count == 0:
+					log.warning(f'The cell \'{cell_name}\' has 0 pins, but was kept anyway')
+				cells.append(Cell(
+					cell_name, cell_pins, cellib.name, cell_type,
+					bounds = bounds, properties = (
+						Property('Cell Class',    f'{cell_class}',  10),
+						Property('Foreign Cell',  f'{foreign}',     11),
+						Property('Cell Origin',   f'{origin}',      12),
+						Property('Cell Size',     f'{bounds}',      13),
+						Property('Cell Symmetry', f'{symmetry}',    14),
+						Property('Cell PDK',      f'{PDK}',         15),
+						Property('Cell Library',  f'{cellib.stem}', 16)
+					)
+				))
 
 	log.info(f' ==> Found {len(cells)} cells in {cellib.stem}')
 	return cells
@@ -927,6 +932,13 @@ def main():
 		action  = 'store_true',
 		default = False,
 		help    = 'Don\'t strip the cell library name from the cell'
+	)
+
+	symbol_options.add_argument(
+		'--keep-empty', '-K',
+		action  = 'store_true',
+		default = False,
+		help    = 'Don\'t discard symbols with no pins'
 	)
 
 	spice_options.add_argument(
