@@ -45,12 +45,12 @@ Once that is done, you can invoke [`pdk2kicad`](./contrib/pdk2kicad.py) to gener
 > This will take a /very/ long time, for options to possibly speed  it up see the next section.
 
 ```
-$ python ./contrib/pdk2kicad.py --pdk sky130A --spice --link
-$ python ./contrib/pdk2kicad.py --pdk sky130B --spice --link
-$ python ./contrib/pdk2kicad.py --pdk gf180mcuA --spice --link
-$ python ./contrib/pdk2kicad.py --pdk gf180mcuB --spice --link
-$ python ./contrib/pdk2kicad.py --pdk gf180mcuC --spice --link
-$ python ./contrib/pdk2kicad.py --pdk gf180mcuD --spice --link
+$ python ./contrib/pdk2kicad.py --pdk sky130A --spice
+$ python ./contrib/pdk2kicad.py --pdk sky130B --spice
+$ python ./contrib/pdk2kicad.py --pdk gf180mcuA --spice
+$ python ./contrib/pdk2kicad.py --pdk gf180mcuB --spice
+$ python ./contrib/pdk2kicad.py --pdk gf180mcuC --spice
+$ python ./contrib/pdk2kicad.py --pdk gf180mcuD --spice
 ```
 
 When it's all over, all of the symbols will be located in [`symbols/<PDK>/`](./symbols/).
