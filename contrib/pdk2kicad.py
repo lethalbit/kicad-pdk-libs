@@ -769,30 +769,68 @@ def merge_spice(
 		netlists[f.stem] = model
 
 	for cells, cellib in cellibs:
-		if cellib.stem not in netlists:
-			log.warning(f'No SPICE lib found for cell library \'{cellib.stem}\'')
-			continue
+		log.info(f'{cellib}')
+		# sky130_fd_pr is a special case where rather than one monolithic spice model,
+		# everything is broken out, and there is a lot of other stuff, due to it being
+		# the core primitive models and the like.
 
-		if LINK_SPICE:
-			SPICE_LIB = f'${{PDK_ROOT}}/{PDK}/libs.ref/{cellib.stem}/spice/{cellib.stem}.spice'
-		for cell in cells:
-			total += 1
-			CELL_NAME = f'{cellib.stem}__{cell.id}'
-			log.debug(f'Looking for model for {CELL_NAME}')
-			model = netlists[cellib.stem].get(CELL_NAME, None)
-			if model is None:
-				unk += 1
+		# Therefore, it needs to be speical cased below, it's kinda anoying but it works
+
+		if cellib.stem == 'sky130_fd_pr':
+			for cell in cells:
+				total += 1
+				CELL_NAME = f'{cellib.stem}__{cell.id}'
+
+				# BUG(aki): This excludes a handfull of cells due to them being in
+				# a different SPICE file, should be fixed, but it's not a big deal right now.
+				if CELL_NAME not in netlists:
+					log.warning(f'No SPICE lib found for primitive cell \'{CELL_NAME}\'')
+					continue
+
+				if LINK_SPICE:
+					SPICE_LIB = f'${{PDK_ROOT}}/{PDK}/libs.ref/{cellib.stem}/spice/{CELL_NAME}.spice'
+
+				log.debug(f'Looking for model for {CELL_NAME}')
+				model = netlists[CELL_NAME].get(CELL_NAME, None)
+				if model is None:
+					unk += 1
+					continue
+
+				if LINK_SPICE:
+					cell.append_property(Property('Sim.Library', SPICE_LIB, 90))
+					cell.append_property(Property('Sim.Name',    CELL_NAME, 91))
+					cell.append_property(Property('Sim.Device',  'SUBCKT',  92))
+				else:
+					cell.append_property(Property('Sim.Device',  'SPICE', 92))
+					cell.append_property(Property(
+						'Sim.Params',  f'model=\\"{model.encode("unicode_escape").decode("utf-8")}\\"', 93
+					))
+		else:
+			if cellib.stem not in netlists:
+				log.warning(f'No SPICE lib found for cell library \'{cellib.stem}\'')
 				continue
 
 			if LINK_SPICE:
-				cell.append_property(Property('Sim.Library', SPICE_LIB, 90))
-				cell.append_property(Property('Sim.Name',    CELL_NAME, 91))
-				cell.append_property(Property('Sim.Device',  'SUBCKT',  92))
-			else:
-				cell.append_property(Property('Sim.Device',  'SPICE', 92))
-				cell.append_property(Property(
-					'Sim.Params',  f'model=\\"{model.encode("unicode_escape").decode("utf-8")}\\"', 93
-				))
+				SPICE_LIB = f'${{PDK_ROOT}}/{PDK}/libs.ref/{cellib.stem}/spice/{cellib.stem}.spice'
+
+			for cell in cells:
+				total += 1
+				CELL_NAME = f'{cellib.stem}__{cell.id}'
+				log.debug(f'Looking for model for {CELL_NAME}')
+				model = netlists[cellib.stem].get(CELL_NAME, None)
+				if model is None:
+					unk += 1
+					continue
+
+				if LINK_SPICE:
+					cell.append_property(Property('Sim.Library', SPICE_LIB, 90))
+					cell.append_property(Property('Sim.Name',    CELL_NAME, 91))
+					cell.append_property(Property('Sim.Device',  'SUBCKT',  92))
+				else:
+					cell.append_property(Property('Sim.Device',  'SPICE', 92))
+					cell.append_property(Property(
+						'Sim.Params',  f'model=\\"{model.encode("unicode_escape").decode("utf-8")}\\"', 93
+					))
 
 	log.info(f'Merged {total - unk} SPICE models with matching cells (Total: {total}, No Models: {unk})')
 
