@@ -793,7 +793,6 @@ def merge_spice(
 		netlists[f.stem] = model
 
 	for cells, cellib in cellibs:
-		log.info(f'{cellib}')
 		# sky130_fd_pr is a special case where rather than one monolithic spice model,
 		# everything is broken out, and there is a lot of other stuff, due to it being
 		# the core primitive models and the like.
