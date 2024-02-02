@@ -1,0 +1,38 @@
+ * SPDX-License-Identifier: Apache-2.0
+ * This file is a small wrapper/stub over the base sky130 primitive FETS
+ *
+ * This is needed due to how complex the setup and layout for the PDK SPICE
+ * is, it makes KiCad very angry, and you can't really properly assign SPICE
+ * models to FETs inside eeschem as such.
+ *
+ * So this stub just difers the lookup of the FET subckts until simulation time
+ * to allow for things to be happy.
+
+ * 1v8, 3v3, and 5v0 NFETs
+
+.SUBCKT sky130_nfet_01v8 D G S B l=1.0 w=1.0 nf=1.0 ad=0.0 as=0.0 pd=0.0 ps=0.0 nrd=0.0 nrs=0.0 sa=0.0 sb=0.0 sd=0.0
+X0 D G S B sky130_fd_pr__nfet_01v8 l=l w=w nf=nf ad=ad as=as pd=pd ps=ps nrd=nrd nrs=nrs sa=sa sb=sb sd=sd
+.ENDS
+
+.SUBCKT sky130_nfet_03v3 D G S B l=1.0 w=1.0 nf=1.0 ad=0.0 as=0.0 pd=0.0 ps=0.0 nrd=0.0 nrs=0.0 sa=0.0 sb=0.0 sd=0.0
+X0 D G S B sky130_fd_pr__nfet_03v3 l=l w=w nf=nf ad=ad as=as pd=pd ps=ps nrd=nrd nrs=nrs sa=sa sb=sb sd=sd
+.ENDS
+
+.param
+.SUBCKT sky130_nfet_05v0 D G S B l=1.0 w=1.0 nf=1.0 ad=0.0 as=0.0 pd=0.0 ps=0.0 nrd=0.0 nrs=0.0 sa=0.0 sb=0.0 sd=0.0
+X0 D G S B sky130_fd_pr__nfet_05v0 l=l w=w nf=nf ad=ad as=as pd=pd ps=ps nrd=nrd nrs=nrs sa=sa sb=sb sd=sd
+.ENDS
+
+ * 1v8, 3v3, and 5v0 PFETs
+
+.SUBCKT sky130_pfet_01v8 D G S B l=1.0 w=1.0 nf=1.0 ad=0.0 as=0.0 pd=0.0 ps=0.0 nrd=0.0 nrs=0.0 sa=0.0 sb=0.0 sd=0.0
+X0 D G S B sky130_fd_pr__pfet_01v8 l=l w=w nf=nf ad=ad as=as pd=pd ps=ps nrd=nrd nrs=nrs sa=sa sb=sb sd=sd
+.ENDS
+
+.SUBCKT sky130_pfet_03v3 D G S B l=1.0 w=1.0 nf=1.0 ad=0.0 as=0.0 pd=0.0 ps=0.0 nrd=0.0 nrs=0.0 sa=0.0 sb=0.0 sd=0.0
+X0 D G S B sky130_fd_pr__pfet_03v3 l=l w=w nf=nf ad=ad as=as pd=pd ps=ps nrd=nrd nrs=nrs sa=sa sb=sb sd=sd
+.ENDS
+
+.SUBCKT sky130_pfet_05v0 D G S B l=1.0 w=1.0 nf=1.0 ad=0.0 as=0.0 pd=0.0 ps=0.0 nrd=0.0 nrs=0.0 sa=0.0 sb=0.0 sd=0.0
+X0 D G S B sky130_fd_pr__pfet_05v0 l=l w=w nf=nf ad=ad as=as pd=pd ps=ps nrd=nrd nrs=nrs sa=sa sb=sb sd=sd
+.ENDS
