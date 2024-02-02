@@ -1,2 +1,6 @@
 *.venv*
 *.pyc
+*.kicad_prl
+*.kicad_pro
+*kicad_sch.lck
+.tmp/
