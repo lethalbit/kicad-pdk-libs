@@ -605,6 +605,30 @@ def extract(model, cellib: Path, args: Namespace) -> list[Cell]:
 				))
 
 	log.info(f' ==> Found {len(cells)} cells in {cellib.stem}')
+
+	if cellib.stem == 'sky130_fd_pr':
+		log.info(' ==> Cell library is sky130 primitive library, injecting fundamental FETs')
+		for fet_type in ('nfet', 'pfet'):
+			for fet_voltage in ('01v8', '03v3', '05v0'):
+				FET_NAME = f'sky130_{fet_type}_{fet_voltage}'
+				log.info(f' ===> Inserting \'{FET_NAME}\'')
+				cells.append(Cell(
+					FET_NAME, [
+						Pin('drain',  'bidirectional', 'signal', num = 0),
+						Pin('gate',   'bidirectional', 'signal', num = 1),
+						Pin('source', 'bidirectional', 'signal', num = 2),
+						Pin('bulk',   'bidirectional', 'signal', num = 3),
+					], cellib.name,
+					CellType.PFET if fet_type == 'pfet' else CellType.NFET,
+					bounds = bounds, properties = (
+						Property('Cell PDK',     f'{PDK}',         15),
+						Property('Cell Library', f'{cellib.stem}', 16),
+						Property('Sim.Library',  '${PDK_LIBS}/spice/sky130_fet.lib', 90),
+						Property('Sim.Name',     FET_NAME, 91),
+						Property('Sim.Device',  'SUBCKT',  92),
+					)
+				))
+
 	return cells
 
 
