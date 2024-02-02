@@ -11,7 +11,7 @@ Once you're all set up, open a blank schematic, this can be done as part of a pr
 
 ## Setting Up The Inverter
 
-With the blank schematic open, we first need to add a few symbols, in this case we will be using the `sky130_nfet_01v8` and the `sky130_pfet_01v8` symbols, which are the primitive parasitized FET models.
+With the blank schematic open, we first need to add a few symbols, in this case we will be using the `sky130_nfet_01v8` and the `sky130_pfet_01v8` symbols, which are the primitive parameterized FET models.
 
 So, hit `a` on your keyboard to add a new symbol, and search for the appropriate FET symbols, like so:
 
