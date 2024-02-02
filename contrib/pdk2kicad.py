@@ -614,10 +614,10 @@ def extract(model, cellib: Path, args: Namespace) -> list[Cell]:
 				log.info(f' ===> Inserting \'{FET_NAME}\'')
 				cells.append(Cell(
 					FET_NAME, [
-						Pin('drain',  'bidirectional', 'signal', num = 0),
-						Pin('gate',   'bidirectional', 'signal', num = 1),
-						Pin('source', 'bidirectional', 'signal', num = 2),
-						Pin('bulk',   'bidirectional', 'signal', num = 3),
+						Pin('drain',  'bidirectional', 'signal', num = 1),
+						Pin('gate',   'bidirectional', 'signal', num = 2),
+						Pin('source', 'bidirectional', 'signal', num = 3),
+						Pin('bulk',   'bidirectional', 'signal', num = 4),
 					], cellib.name,
 					CellType.PFET if fet_type == 'pfet' else CellType.NFET,
 					bounds = bounds, properties = (
