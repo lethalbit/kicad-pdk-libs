@@ -127,7 +127,7 @@ To start the simulation, we need to launch the KiCad SPICE simulator, to do so, 
 
 When done, an empty simulation window will open, and then you can just go ahead and click on the `Run/Stop Simulation` button, as we should be all set up for KiCad to just start the simulation
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Depending on your system, as well as a myrad of other factors the simulation might take a bit.
 
 ![](./_images/intro/kicad_eeschema_sim_window.png)
