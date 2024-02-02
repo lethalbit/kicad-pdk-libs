@@ -105,7 +105,7 @@ rectangle   = "RECT" ~ /\s+/ pt0:NUMERIC /\s+/ pt1:NUMERIC /\s+/ pt2:NUMERIC /\s
 step_patern = "DO" ~ /\s+/ cntx:NUMERIC "BY" /\s+/ cnty:NUMERIC "STEP" /\s+/ stpx:NUMERIC /\s+/ stpy:NUMERIC ;
 
 POINT       = x:NUMERIC /\s+/ y:NUMERIC ;
-IDENT       = { (ALPHA | "_") } { ( ALPHANUM | "[" | "]" | /\w+/) } ;
+IDENT       = { (ALPHA | "_") } { ( ALPHANUM | "[" | "]" | "<" | ">" | /\w+/) } ;
 NUMERIC     = (@:FLOAT | @:INTEGER) ;
 FLOAT       = [ /\-/ | /\+/ ] { DIGIT }+ /\./ ~ { DIGIT }+ ;
 INTEGER     = [ /\-/ | /\+/ ] { DIGIT }+ ;
