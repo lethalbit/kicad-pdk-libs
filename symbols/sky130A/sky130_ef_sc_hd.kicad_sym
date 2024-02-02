@@ -1,1209 +1,950 @@
 (kicad_symbol_lib (version 20211014) (generator pdk2kicad)
   (symbol
-    "decap_12"
-    (in_bom no)
-    (on_board yes)
-    (property
+  "decap_12"
+  (in_bom no)
+  (on_board yes)
+  (property
       "Reference"
       "X"
       (id 0)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Value"
       "decap_12"
       (id 1)
       (at -3.81 -6.35 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        (justify top)
       )
-    )
-    (property
+      (justify top)
+      )
+  )
+  (property
       "Footprint"
       "(5.52, 2.72)"
       (id 2)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Datasheet"
       "sky130_ef_sc_hd.lef"
       (id 3)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Class"
-      "BLOCK"
+      "('CORE', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Foreign Cell"
       "sky130_ef_sc_hd__decap_12"
       (id 11)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Origin"
       "(0.0, 0.0)"
       (id 12)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Size"
       "(5.52, 2.72)"
       (id 13)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell PDK"
       "sky130A"
       (id 15)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Library"
       "sky130_ef_sc_hd"
       (id 16)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (rectangle
+      hide
+      )
+  )
+  (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
       (stroke
-        (width 0.1)
-        (type solid)
-        (color 0 0 0 0)
+      (width 0.1)
+      (type solid)
+      (color 0 0 0 0)
       )
       (fill
-        (type background)
+      (type background)
       )
-    )
-    (pin
-      power_in
-      line
-      (at -1.27 -8.89 90)
-      (length 2.54)
-      (name "VGND"
-        (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-     )
-     (number "1"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-      )
-    )
-    (pin
+  )
+  (pin
       power_in
       line
       (at -1.27 8.89 270)
       (length 2.54)
       (name "VPWR"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "2"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
-    (pin
+      )
+      (number "1"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
+      power_in
+      line
+      (at -1.27 -8.89 90)
+      (length 2.54)
+      (name "VGND"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+      (number "2"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
       power_in
       line
       (at 1.27 8.89 270)
       (length 2.54)
       (name "VPB"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "3"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
-    (pin
+      )
+      (number "3"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
       power_in
       line
       (at 1.27 -8.89 90)
       (length 2.54)
       (name "VNB"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "4"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
+      )
+      (number "4"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
   )
+)
   (symbol
-    "fakediode_2"
-    (in_bom no)
-    (on_board yes)
-    (property
+  "fill_4"
+  (in_bom no)
+  (on_board yes)
+  (property
       "Reference"
       "X"
       (id 0)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
-      "Value"
-      "fakediode_2"
-      (id 1)
-      (at -10.16 -7.62 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        (justify top)
+      hide
       )
-    )
-    (property
-      "Footprint"
-      "(0.92, 2.72)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (property
-      "Datasheet"
-      "sky130_ef_sc_hd.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (property
-      "Foreign Cell"
-      "sky130_ef_sc_hd__fakediode_2"
-      (id 11)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (property
-      "Cell Size"
-      "(0.92, 2.72)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (property
-      "Cell Library"
-      "sky130_ef_sc_hd"
-      (id 16)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (rectangle
-      (start -10.16 -7.62)
-      (end 10.16 7.62)
-      (stroke
-        (width 0.1)
-        (type solid)
-        (color 0 0 0 0)
-      )
-      (fill
-        (type background)
-      )
-    )
-    (pin
-      bidirectional
-      line
-      (at -12.7 -5.08 0)
-      (length 2.54)
-      (name "DIODE"
-        (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-     )
-     (number "1"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-      )
-    )
-    (pin
-      power_in
-      line
-      (at -1.2700000000000005 -10.16 90)
-      (length 2.54)
-      (name "VGND"
-        (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-     )
-     (number "2"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-      )
-    )
-    (pin
-      power_in
-      line
-      (at -1.2700000000000005 10.16 270)
-      (length 2.54)
-      (name "VPWR"
-        (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-     )
-     (number "3"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-      )
-    )
-    (pin
-      power_in
-      line
-      (at 1.2699999999999996 10.16 270)
-      (length 2.54)
-      (name "VPB"
-        (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-     )
-     (number "4"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-      )
-    )
-    (pin
-      power_in
-      line
-      (at 1.2699999999999996 -10.16 90)
-      (length 2.54)
-      (name "VNB"
-        (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-     )
-     (number "5"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-      )
-    )
   )
-  (symbol
-    "fill_4"
-    (in_bom no)
-    (on_board yes)
-    (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1 1)
-        )
-        hide
-      )
-    )
-    (property
+  (property
       "Value"
       "fill_4"
       (id 1)
       (at -3.81 -6.35 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        (justify top)
       )
-    )
-    (property
+      (justify top)
+      )
+  )
+  (property
       "Footprint"
       "(1.84, 2.72)"
       (id 2)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Datasheet"
       "sky130_ef_sc_hd.lef"
       (id 3)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Class"
-      "BLOCK"
+      "('CORE', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Foreign Cell"
       "sky130_ef_sc_hd__fill_4"
       (id 11)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Origin"
       "(0.0, 0.0)"
       (id 12)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Size"
       "(1.84, 2.72)"
       (id 13)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell PDK"
       "sky130A"
       (id 15)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Library"
       "sky130_ef_sc_hd"
       (id 16)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (rectangle
+      hide
+      )
+  )
+  (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
       (stroke
-        (width 0.1)
-        (type solid)
-        (color 0 0 0 0)
+      (width 0.1)
+      (type solid)
+      (color 0 0 0 0)
       )
       (fill
-        (type background)
+      (type background)
       )
-    )
-    (pin
-      power_in
-      line
-      (at -1.27 -8.89 90)
-      (length 2.54)
-      (name "VGND"
-        (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-     )
-     (number "1"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-      )
-    )
-    (pin
+  )
+  (pin
       power_in
       line
       (at -1.27 8.89 270)
       (length 2.54)
       (name "VPWR"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "2"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
-    (pin
+      )
+      (number "1"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
+      power_in
+      line
+      (at -1.27 -8.89 90)
+      (length 2.54)
+      (name "VGND"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+      (number "2"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
       power_in
       line
       (at 1.27 8.89 270)
       (length 2.54)
       (name "VPB"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "3"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
-    (pin
+      )
+      (number "3"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
       power_in
       line
       (at 1.27 -8.89 90)
       (length 2.54)
       (name "VNB"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "4"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
+      )
+      (number "4"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
   )
+)
   (symbol
-    "fill_8"
-    (in_bom no)
-    (on_board yes)
-    (property
+  "fill_8"
+  (in_bom no)
+  (on_board yes)
+  (property
       "Reference"
       "X"
       (id 0)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Value"
       "fill_8"
       (id 1)
       (at -3.81 -6.35 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        (justify top)
       )
-    )
-    (property
+      (justify top)
+      )
+  )
+  (property
       "Footprint"
       "(3.68, 2.72)"
       (id 2)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Datasheet"
       "sky130_ef_sc_hd.lef"
       (id 3)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Class"
-      "BLOCK"
+      "('CORE', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Foreign Cell"
       "sky130_ef_sc_hd__fill_8"
       (id 11)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Origin"
       "(0.0, 0.0)"
       (id 12)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Size"
       "(3.68, 2.72)"
       (id 13)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell PDK"
       "sky130A"
       (id 15)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Library"
       "sky130_ef_sc_hd"
       (id 16)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (rectangle
+      hide
+      )
+  )
+  (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
       (stroke
-        (width 0.1)
-        (type solid)
-        (color 0 0 0 0)
+      (width 0.1)
+      (type solid)
+      (color 0 0 0 0)
       )
       (fill
-        (type background)
+      (type background)
       )
-    )
-    (pin
-      power_in
-      line
-      (at -1.27 -8.89 90)
-      (length 2.54)
-      (name "VGND"
-        (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-     )
-     (number "1"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
-      )
-    )
-    (pin
+  )
+  (pin
       power_in
       line
       (at -1.27 8.89 270)
       (length 2.54)
       (name "VPWR"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "2"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
-    (pin
+      )
+      (number "1"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
+      power_in
+      line
+      (at -1.27 -8.89 90)
+      (length 2.54)
+      (name "VGND"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+      (number "2"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
       power_in
       line
       (at 1.27 8.89 270)
       (length 2.54)
       (name "VPB"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "3"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
-    (pin
+      )
+      (number "3"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
       power_in
       line
       (at 1.27 -8.89 90)
       (length 2.54)
       (name "VNB"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "4"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
+      )
+      (number "4"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
   )
+)
   (symbol
-    "fill_12"
-    (in_bom no)
-    (on_board yes)
-    (property
+  "fill_12"
+  (in_bom no)
+  (on_board yes)
+  (property
       "Reference"
       "X"
       (id 0)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Value"
       "fill_12"
       (id 1)
       (at -3.81 -6.35 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        (justify top)
       )
-    )
-    (property
+      (justify top)
+      )
+  )
+  (property
       "Footprint"
       "(5.52, 2.72)"
       (id 2)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Datasheet"
       "sky130_ef_sc_hd.lef"
       (id 3)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Class"
-      "BLOCK"
+      "('CORE', 'SPACER')"
       (id 10)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Foreign Cell"
       "sky130_ef_sc_hd__fill_12"
       (id 11)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Origin"
       "(0.0, 0.0)"
       (id 12)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Size"
       "(5.52, 2.72)"
       (id 13)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Symmetry"
-      ""
+      "XYR90"
       (id 14)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell PDK"
       "sky130A"
       (id 15)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (property
+      hide
+      )
+  )
+  (property
       "Cell Library"
       "sky130_ef_sc_hd"
       (id 16)
       (at 0 0 0)
       (effects
-        (font
+      (font
           (size 1 1)
-        )
-        hide
       )
-    )
-    (rectangle
+      hide
+      )
+  )
+  (rectangle
       (start -3.81 -6.35)
       (end 3.81 6.35)
       (stroke
-        (width 0.1)
-        (type solid)
-        (color 0 0 0 0)
+      (width 0.1)
+      (type solid)
+      (color 0 0 0 0)
       )
       (fill
-        (type background)
+      (type background)
       )
-    )
-    (pin
+  )
+  (pin
       power_in
       line
       (at -1.27 8.89 270)
       (length 2.54)
       (name "VPWR"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "1"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
-    (pin
+      )
+      (number "1"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
       power_in
       line
       (at -1.27 -8.89 90)
       (length 2.54)
       (name "VGND"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "2"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
-    (pin
+      )
+      (number "2"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
       power_in
       line
       (at 1.27 8.89 270)
       (length 2.54)
       (name "VPB"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "3"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
-    (pin
+      )
+      (number "3"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
+  )
+  (pin
       power_in
       line
       (at 1.27 -8.89 90)
       (length 2.54)
       (name "VNB"
-        (effects
+      (effects
           (font
-            (size 1 1)
+          (size 1 1)
           )
           hide
-        )
-     )
-     (number "4"
-       (effects
-          (font
-            (size 1 1)
-          )
-          hide
-        )
       )
-    )
+      )
+      (number "4"
+      (effects
+          (font
+          (size 1 1)
+          )
+          hide
+      )
+      )
   )
+)
 )

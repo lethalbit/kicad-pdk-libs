@@ -1742,155 +1742,6 @@
   )
 )
   (symbol
-  "cap_vpp_04p4x04p6_l1m1m2_noshield_o2subcell"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_04p4x04p6_l1m1m2_noshield_o2subcell"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(4.38, 4.59)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_noshield_o2subcell"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(4.38, 4.59)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
   "cap_vpp_04p4x04p6_l1m1m2_shieldpo_floatm3"
   (in_bom no)
   (on_board yes)
@@ -4836,155 +4687,6 @@
           )
           hide
       )
-      )
-  )
-)
-  (symbol
-  "cap_vpp_08p6x07p8_l1m1m2_noshield_o2subcell"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_08p6x07p8_l1m1m2_noshield_o2subcell"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(8.58, 7.84)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_08p6x07p8_l1m1m2_noshield_o2subcell"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(8.58, 7.84)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
       )
   )
 )
@@ -9473,6 +9175,42 @@
       hide
       )
   )
+  (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x6.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Name"
+      "sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x6"
+      (id 91)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
   (rectangle
       (start -5.08 -3.81)
       (end 5.08 3.81)
@@ -9702,6 +9440,42 @@
       "Cell Library"
       "sky130_fd_pr"
       (id 16)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x7.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Name"
+      "sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x7"
+      (id 91)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
       (font
@@ -9947,6 +9721,42 @@
       hide
       )
   )
+  (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x8.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Name"
+      "sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x8"
+      (id 91)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
   (rectangle
       (start -5.08 -3.81)
       (end 5.08 3.81)
@@ -10176,6 +9986,42 @@
       "Cell Library"
       "sky130_fd_pr"
       (id 16)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x9.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Name"
+      "sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x9"
+      (id 91)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
       (font
@@ -12805,1049 +12651,6 @@
   )
 )
   (symbol
-  "cap_vpp_11p5x11p7_pol1m1m2m3m4m5_noshield"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_11p5x11p7_pol1m1m2m3m4m5_noshield"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(11.41, 11.69)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_11p5x11p7_pol1m1m2m3m4m5_noshield"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(11.41, 11.69)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_11p5x23p1_pol1m1m2m3m4m5_noshield"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_11p5x23p1_pol1m1m2m3m4m5_noshield"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(11.41, 23.05)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_11p5x23p1_pol1m1m2m3m4m5_noshield"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(11.41, 23.05)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_22p5x11p7_pol1m1m2m3m4m5_noshield"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_22p5x11p7_pol1m1m2m3m4m5_noshield"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(22.49, 11.69)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_22p5x11p7_pol1m1m2m3m4m5_noshield"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(22.49, 11.69)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_22p5x23p1_pol1m1m2m3m4m5_noshield"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_22p5x23p1_pol1m1m2m3m4m5_noshield"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(22.49, 23.05)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_22p5x23p1_pol1m1m2m3m4m5_noshield"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(22.49, 23.05)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_33p6x11p7_pol1m1m2m3m4m5_noshield"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_33p6x11p7_pol1m1m2m3m4m5_noshield"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(33.57, 11.69)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_33p6x11p7_pol1m1m2m3m4m5_noshield"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(33.57, 11.69)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_33p6x23p1_pol1m1m2m3m4m5_noshield"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_33p6x23p1_pol1m1m2m3m4m5_noshield"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(33.57, 23.05)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_33p6x23p1_pol1m1m2m3m4m5_noshield"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(33.57, 23.05)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_44p7x11p7_pol1m1m2m3m4m5_noshield"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_44p7x11p7_pol1m1m2m3m4m5_noshield"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(44.65, 11.69)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_44p7x11p7_pol1m1m2m3m4m5_noshield"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(44.65, 11.69)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
   "cap_vpp_44p7x23p1_pol1m1m2m3m4m5_noshield"
   (in_bom no)
   (on_board yes)
@@ -14063,1347 +12866,6 @@
   )
 )
   (symbol
-  "cap_vpp_55p8x11p7_pol1m1m2m3m4m5_noshield"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_55p8x11p7_pol1m1m2m3m4m5_noshield"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(55.73, 11.69)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_55p8x11p7_pol1m1m2m3m4m5_noshield"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(55.73, 11.69)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_55p8x11p7_pol1m1m2m3m4m5_noshield_m5pullin"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_55p8x11p7_pol1m1m2m3m4m5_noshield_m5pullin"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(55.73, 11.69)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_55p8x11p7_pol1m1m2m3m4m5_noshield_m5pullin"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(55.73, 11.69)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(55.73, 23.05)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(55.73, 23.05)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield_m5pullin"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield_m5pullin"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(55.73, 23.05)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield_m5pullin"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(55.73, 23.05)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield_test"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield_test"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(55.73, 23.05)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield_test"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(55.73, 23.05)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "esd_rf_nfet_20v0_hbm_21vW60p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "esd_rf_nfet_20v0_hbm_21vW60p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(13.58, 41.82)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__esd_rf_nfet_20v0_hbm_21vW60p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(6.04, 5.91)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(13.58, 41.82)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "esd_rf_nfet_20v0_hbm_32vW60p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "esd_rf_nfet_20v0_hbm_32vW60p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(13.58, 41.82)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__esd_rf_nfet_20v0_hbm_32vW60p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(6.04, 5.91)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(13.58, 41.82)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "esd_rf_nfet_20v0_iec_21vW60p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "esd_rf_nfet_20v0_iec_21vW60p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(13.58, 41.82)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__esd_rf_nfet_20v0_iec_21vW60p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(6.04, 5.91)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(13.58, 41.82)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "esd_rf_nfet_20v0_iec_32vW60p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "esd_rf_nfet_20v0_iec_32vW60p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(13.58, 41.82)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__esd_rf_nfet_20v0_iec_32vW60p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(6.04, 5.91)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(13.58, 41.82)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
   "rf_aura_blocking"
   (in_bom no)
   (on_board yes)
@@ -15531,6 +12993,42 @@
       "Cell Library"
       "sky130_fd_pr"
       (id 16)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_aura_blocking.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Name"
+      "sky130_fd_pr__rf_aura_blocking"
+      (id 91)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
       (font
@@ -16233,6 +13731,42 @@
       hide
       )
   )
+  (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_aura_lvs_drc.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Name"
+      "sky130_fd_pr__rf_aura_lvs_drc"
+      (id 91)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
   (rectangle
       (start -8.89 -11.43)
       (end 8.89 11.43)
@@ -16582,6 +14116,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -16810,6 +14380,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -17054,6 +14660,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -17282,6 +14924,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM02W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM02W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -17526,6 +15204,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM02W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM02W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -17754,6 +15468,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM02W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM02W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -17998,6 +15748,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -18226,6 +16012,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -18470,6 +16292,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -18698,6 +16556,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM04W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM04W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -18942,6 +16836,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM04W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM04W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -19170,6 +17100,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM04W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM04W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -19414,6 +17380,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -19642,6 +17644,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM04W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM04W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -19886,6 +17924,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM04W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM04W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -20114,6 +18188,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -20358,6 +18468,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -20586,6 +18732,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -25078,6 +23260,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_hcM04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_hcM04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -25306,6 +23524,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_hcM04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_hcM04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -26022,6 +24276,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aF02W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aF02W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -26486,6 +24776,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aF04W0p42L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aF04W0p42L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -26966,6 +25292,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aF04W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aF04W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -27438,6 +25800,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aF06W0p42L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aF06W0p42L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -27666,6 +26064,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aF06W0p84L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aF06W0p84L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -27910,6 +26344,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aF06W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aF06W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -28146,6 +26616,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aF06W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aF06W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -28374,6 +26880,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aF08W0p42L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aF08W0p42L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -28854,6 +27396,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aF08W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aF08W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -29326,6 +27904,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM02W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM02W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -29554,6 +28168,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM02W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM02W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -29798,6 +28448,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM02W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM02W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -30026,6 +28712,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM02W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM02W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -30270,6 +28992,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM02W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM02W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -30498,6 +29256,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM02W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM02W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -30742,6 +29536,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM02W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM02W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -30970,6 +29800,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM02W5p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM02W5p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -31212,6 +30078,42 @@
       hide
       )
   )
+  (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM02W5p00L0p25.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Name"
+      "sky130_fd_pr__rf_nfet_01v8_lvt_aM02W5p00L0p25"
+      (id 91)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
   (rectangle
       (start -6.35 -2.54)
       (end 6.35 2.54)
@@ -31377,6 +30279,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM04W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM04W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -31621,6 +30559,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM04W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM04W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -31849,6 +30823,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM04W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM04W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -32093,6 +31103,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -32321,6 +31367,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM04W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM04W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -32565,6 +31647,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM04W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM04W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -32793,6 +31911,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -33037,6 +32191,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM04W5p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM04W5p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -33265,6 +32455,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_aM04W5p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_aM04W5p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -33509,6 +32735,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM02W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM02W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -33737,6 +32999,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM02W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM02W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -33981,6 +33279,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM02W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM02W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -34209,6 +33543,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -34453,6 +33823,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -34689,6 +34095,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -34917,6 +34359,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM02W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM02W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -35633,6 +35111,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM04W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM04W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -35861,6 +35375,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM04W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM04W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -36105,6 +35655,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM04W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM04W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -36333,6 +35919,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -36577,6 +36199,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -36813,6 +36471,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -37041,6 +36735,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_bM04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_bM04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -37757,6 +37487,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM02W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM02W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -37985,6 +37751,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM02W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM02W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -38229,6 +38031,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM02W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM02W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -38457,6 +38295,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM02W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM02W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -38701,6 +38575,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM02W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM02W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -38929,6 +38839,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM02W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM02W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -39173,6 +39119,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM02W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM02W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -39401,6 +39383,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM02W5p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM02W5p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -39645,6 +39663,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM02W5p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM02W5p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -39873,6 +39927,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM04W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM04W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -40117,6 +40207,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM04W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM04W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -40345,6 +40471,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM04W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM04W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -40589,6 +40751,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -40817,6 +41015,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM04W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM04W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -41061,6 +41295,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM04W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM04W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -41289,6 +41559,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -41533,6 +41839,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM04W5p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM04W5p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -41761,6 +42103,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_lvt_cM04W5p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_lvt_cM04W5p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -42005,6 +42383,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_mcM04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_mcM04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -42241,6 +42655,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_01v8_mcM04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_01v8_mcM04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -42337,304 +42787,6 @@
   (pin input line (at 5.08 -5.08 90) (length 2.54)
     (name "Bulk" (effects (font (size 0.508 0.508))))
     (number "4" (effects (font (size 1.27 1.27))))
-  )
-)
-  (symbol
-  "rf_nfet_20v0_aup"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "Q"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_nfet_20v0_aup"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(12.15, 41.82)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_nfet_20v0_aup"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(5.7, 5.91)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(12.15, 41.82)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_nfet_20v0_noptap_iso"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "Q"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_nfet_20v0_noptap_iso"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(26.26, 44.005)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_nfet_20v0_noptap_iso"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(12.38, 7.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(26.26, 44.005)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
   )
 )
   (symbol
@@ -42775,6 +42927,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_20v0_nvt_aup.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_20v0_nvt_aup"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 0.254 0)
@@ -42895,155 +43083,6 @@
   (pin passive line (at 2.54 -5.08 90) (length 2.54)
     (name "S" (effects (font (size 1.27 1.27))))
     (number "?" (effects (font (size 1.27 1.27))))
-  )
-)
-  (symbol
-  "rf_nfet_20v0_nvt_noptap_iso"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "Q"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_nfet_20v0_nvt_noptap_iso"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(26.26, 44.005)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_nfet_20v0_nvt_noptap_iso"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(12.38, 7.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(26.26, 44.005)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
   )
 )
   (symbol
@@ -43184,6 +43223,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_20v0_nvt_withptap.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_20v0_nvt_withptap"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -43280,453 +43355,6 @@
   (pin input line (at 5.08 -5.08 90) (length 2.54)
     (name "Bulk" (effects (font (size 0.508 0.508))))
     (number "3" (effects (font (size 1.27 1.27))))
-  )
-)
-  (symbol
-  "rf_nfet_20v0_nvt_withptap_iso"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "Q"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_nfet_20v0_nvt_withptap_iso"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(32.08, 49.825)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_nfet_20v0_nvt_withptap_iso"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(15.29, 9.91)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(32.08, 49.825)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_nfet_20v0_withptap"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "Q"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_nfet_20v0_withptap"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(12.15, 41.82)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_nfet_20v0_withptap"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(5.7, 5.91)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(12.15, 41.82)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_nfet_20v0_withptap_iso"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "Q"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_nfet_20v0_withptap_iso"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(32.08, 49.825)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_nfet_20v0_withptap_iso"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(15.29, 9.91)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(32.08, 49.825)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
   )
 )
   (symbol
@@ -43859,6 +43487,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_20v0_zvt_withptap.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_20v0_zvt_withptap"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -44127,6 +43791,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_g5v0d10v5_aM04W3p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_g5v0d10v5_aM04W3p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -44355,6 +44055,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_g5v0d10v5_aM04W5p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_g5v0d10v5_aM04W5p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -44599,6 +44335,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_g5v0d10v5_aM04W7p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_g5v0d10v5_aM04W7p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -44827,6 +44599,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W3p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W3p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -45071,6 +44879,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W5p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W5p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -45299,6 +45143,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W7p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W7p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -47294,1198 +47174,6 @@
   )
 )
   (symbol
-  "rf_npn_05v5_W1p00L1p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_npn_05v5_W1p00L1p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(8.62, 8.62)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_npn_05v5_W1p00L1p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(8.62, 8.62)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_npn_05v5_W1p00L2p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_npn_05v5_W1p00L2p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(8.62, 9.62)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_npn_05v5_W1p00L2p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(0.0, 0.0)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(8.62, 9.62)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_npn_05v5_W1p00L4p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_npn_05v5_W1p00L4p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(9.7, 12.7)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_npn_05v5_W1p00L4p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(-0.13, -0.13)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(9.7, 12.7)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_npn_05v5_W1p00L8p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_npn_05v5_W1p00L8p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(9.7, 16.7)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_npn_05v5_W1p00L8p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(-0.13, -0.13)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(9.7, 16.7)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_npn_05v5_W2p00L2p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_npn_05v5_W2p00L2p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(10.7, 10.7)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_npn_05v5_W2p00L2p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(-0.13, -0.13)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(10.7, 10.7)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_npn_05v5_W2p00L4p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_npn_05v5_W2p00L4p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(10.7, 12.7)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_npn_05v5_W2p00L4p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(-0.13, -0.13)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(10.7, 12.7)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_npn_05v5_W2p00L8p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_npn_05v5_W2p00L8p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(10.7, 16.7)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_npn_05v5_W2p00L8p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(-0.13, -0.13)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(10.7, 16.7)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
-  "rf_npn_05v5_W5p00L5p00"
-  (in_bom no)
-  (on_board yes)
-  (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Value"
-      "rf_npn_05v5_W5p00L5p00"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
-  )
-  (property
-      "Footprint"
-      "(13.7, 13.7)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_npn_05v5_W5p00L5p00"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Origin"
-      "(-0.13, -0.13)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Size"
-      "(13.7, 13.7)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
-  )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
-  )
-)
-  (symbol
   "rf_npn_11v0_W1p00L1p00"
   (in_bom no)
   (on_board yes)
@@ -48613,6 +47301,42 @@
       "Cell Library"
       "sky130_fd_pr"
       (id 16)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Library"
+      "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_npn_11v0_W1p00L1p00.spice"
+      (id 90)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Name"
+      "sky130_fd_pr__rf_npn_11v0_W1p00L1p00"
+      (id 91)
+      (at 0 0 0)
+      (effects
+      (font
+          (size 1 1)
+      )
+      hide
+      )
+  )
+  (property
+      "Sim.Device"
+      "SUBCKT"
+      (id 92)
       (at 0 0 0)
       (effects
       (font
@@ -49352,6 +48076,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF02W2p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF02W2p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -50143,6 +48903,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF04W0p84L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF04W0p84L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 0.254 0)
@@ -50665,6 +49461,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF04W2p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF04W2p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 0.254 0)
@@ -50918,6 +49750,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -51187,6 +50055,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 0.254 0)
@@ -51440,6 +50344,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF06W0p84L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF06W0p84L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -51709,6 +50649,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF06W1p68L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF06W1p68L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 0.254 0)
@@ -51962,6 +50938,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF06W2p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF06W2p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -52231,6 +51243,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF06W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF06W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 0.254 0)
@@ -52484,6 +51532,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF08W0p84L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF08W0p84L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -52753,6 +51837,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aF08W1p68L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aF08W1p68L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 0.254 0)
@@ -53014,6 +52134,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM02W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM02W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -53242,6 +52398,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM02W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM02W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -53486,6 +52678,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM02W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM02W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -53714,6 +52942,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM02W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM02W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -53958,6 +53222,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM02W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM02W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -54186,6 +53486,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM02W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM02W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -54430,6 +53766,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM02W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM02W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -54658,6 +54030,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM02W5p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM02W5p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -54902,6 +54310,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM02W5p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM02W5p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -55130,6 +54574,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM04W1p65L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM04W1p65L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -55374,6 +54854,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM04W1p65L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM04W1p65L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -55602,6 +55118,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM04W1p65L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM04W1p65L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -55846,6 +55398,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -56074,6 +55662,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM04W3p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM04W3p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -56318,6 +55942,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM04W3p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM04W3p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -56546,6 +56206,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -56790,6 +56486,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p18.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p18"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -57018,6 +56750,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p25.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p25"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -61510,6 +61278,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_hcM04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_hcM04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -61738,6 +61542,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_hcM04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_hcM04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -61982,6 +61822,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_lvt_aM02W3p00L0p35.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_lvt_aM02W3p00L0p35"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -62210,6 +62086,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_lvt_aM02W3p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_lvt_aM02W3p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -62454,6 +62366,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_lvt_aM02W5p00L0p35.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_lvt_aM02W5p00L0p35"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -62682,6 +62630,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_lvt_aM02W5p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_lvt_aM02W5p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -62926,6 +62910,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_lvt_aM04W3p00L0p35.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_lvt_aM04W3p00L0p35"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -63154,6 +63174,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_lvt_aM04W3p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_lvt_aM04W3p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -63398,6 +63454,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_lvt_aM04W5p00L0p35.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_lvt_aM04W5p00L0p35"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -63626,6 +63718,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_lvt_aM04W5p00L0p50.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_lvt_aM04W5p00L0p50"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -63870,6 +63998,42 @@
     hide
     )
   )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_mcM04W3p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_mcM04W3p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
   (polyline
     (pts
       (xy 1.524 0)
@@ -64098,6 +64262,42 @@
     "Cell Library"
     "sky130_fd_pr"
     (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_ROOT}/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__rf_pfet_01v8_mcM04W5p00L0p15.spice"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_fd_pr__rf_pfet_01v8_mcM04W5p00L0p15"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
     (at 0 0 0)
     (effects
     (font
@@ -64491,599 +64691,1275 @@
   )
 )
   (symbol
-  "rf_pfet_20v0_withptap"
+  "sky130_nfet_01v8"
   (in_bom no)
   (on_board yes)
+  (pin_numbers hide)
+  (pin_names (offset 0))
   (property
-      "Reference"
-      "Q"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Reference"
+    "Q"
+    (id 0)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Value"
-      "rf_pfet_20v0_withptap"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
+    "Value"
+    "sky130_nfet_01v8"
+    (id 1)
+    (at -8.89 -3.81 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    (justify top)
+    )
   )
   (property
-      "Footprint"
-      "(16.55, 48.04)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Footprint"
+    "(370.08, 365.08)"
+    (id 2)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Datasheet"
+    "sky130_fd_pr.lef"
+    (id 3)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Cell PDK"
+    "sky130A"
+    (id 15)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_pfet_20v0_withptap"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Cell Library"
+    "sky130_fd_pr"
+    (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Origin"
-      "(7.9, 9.02)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Library"
+    "${PDK_LIBS}/spice/sky130_fet.lib"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Size"
-      "(16.55, 48.04)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Name"
+    "sky130_nfet_01v8"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+  (polyline
+    (pts
+      (xy 1.524 0)
+      (xy -1.27 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
   )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+  (polyline
+    (pts
+      (xy 1.524 1.905)
+      (xy 1.524 -1.905)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
   )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
+  (polyline
+    (pts
+      (xy 2.032 -1.27)
+      (xy 2.032 -2.286)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 0.508)
+      (xy 2.032 -0.508)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 2.286)
+      (xy 2.032 1.27)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 1.778)
+      (xy 2.54 1.778)
+      (xy 2.54 2.54)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.54 -2.54)
+      (xy 2.54 -1.778)
+      (xy 2.032 -1.778)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 5.08 -2.54)
+      (xy 5.08 0)
+      (xy 2.032 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.286 0)
+      (xy 3.302 0.381)
+      (xy 3.302 -0.381)
+      (xy 2.286 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type outline))
+  )
+  (circle (center 2.921 0) (radius 3.0294)
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (pin passive line (at 2.54 5.08 270) (length 2.54)
+    (name "D" (effects (font (size 1.27 1.27))))
+    (number "0" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at -3.81 0 0) (length 2.54)
+    (name "G" (effects (font (size 1.27 1.27))))
+    (number "1" (effects (font (size 1.27 1.27))))
+  )
+  (pin passive line (at 2.54 -5.08 90) (length 2.54)
+    (name "S" (effects (font (size 1.27 1.27))))
+    (number "2" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at 5.08 -5.08 90) (length 2.54)
+    (name "Bulk" (effects (font (size 0.508 0.508))))
+    (number "3" (effects (font (size 1.27 1.27))))
   )
 )
   (symbol
-  "rf_test_coil1"
+  "sky130_nfet_03v3"
   (in_bom no)
   (on_board yes)
+  (pin_numbers hide)
+  (pin_names (offset 0))
   (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Reference"
+    "Q"
+    (id 0)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Value"
-      "rf_test_coil1"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
+    "Value"
+    "sky130_nfet_03v3"
+    (id 1)
+    (at -8.89 -3.81 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    (justify top)
+    )
   )
   (property
-      "Footprint"
-      "(150.02, 145.04)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Footprint"
+    "(370.08, 365.08)"
+    (id 2)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Datasheet"
+    "sky130_fd_pr.lef"
+    (id 3)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Cell PDK"
+    "sky130A"
+    (id 15)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_test_coil1"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Cell Library"
+    "sky130_fd_pr"
+    (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Origin"
-      "(72.52, 72.52)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Library"
+    "${PDK_LIBS}/spice/sky130_fet.lib"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Size"
-      "(150.02, 145.04)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Name"
+    "sky130_nfet_03v3"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+  (polyline
+    (pts
+      (xy 1.524 0)
+      (xy -1.27 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
   )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+  (polyline
+    (pts
+      (xy 1.524 1.905)
+      (xy 1.524 -1.905)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
   )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
+  (polyline
+    (pts
+      (xy 2.032 -1.27)
+      (xy 2.032 -2.286)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 0.508)
+      (xy 2.032 -0.508)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 2.286)
+      (xy 2.032 1.27)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 1.778)
+      (xy 2.54 1.778)
+      (xy 2.54 2.54)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.54 -2.54)
+      (xy 2.54 -1.778)
+      (xy 2.032 -1.778)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 5.08 -2.54)
+      (xy 5.08 0)
+      (xy 2.032 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.286 0)
+      (xy 3.302 0.381)
+      (xy 3.302 -0.381)
+      (xy 2.286 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type outline))
+  )
+  (circle (center 2.921 0) (radius 3.0294)
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (pin passive line (at 2.54 5.08 270) (length 2.54)
+    (name "D" (effects (font (size 1.27 1.27))))
+    (number "0" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at -3.81 0 0) (length 2.54)
+    (name "G" (effects (font (size 1.27 1.27))))
+    (number "1" (effects (font (size 1.27 1.27))))
+  )
+  (pin passive line (at 2.54 -5.08 90) (length 2.54)
+    (name "S" (effects (font (size 1.27 1.27))))
+    (number "2" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at 5.08 -5.08 90) (length 2.54)
+    (name "Bulk" (effects (font (size 0.508 0.508))))
+    (number "3" (effects (font (size 1.27 1.27))))
   )
 )
   (symbol
-  "rf_test_coil2"
+  "sky130_nfet_05v0"
   (in_bom no)
   (on_board yes)
+  (pin_numbers hide)
+  (pin_names (offset 0))
   (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Reference"
+    "Q"
+    (id 0)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Value"
-      "rf_test_coil2"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
+    "Value"
+    "sky130_nfet_05v0"
+    (id 1)
+    (at -8.89 -3.81 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    (justify top)
+    )
   )
   (property
-      "Footprint"
-      "(270.0, 265.0)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Footprint"
+    "(370.08, 365.08)"
+    (id 2)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Datasheet"
+    "sky130_fd_pr.lef"
+    (id 3)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Cell PDK"
+    "sky130A"
+    (id 15)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_test_coil2"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Cell Library"
+    "sky130_fd_pr"
+    (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Origin"
-      "(132.5, 132.5)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Library"
+    "${PDK_LIBS}/spice/sky130_fet.lib"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Size"
-      "(270.0, 265.0)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Name"
+    "sky130_nfet_05v0"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
-  (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+  (polyline
+    (pts
+      (xy 1.524 0)
+      (xy -1.27 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
   )
-  (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+  (polyline
+    (pts
+      (xy 1.524 1.905)
+      (xy 1.524 -1.905)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
   )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
+  (polyline
+    (pts
+      (xy 2.032 -1.27)
+      (xy 2.032 -2.286)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 0.508)
+      (xy 2.032 -0.508)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 2.286)
+      (xy 2.032 1.27)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 1.778)
+      (xy 2.54 1.778)
+      (xy 2.54 2.54)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.54 -2.54)
+      (xy 2.54 -1.778)
+      (xy 2.032 -1.778)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 5.08 -2.54)
+      (xy 5.08 0)
+      (xy 2.032 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.286 0)
+      (xy 3.302 0.381)
+      (xy 3.302 -0.381)
+      (xy 2.286 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type outline))
+  )
+  (circle (center 2.921 0) (radius 3.0294)
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (pin passive line (at 2.54 5.08 270) (length 2.54)
+    (name "D" (effects (font (size 1.27 1.27))))
+    (number "0" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at -3.81 0 0) (length 2.54)
+    (name "G" (effects (font (size 1.27 1.27))))
+    (number "1" (effects (font (size 1.27 1.27))))
+  )
+  (pin passive line (at 2.54 -5.08 90) (length 2.54)
+    (name "S" (effects (font (size 1.27 1.27))))
+    (number "2" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at 5.08 -5.08 90) (length 2.54)
+    (name "Bulk" (effects (font (size 0.508 0.508))))
+    (number "3" (effects (font (size 1.27 1.27))))
   )
 )
   (symbol
-  "rf_test_coil3"
+  "sky130_pfet_01v8"
   (in_bom no)
   (on_board yes)
+  (pin_numbers hide)
+  (pin_names (offset 0))
   (property
-      "Reference"
-      "X"
-      (id 0)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Reference"
+    "Q"
+    (id 0)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Value"
-      "rf_test_coil3"
-      (id 1)
-      (at -1.27 -1.27 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      (justify top)
-      )
+    "Value"
+    "sky130_pfet_01v8"
+    (id 1)
+    (at -8.89 -3.81 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    (justify top)
+    )
   )
   (property
-      "Footprint"
-      "(370.08, 365.08)"
-      (id 2)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Footprint"
+    "(370.08, 365.08)"
+    (id 2)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Datasheet"
-      "sky130_fd_pr.lef"
-      (id 3)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Datasheet"
+    "sky130_fd_pr.lef"
+    (id 3)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Class"
-      "BLOCK"
-      (id 10)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Cell PDK"
+    "sky130A"
+    (id 15)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Foreign Cell"
-      "sky130_fd_pr__rf_test_coil3"
-      (id 11)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Cell Library"
+    "sky130_fd_pr"
+    (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Origin"
-      "(182.54, 182.54)"
-      (id 12)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Library"
+    "${PDK_LIBS}/spice/sky130_fet.lib"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Size"
-      "(370.08, 365.08)"
-      (id 13)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Name"
+    "sky130_pfet_01v8"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell Symmetry"
-      ""
-      (id 14)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (polyline
+    (pts
+      (xy 1.524 0)
+      (xy -1.27 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 1.524 1.905)
+      (xy 1.524 -1.905)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 -1.27)
+      (xy 2.032 -2.286)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 0.508)
+      (xy 2.032 -0.508)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 2.286)
+      (xy 2.032 1.27)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 1.778)
+      (xy 2.54 1.778)
+      (xy 2.54 2.54)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.54 -2.54)
+      (xy 2.54 -1.778)
+      (xy 2.032 -1.778)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 5.08 -2.54)
+      (xy 5.08 0)
+      (xy 2.032 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 3.81 0)
+      (xy 2.794 0.381)
+      (xy 2.794 -0.381)
+      (xy 3.81 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type outline))
+  )
+  (circle (center 2.921 0) (radius 3.0294)
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (pin passive line (at 2.54 5.08 270) (length 2.54)
+    (name "D" (effects (font (size 1.27 1.27))))
+    (number "0" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at -3.81 0 0) (length 2.54)
+    (name "G" (effects (font (size 1.27 1.27))))
+    (number "1" (effects (font (size 1.27 1.27))))
+  )
+  (pin passive line (at 2.54 -5.08 90) (length 2.54)
+    (name "S" (effects (font (size 1.27 1.27))))
+    (number "2" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at 5.08 -5.08 90) (length 2.54)
+    (name "Bulk" (effects (font (size 0.508 0.508))))
+    (number "3" (effects (font (size 1.27 1.27))))
+  )
+)
+  (symbol
+  "sky130_pfet_03v3"
+  (in_bom no)
+  (on_board yes)
+  (pin_numbers hide)
+  (pin_names (offset 0))
+  (property
+    "Reference"
+    "Q"
+    (id 0)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
   (property
-      "Cell PDK"
-      "sky130A"
-      (id 15)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Value"
+    "sky130_pfet_03v3"
+    (id 1)
+    (at -8.89 -3.81 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    (justify top)
+    )
   )
   (property
-      "Cell Library"
-      "sky130_fd_pr"
-      (id 16)
-      (at 0 0 0)
-      (effects
-      (font
-          (size 1 1)
-      )
-      hide
-      )
+    "Footprint"
+    "(370.08, 365.08)"
+    (id 2)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
   )
-  (rectangle
-      (start -1.27 -1.27)
-      (end 1.27 1.27)
-      (stroke
-      (width 0.1)
-      (type solid)
-      (color 0 0 0 0)
-      )
-      (fill
-      (type background)
-      )
+  (property
+    "Datasheet"
+    "sky130_fd_pr.lef"
+    (id 3)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Cell PDK"
+    "sky130A"
+    (id 15)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Cell Library"
+    "sky130_fd_pr"
+    (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_LIBS}/spice/sky130_fet.lib"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_pfet_03v3"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (polyline
+    (pts
+      (xy 1.524 0)
+      (xy -1.27 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 1.524 1.905)
+      (xy 1.524 -1.905)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 -1.27)
+      (xy 2.032 -2.286)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 0.508)
+      (xy 2.032 -0.508)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 2.286)
+      (xy 2.032 1.27)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 1.778)
+      (xy 2.54 1.778)
+      (xy 2.54 2.54)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.54 -2.54)
+      (xy 2.54 -1.778)
+      (xy 2.032 -1.778)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 5.08 -2.54)
+      (xy 5.08 0)
+      (xy 2.032 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 3.81 0)
+      (xy 2.794 0.381)
+      (xy 2.794 -0.381)
+      (xy 3.81 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type outline))
+  )
+  (circle (center 2.921 0) (radius 3.0294)
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (pin passive line (at 2.54 5.08 270) (length 2.54)
+    (name "D" (effects (font (size 1.27 1.27))))
+    (number "0" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at -3.81 0 0) (length 2.54)
+    (name "G" (effects (font (size 1.27 1.27))))
+    (number "1" (effects (font (size 1.27 1.27))))
+  )
+  (pin passive line (at 2.54 -5.08 90) (length 2.54)
+    (name "S" (effects (font (size 1.27 1.27))))
+    (number "2" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at 5.08 -5.08 90) (length 2.54)
+    (name "Bulk" (effects (font (size 0.508 0.508))))
+    (number "3" (effects (font (size 1.27 1.27))))
+  )
+)
+  (symbol
+  "sky130_pfet_05v0"
+  (in_bom no)
+  (on_board yes)
+  (pin_numbers hide)
+  (pin_names (offset 0))
+  (property
+    "Reference"
+    "Q"
+    (id 0)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Value"
+    "sky130_pfet_05v0"
+    (id 1)
+    (at -8.89 -3.81 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    (justify top)
+    )
+  )
+  (property
+    "Footprint"
+    "(370.08, 365.08)"
+    (id 2)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Datasheet"
+    "sky130_fd_pr.lef"
+    (id 3)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Cell PDK"
+    "sky130A"
+    (id 15)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Cell Library"
+    "sky130_fd_pr"
+    (id 16)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Library"
+    "${PDK_LIBS}/spice/sky130_fet.lib"
+    (id 90)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Name"
+    "sky130_pfet_05v0"
+    (id 91)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (property
+    "Sim.Device"
+    "SUBCKT"
+    (id 92)
+    (at 0 0 0)
+    (effects
+    (font
+      (size 1 1)
+    )
+    hide
+    )
+  )
+  (polyline
+    (pts
+      (xy 1.524 0)
+      (xy -1.27 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 1.524 1.905)
+      (xy 1.524 -1.905)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 -1.27)
+      (xy 2.032 -2.286)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 0.508)
+      (xy 2.032 -0.508)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 2.286)
+      (xy 2.032 1.27)
+    )
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.032 1.778)
+      (xy 2.54 1.778)
+      (xy 2.54 2.54)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 2.54 -2.54)
+      (xy 2.54 -1.778)
+      (xy 2.032 -1.778)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 5.08 -2.54)
+      (xy 5.08 0)
+      (xy 2.032 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type none))
+  )
+  (polyline
+    (pts
+      (xy 3.81 0)
+      (xy 2.794 0.381)
+      (xy 2.794 -0.381)
+      (xy 3.81 0)
+    )
+    (stroke (width 0) (type default))
+    (fill (type outline))
+  )
+  (circle (center 2.921 0) (radius 3.0294)
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+  )
+  (pin passive line (at 2.54 5.08 270) (length 2.54)
+    (name "D" (effects (font (size 1.27 1.27))))
+    (number "0" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at -3.81 0 0) (length 2.54)
+    (name "G" (effects (font (size 1.27 1.27))))
+    (number "1" (effects (font (size 1.27 1.27))))
+  )
+  (pin passive line (at 2.54 -5.08 90) (length 2.54)
+    (name "S" (effects (font (size 1.27 1.27))))
+    (number "2" (effects (font (size 1.27 1.27))))
+  )
+  (pin input line (at 5.08 -5.08 90) (length 2.54)
+    (name "Bulk" (effects (font (size 0.508 0.508))))
+    (number "3" (effects (font (size 1.27 1.27))))
   )
 )
 )
