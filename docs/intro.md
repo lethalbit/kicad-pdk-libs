@@ -2,6 +2,8 @@
 
 > [!NOTE]
 > This document might not be complete, if you have any issues raise an issue.
+> It is also targeting KiCad 7, and will be updated once KiCad 8 is released.
+
 
 This introduction will walk you though setting up your first KiCad schematic for simulating a sky130 CMOS inverter!
 
@@ -72,7 +74,7 @@ The setup for the `VPULSE` is a little more complicated, as we need to directly 
 
 Now, this window is kinda scary and confusing, but we only are interested in 6 of the properties here; Pulsed Value, Delay, Rise time, Fall time, Pulse width, and Period.
 
-![](./_images/intro/kicad_eeschema_vpulse_edit.png)
+![The KiCad Simulation Model Editor window showing the parameters for the VPULSE element, there is a purple box drawn around the parameters of note](./_images/intro/kicad_eeschema_vpulse_edit.png)
 
 We want to set the following values:
 
@@ -110,34 +112,41 @@ The next line which starts with `.lib` is the path to the root sky130 simulation
 
 You may be wondering what `${PDK_ROOT}` is in the `.lib` line, well, that's the second thing we need to set up, it's a text variable in eeschema that points to the ROOT of our PDK, you set it up by going into the `File -> Schematic Settings` dialog, and then under `Project` you can stick the path to your PDK root into `Text Variables`.
 
-![](./_images/intro/kicad_eeschema_variables.png)
+![The KiCad eeschema Schematic Setup dialog on the Project Text Variables page, showing a single variable with the name of `PDK_ROOT` and the value of `/path/to/pdks`](./_images/intro/kicad_eeschema_variables.png)
 
 
 ## Running the Simulation
 
 And with that done, your whole schematic should look something like this, and be ready to simulate!
 
-![](./_images/intro/kicad_eeschema_layout.png)
+![The full schematic in eeschema with the spice directives show](./_images/intro/kicad_eeschema_layout.png)
 
 
 To start the simulation, we need to launch the KiCad SPICE simulator, to do so, simply click on the icon in the eeschema toolbar that looks like an oscilloscope waveform.
 
-![](./_images/intro/kicad_eeschema_toolbar.png)
+![The KiCad eeschema toolbar with the Simulation icon in a purple box](./_images/intro/kicad_eeschema_toolbar.png)
 
 
-When done, an empty simulation window will open, and then you can just go ahead and click on the `Run/Stop Simulation` button, as we should be all set up for KiCad to just start the simulation
+When done, an empty simulation window will open. Before we run the simulation, we need to ensure the compatibility mode is set appropriately. Unfortunately this can't be done with adding another SPICE directive.
 
-> [!IMPORTANT]
+![The blank initial state of the KiCad 7 Spice simulator](./_images/intro/kicad_eeschema_sim_window.png)
+
+To do so click the "Sim Command" button, this will open the simulation setup dialog. We need to make sure that it's set to `HSpice` not any of the other options.
+
+
+![The KiCad simulation settings dialog with the compatibility mode dropdown in a purple box, it is set to HSpice](./_images/intro/kicad_eeschema_sim_settings.png)
+
+
+With that set and the dialog accepted, you can now just go ahead and click on the `Run/Stop Simulation` button, as we should be all set up for KiCad to just start the simulation
+
+> [!NOTE]
 > Depending on your system, as well as a myrad of other factors the simulation might take a bit.
-
-![](./_images/intro/kicad_eeschema_sim_window.png)
 
 After a little while, and some text scrolling in the log, the simulation will be completed and you'll be presented with an empty plot. This may seem like the simulation didn't work, but we just have yet to add the signals we want to look at.
 
 To do that, hit the `Add Signals` button which should now be enabled, and pick the `V(/A)` and `V(/Y)` signals from the list. (you can hold the ctrl key to select multiple). Once you hit `OK` you should be greeted with the plot of the inverter you just simulated!
 
-![](./_images/intro/kiccad_eeschema_sim_results.png)
-
+![The results of the simulation showing the expected output of a CMOS inverter](./_images/intro/kiccad_eeschema_sim_results.png)
 
 
 
